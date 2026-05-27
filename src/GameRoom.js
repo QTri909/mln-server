@@ -2,8 +2,8 @@ const { Room } = require("colyseus");
 const { Schema, MapSchema, type } = require("@colyseus/schema");
 const questions = require("./questions.json");
 
-const MAP_WIDTH = 3000;
-const MAP_HEIGHT = 2000;
+const MAP_WIDTH = 4000;
+const MAP_HEIGHT = 3000;
 const PLAYER_RADIUS = 16;
 const MAX_PLAYERS = 12;
 const ROLE_DURATION = 30;
@@ -15,29 +15,33 @@ const MANA_DRAIN_PER_SECOND = 8;
 const TAG_DISTANCE = 34;
 const RESPAWN_SECONDS = 3;
 const QUESTION_COOLDOWN_SECONDS = 3;
+const LOBBY_SPAWN = { x: MAP_WIDTH / 2, y: MAP_HEIGHT / 2 };
 
 const SPAWNS = {
-  A: { x: 220, y: 220 },
-  B: { x: MAP_WIDTH - 220, y: MAP_HEIGHT - 220 },
+  A: { x: 900, y: 900 },
+  B: { x: 3000, y: 2100 },
 };
 
 const OBSTACLES = [
-  { id: "o1", x: 520, y: 300, width: 360, height: 80 },
-  { id: "o2", x: 1050, y: 520, width: 100, height: 420 },
-  { id: "o3", x: 1600, y: 260, width: 520, height: 90 },
-  { id: "o4", x: 2220, y: 520, width: 130, height: 520 },
-  { id: "o5", x: 360, y: 1120, width: 520, height: 120 },
-  { id: "o6", x: 1280, y: 1250, width: 130, height: 460 },
-  { id: "o7", x: 1860, y: 1120, width: 540, height: 100 },
-  { id: "o8", x: 2480, y: 1450, width: 140, height: 360 },
-  { id: "o9", x: 920, y: 1660, width: 480, height: 90 },
+  { id: "wall_01", x: 520, y: 330, width: 440, height: 90 },
+  { id: "wall_02", x: 1180, y: 560, width: 110, height: 470 },
+  { id: "wall_03", x: 1740, y: 310, width: 620, height: 95 },
+  { id: "wall_04", x: 2820, y: 560, width: 130, height: 560 },
+  { id: "wall_05", x: 350, y: 1260, width: 620, height: 120 },
+  { id: "wall_06", x: 1420, y: 1370, width: 135, height: 520 },
+  { id: "wall_07", x: 2060, y: 1250, width: 660, height: 110 },
+  { id: "wall_08", x: 3240, y: 1540, width: 150, height: 470 },
+  { id: "wall_09", x: 880, y: 2180, width: 560, height: 100 },
+  { id: "wall_10", x: 1780, y: 2320, width: 140, height: 420 },
+  { id: "wall_11", x: 2520, y: 2240, width: 700, height: 110 },
+  { id: "wall_12", x: 3320, y: 720, width: 360, height: 95 },
 ];
 
 class Player extends Schema {
   constructor() {
     super();
-    this.x = SPAWNS.A.x;
-    this.y = SPAWNS.A.y;
+    this.x = LOBBY_SPAWN.x;
+    this.y = LOBBY_SPAWN.y;
     this.name = "Player";
     this.team = "";
     this.role = "";
@@ -91,6 +95,8 @@ class GameState extends Schema {
     this.teamARole = "Chaser";
     this.teamBRole = "Runner";
     this.roleTimer = ROLE_DURATION;
+    this.gameTimer = 180;
+    this.gameDuration = 180;
   }
 }
 
@@ -105,6 +111,8 @@ type("number")(GameState.prototype, "mapHeight");
 type("string")(GameState.prototype, "teamARole");
 type("string")(GameState.prototype, "teamBRole");
 type("number")(GameState.prototype, "roleTimer");
+type("number")(GameState.prototype, "gameTimer");
+type("number")(GameState.prototype, "gameDuration");
 
 class GameRoom extends Room {
   onCreate() {
@@ -131,9 +139,28 @@ class GameRoom extends Room {
       });
     });
 
-    this.onMessage("start_game", (client) => {
+    this.onMessage("start_game", (client, data) => {
       if (client.sessionId !== this.state.hostId || this.state.phase !== "lobby") return;
-      this.startGame();
+      const duration = (data && typeof data.duration === "number") ? data.duration : 180;
+      this.startGame(duration);
+    });
+
+    this.onMessage("update_settings", (client, data) => {
+      if (client.sessionId !== this.state.hostId || this.state.phase !== "lobby") return;
+      if (data && typeof data.duration === "number") {
+        this.state.gameDuration = data.duration;
+        this.state.gameTimer = data.duration;
+      }
+    });
+
+    this.onMessage("play_again", (client) => {
+      if (client.sessionId !== this.state.hostId || this.state.phase !== "finished") return;
+      this.startGame(this.state.gameDuration);
+    });
+
+    this.onMessage("return_lobby", (client) => {
+      if (client.sessionId !== this.state.hostId || this.state.phase !== "finished") return;
+      this.returnToLobby();
     });
 
     this.onMessage("request_question", (client) => {
@@ -192,7 +219,7 @@ class GameRoom extends Room {
     }
   }
 
-  startGame() {
+  startGame(duration = 180) {
     const players = Array.from(this.state.players.entries());
 
     players.forEach(([sessionId, player], index) => {
@@ -206,6 +233,7 @@ class GameRoom extends Room {
       player.mana = MANA_MAX;
       player.alive = true;
       player.respawnLeft = 0;
+      player.score = 0;
       this.inputs.set(sessionId, { up: false, down: false, left: false, right: false });
     });
 
@@ -213,30 +241,63 @@ class GameRoom extends Room {
     this.state.teamARole = "Chaser";
     this.state.teamBRole = "Runner";
     this.state.roleTimer = ROLE_DURATION;
+    this.state.gameDuration = duration;
+    this.state.gameTimer = duration;
+    this.roleElapsed = 0;
+  }
+
+  returnToLobby() {
+    this.state.phase = "lobby";
+    this.state.players.forEach((player) => {
+      player.role = "";
+      player.team = "";
+      player.score = 0;
+      player.mana = MANA_MAX;
+      player.alive = true;
+      player.respawnLeft = 0;
+      player.x = LOBBY_SPAWN.x;
+      player.y = LOBBY_SPAWN.y;
+    });
+    this.state.gameTimer = this.state.gameDuration;
+    this.state.roleTimer = ROLE_DURATION;
     this.roleElapsed = 0;
   }
 
   update(dt) {
-    if (this.state.phase !== "playing") return;
-
-    this.roleElapsed += dt;
-    this.state.roleTimer = Math.max(0, ROLE_DURATION - this.roleElapsed);
-    if (this.roleElapsed >= ROLE_DURATION) {
-      this.swapRoles();
-    }
-
-    this.state.players.forEach((player, sessionId) => {
-      if (!player.alive) {
-        player.respawnLeft = Math.max(0, player.respawnLeft - dt);
-        if (player.respawnLeft <= 0) this.respawn(player);
-        return;
+    if (this.state.phase === "playing") {
+      this.roleElapsed += dt;
+      this.state.roleTimer = Math.max(0, ROLE_DURATION - this.roleElapsed);
+      if (this.roleElapsed >= ROLE_DURATION) {
+        this.swapRoles();
       }
 
-      const input = this.inputs.get(sessionId) || {};
-      this.movePlayer(player, input, dt);
-    });
+      this.state.gameTimer = Math.max(0, this.state.gameTimer - dt);
+      if (this.state.gameTimer <= 0) {
+        this.endGame();
+      }
+    }
 
-    this.handleTags();
+    if (this.state.phase === "playing" || this.state.phase === "lobby") {
+      this.state.players.forEach((player, sessionId) => {
+        if (!player.alive) {
+          player.respawnLeft = Math.max(0, player.respawnLeft - dt);
+          if (player.respawnLeft <= 0) this.respawn(player);
+          return;
+        }
+
+        const input = this.inputs.get(sessionId) || {};
+        this.movePlayer(player, input, dt);
+      });
+    }
+
+    if (this.state.phase === "playing") {
+      this.handleTags();
+    }
+  }
+
+  endGame() {
+    this.state.phase = "finished";
+    this.inputs.clear();
   }
 
   swapRoles() {
@@ -267,7 +328,7 @@ class GameRoom extends Room {
     const speed = player.mana > 0 ? NORMAL_SPEED : TIRED_SPEED;
     const distance = speed * dt;
 
-    if (player.mana > 0) {
+    if (this.state.phase === "playing" && player.mana > 0) {
       player.mana = Math.max(0, player.mana - MANA_DRAIN_PER_SECOND * dt);
     }
 
@@ -301,19 +362,39 @@ class GameRoom extends Room {
         if (distance(chaser, runner) <= TAG_DISTANCE) {
           runner.alive = false;
           runner.respawnLeft = RESPAWN_SECONDS;
-          chaser.score += 1;
+          chaser.score += 10;
         }
       }
     }
   }
 
   respawn(player) {
-    const spawn = SPAWNS[player.team || "A"];
-    player.x = spawn.x + Math.random() * 90 - 45;
-    player.y = spawn.y + Math.random() * 90 - 45;
+    const spawn = SPAWNS[player.team] || LOBBY_SPAWN;
+    let rx = spawn.x;
+    let ry = spawn.y;
+    let tries = 0;
+    let collides = true;
+
+    while (collides && tries < 50) {
+      rx = spawn.x + Math.random() * 160 - 80;
+      ry = spawn.y + Math.random() * 160 - 80;
+      rx = clamp(rx, PLAYER_RADIUS, MAP_WIDTH - PLAYER_RADIUS);
+      ry = clamp(ry, PLAYER_RADIUS, MAP_HEIGHT - PLAYER_RADIUS);
+      collides = false;
+      for (const obstacle of OBSTACLES) {
+        if (circleRectHit(rx, ry, PLAYER_RADIUS, obstacle)) {
+          collides = true;
+          break;
+        }
+      }
+      tries++;
+    }
+
+    player.x = rx;
+    player.y = ry;
     player.alive = true;
     player.respawnLeft = 0;
-    player.mana = Math.max(player.mana, 40);
+    player.mana = MANA_MAX;
   }
 
   sendQuestion(client) {
