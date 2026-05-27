@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "question": "Theo triết học Mác - Lênin, vật chất là gì?",
+    "options": [
+      "Cái tồn tại phụ thuộc vào ý thức",
+      "Thực tại khách quan tồn tại độc lập với ý thức",
+      "Sản phẩm của tư duy con người",
+      "Một khái niệm chỉ tồn tại trong khoa học tự nhiên"
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 2,
+    "question": "Theo chủ nghĩa duy vật biện chứng, ý thức có nguồn gốc trực tiếp từ đâu?",
+    "options": [
+      "Bộ óc con người và thế giới khách quan tác động vào bộ óc",
+      "Một lực lượng siêu nhiên",
+      "Ý niệm tuyệt đối",
+      "Sự tưởng tượng thuần túy"
+    ],
+    "correctIndex": 0,
+    "rewardMana": 30
+  },
+  {
+    "id": 3,
+    "question": "Quy luật thống nhất và đấu tranh của các mặt đối lập nói về điều gì?",
+    "options": [
+      "Nguồn gốc và động lực của sự phát triển",
+      "Cách đo lường giá trị hàng hóa",
+      "Vai trò của nhà nước trong xã hội",
+      "Nguồn gốc của tiền tệ"
+    ],
+    "correctIndex": 0,
+    "rewardMana": 30
+  },
+  {
+    "id": 4,
+    "question": "Trong kinh tế chính trị Mác - Lênin, hàng hóa có hai thuộc tính nào?",
+    "options": [
+      "Giá trị sử dụng và giá trị",
+      "Giá cả và lợi nhuận",
+      "Tiền lương và địa tô",
+      "Cung và cầu"
+    ],
+    "correctIndex": 0,
+    "rewardMana": 30
+  },
+  {
+    "id": 5,
+    "question": "Sứ mệnh lịch sử của giai cấp công nhân theo chủ nghĩa Mác - Lênin là gì?",
+    "options": [
+      "Duy trì nguyên trạng xã hội cũ",
+      "Xóa bỏ chủ nghĩa tư bản và xây dựng xã hội mới",
+      "Tách rời khỏi phong trào chính trị",
+      "Chỉ đấu tranh vì tiền lương"
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  }
+]
