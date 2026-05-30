@@ -1,62 +1,2642 @@
 [
   {
     "id": 1,
-    "question": "Theo triết học Mác - Lênin, vật chất là gì?",
+    "question": "Theo quan điểm của triết học Mác - Lênin, mối liên hệ là phạm trù triết học dùng để chỉ điều gì?",
     "options": [
-      "Cái tồn tại phụ thuộc vào ý thức",
-      "Thực tại khách quan tồn tại độc lập với ý thức",
-      "Sản phẩm của tư duy con người",
-      "Một khái niệm chỉ tồn tại trong khoa học tự nhiên"
+      "Sự cô lập, tách rời tuyệt đối giữa các sự vật, hiện tượng.",
+      "Sự quy định, ràng buộc, tương tác và chuyển hóa lẫn nhau giữa các mặt, các yếu tố, các sự vật, hiện tượng.",
+      "Sự sắp đặt ngẫu nhiên của các sự vật trong không gian và thời gian.",
+      "Sự phụ thuộc một chiều của các sự vật vật chất vào ý niệm tuyệt đối."
     ],
     "correctIndex": 1,
     "rewardMana": 30
   },
   {
     "id": 2,
-    "question": "Theo chủ nghĩa duy vật biện chứng, ý thức có nguồn gốc trực tiếp từ đâu?",
+    "question": "Đâu là một trong những tính chất cơ bản của mối liên hệ phổ biến theo phép duy vật biện chứng?",
     "options": [
-      "Bộ óc con người và thế giới khách quan tác động vào bộ óc",
-      "Một lực lượng siêu nhiên",
-      "Ý niệm tuyệt đối",
-      "Sự tưởng tượng thuần túy"
+      "Tính ngẫu nhiên, tính chủ quan, tính trừu tượng.",
+      "Tính khách quan, tính phổ biến, tính đa dạng phong phú.",
+      "Tính bất biến, tính cô lập, tính duy nhất.",
+      "Tính lệ thuộc, tính tạm thời, tính định tính."
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "rewardMana": 30
   },
   {
     "id": 3,
-    "question": "Quy luật thống nhất và đấu tranh của các mặt đối lập nói về điều gì?",
+    "question": "Tính khách quan của mối liên hệ phổ biến được hiểu như thế nào?",
     "options": [
-      "Nguồn gốc và động lực của sự phát triển",
-      "Cách đo lường giá trị hàng hóa",
-      "Vai trò của nhà nước trong xã hội",
-      "Nguồn gốc của tiền tệ"
+      "Mối liên hệ do tư duy của con người sáng tạo ra rồi áp đặt vào thế giới.",
+      "Mối liên hệ do một lực lượng siêu tự nhiên sắp đặt trước.",
+      "Mối liên hệ là cái vốn có của bản thân các sự vật, hiện tượng, không phụ thuộc vào ý muốn chủ quan của con người.",
+      "Mối liên hệ chỉ xuất hiện khi con người tiến hành quan sát và thực nghiệm."
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "rewardMana": 30
   },
   {
     "id": 4,
-    "question": "Trong kinh tế chính trị Mác - Lênin, hàng hóa có hai thuộc tính nào?",
+    "question": "Quan điểm triết học nào cho rằng các sự vật, hiện tượng trong thế giới tồn tại biệt lập, tĩnh tại, không có sự quy định và ràng buộc lẫn nhau?",
     "options": [
-      "Giá trị sử dụng và giá trị",
-      "Giá cả và lợi nhuận",
-      "Tiền lương và địa tô",
-      "Cung và cầu"
+      "Biện chứng duy vật.",
+      "Biện chứng duy tâm.",
+      "Siêu hình.",
+      "Duy vật chất phác."
+    ],
+    "correctIndex": 2,
+    "rewardMana": 30
+  },
+  {
+    "id": 5,
+    "question": "Trường phái triết học nào khẳng định cơ sở của mối liên hệ phổ biến giữa các sự vật, hiện tượng là ở tính thống nhất vật chất của thế giới?",
+    "options": [
+      "Chủ nghĩa duy tâm chủ quan.",
+      "Chủ nghĩa duy tâm khách quan.",
+      "Chủ nghĩa duy vật siêu hình.",
+      "Chủ nghĩa duy vật biện chứng."
+    ],
+    "correctIndex": 3,
+    "rewardMana": 30
+  },
+  {
+    "id": 6,
+    "question": "Khi khẳng định mối liên hệ có \"tính phổ biến\", phép duy vật biện chứng muốn chỉ ra rằng mối liên hệ tồn tại ở đâu?",
+    "options": [
+      "Chỉ tồn tại trong lĩnh vực tự nhiên vô cơ.",
+      "Chỉ tồn tại trong tư duy và nhận thức của con người.",
+      "Tồn tại trong cả tự nhiên, xã hội và tư duy.",
+      "Chỉ tồn tại ở các quốc gia có nền kinh tế phát triển."
+    ],
+    "correctIndex": 2,
+    "rewardMana": 30
+  },
+  {
+    "id": 7,
+    "question": "Biểu hiện nào sau đây thể hiện rõ nhất tính đa dạng, phong phú của mối liên hệ phổ biến?",
+    "options": [
+      "Mọi sự vật ở mọi không gian và thời gian đều có chung một kiểu liên hệ duy nhất.",
+      "Các sự vật, hiện tượng khác nhau có những mối liên hệ khác nhau; một mối liên hệ trong những điều kiện khác nhau thì biểu hiện khác nhau.",
+      "Mối liên hệ bên trong luôn đồng nhất và không bao giờ thay đổi bản chất so với mối liên hệ bên ngoài.",
+      "Mối liên hệ bản chất của một sự vật luôn giống hệt với mối liên hệ không bản chất của nó."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 8,
+    "question": "Từ nguyên lý về mối liên hệ phổ biến của phép duy vật biện chứng, con người rút ra được phương pháp luận cơ bản nào cho hoạt động thực tiễn?",
+    "options": [
+      "Quan điểm lịch sử - cụ thể.",
+      "Quan điểm phát triển.",
+      "Quan điểm toàn diện.",
+      "Quan điểm phiến diện."
+    ],
+    "correctIndex": 2,
+    "rewardMana": 30
+  },
+  {
+    "id": 9,
+    "question": "Yêu cầu nào sau đây KHÔNG thuộc về quan điểm toàn diện?",
+    "options": [
+      "Phải xem xét tất cả các mối liên hệ của sự vật, hiện tượng.",
+      "Phải đánh giá đúng vị trí, vai trò của từng mối liên hệ (chính - phụ, bên trong - bên ngoài).",
+      "Phải tuyệt đối hóa tất cả các mối liên hệ như nhau, không cần phân biệt trọng tâm.",
+      "Phải chống lại quan điểm phiến diện, chiết trung, ngụy biện."
+    ],
+    "correctIndex": 2,
+    "rewardMana": 30
+  },
+  {
+    "id": 10,
+    "question": "Sai lầm của \"thuật ngụy biện\" trong việc vận dụng quan điểm toàn diện là gì?",
+    "options": [
+      "Chỉ nhìn thấy một mối liên hệ duy nhất và phủ nhận các mối liên hệ khác.",
+      "Lắp ghép vô căn cứ các mối liên hệ hoàn toàn khác nhau vào một mối quan hệ giả tạo.",
+      "Đánh tráo các mối liên hệ cơ bản thành không cơ bản, biến cái thứ yếu thành cái chủ yếu một cách cố ý nhằm mưu đồ cá nhân.",
+      "Phủ nhận hoàn toàn sự tồn tại của mọi mối liên hệ khách quan trong đời sống."
+    ],
+    "correctIndex": 2,
+    "rewardMana": 30
+  },
+  {
+    "id": 11,
+    "question": "Nhận định nào sau đây phản ánh đúng tinh thần của quan điểm lịch sử - cụ thể khi xem xét các mối liên hệ?",
+    "options": [
+      "Một mối liên hệ luôn phát huy tác dụng giống nhau trong mọi hoàn cảnh thời gian và không gian.",
+      "Cần phải phân tích sự vật trong những điều kiện, hoàn cảnh, không gian và thời gian cụ thể mà mối liên hệ đó hình thành và phát huy tác dụng.",
+      "Chỉ cần chú ý đến yếu tố thời gian, bỏ qua yếu tố không gian và các quan hệ xã hội xung quanh.",
+      "Bản chất của mối liên hệ hoàn toàn độc lập với môi trường xung quanh sự vật."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 12,
+    "question": "Khi nghiên cứu về một hệ sinh thái rừng bị suy thoái, một nhà khoa học chỉ tập trung vào việc đếm số lượng cây bị chặt phá mà bỏ qua các yếu tố về biến đổi khí hậu, chuỗi thức ăn bị đứt gãy và sinh kế của người dân xung quanh. Nhà khoa học này đã vi phạm quan điểm nào?",
+    "options": [
+      "Quan điểm toàn diện.",
+      "Quan điểm phát triển.",
+      "Quan điểm lịch sử - cụ thể.",
+      "Quan điểm biện chứng."
     ],
     "correctIndex": 0,
     "rewardMana": 30
   },
   {
-    "id": 5,
-    "question": "Sứ mệnh lịch sử của giai cấp công nhân theo chủ nghĩa Mác - Lênin là gì?",
+    "id": 13,
+    "question": "Câu ca dao Việt Nam: \"Gần mực thì đen, gần đèn thì sáng\" thể hiện tính chất nào của mối liên hệ phổ biến?",
     "options": [
-      "Duy trì nguyên trạng xã hội cũ",
-      "Xóa bỏ chủ nghĩa tư bản và xây dựng xã hội mới",
-      "Tách rời khỏi phong trào chính trị",
-      "Chỉ đấu tranh vì tiền lương"
+      "Tính chủ quan của mối liên hệ xã hội.",
+      "Tính đa dạng, phong phú của mối liên hệ giữa môi trường sống và sự hình thành nhân cách.",
+      "Tính bất biến của tính cách con người trước hoàn cảnh.",
+      "Tính ngẫu nhiên không thể dự báo trước của các mối quan hệ bạn bè."
     ],
     "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 14,
+    "question": "Trong quá trình hội nhập kinh tế quốc tế, một quốc gia muốn phát triển bền vững thì vừa phải mở rộng quan hệ đối ngoại (liên hệ bên ngoài), vừa phải chú trọng nâng cao nội lực nền kinh tế (liên hệ bên trong). Việc xác định nội lực đóng vai trò quyết định thể hiện tư duy triết học nào?",
+    "options": [
+      "Xem xét toàn diện nhưng có trọng tâm, trọng điểm, phân biệt rõ vai trò từng mối liên hệ.",
+      "Chủ nghĩa chiết trung, cào bằng vai trò của mọi yếu tố.",
+      "Tư duy siêu hình, tách rời hoàn toàn kinh tế trong nước và thế giới.",
+      "Quan điểm duy tâm, coi trọng ý chí chính trị hơn quy luật khách quan."
+    ],
+    "correctIndex": 0,
+    "rewardMana": 30
+  },
+  {
+    "id": 15,
+    "question": "Sự suy thoái kinh tế tại một quốc gia lớn có thể dẫn đến sự sụt giảm đơn hàng tại các doanh nghiệp xuất khẩu ở Việt Nam, từ đó gây ra tình trạng thất nghiệp cho người lao động. Hiện tượng này minh chứng rõ nhất cho điều gì?",
+    "options": [
+      "Mối liên hệ chỉ tồn tại giữa các sự vật ở gần nhau về mặt địa lý.",
+      "Tính khách quan và tính phổ biến của các mối liên hệ kinh tế toàn cầu.",
+      "Sự áp đặt chủquan của các tập đoàn kinh tế nước ngoài lên người lao động Việt Nam.",
+      "Mối liên hệ giữa các quốc gia chỉ mang tính ngẫu nhiên, tạm thời."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 16,
+    "question": "Một doanh nghiệp công nghệ khi xây dựng ứng dụng di động mới đã nghiên cứu kỹ giao diện, tính năng, thuật toán tối ưu nhưng lại bỏ qua mối liên hệ với năng lượng tiêu thụ của thiết bị và chính sách bảo mật dữ liệu mới của hệ điều hành. Khi ra mắt, ứng dụng bị người dùng tẩy chay vì làm nóng máy và vi phạm quyền riêng tư. Thất bại của doanh nghiệp này là do vi phạm nghiêm trọng phương pháp luận nào?",
+    "options": [
+      "Quan điểm toàn diện trong việc đánh giá các mối liên hệ của sản phẩm với môi trường sinh thái hệ điều hành và người dùng.",
+      "Quan điểm phát triển do không nâng cấp thuật toán liên tục.",
+      "Quan điểm lịch sử - cụ thể do không chọn đúng thời điểm thị trường có nhu cầu cao.",
+      "Thuật ngụy biện khi cố tình che giấu lỗi kỹ thuật của ứng dụng."
+    ],
+    "correctIndex": 0,
+    "rewardMana": 30
+  },
+  {
+    "id": 17,
+    "question": "Trong chiến dịch chuyển đổi số quốc gia, một địa phương đã bê nguyên mô hình quản lý đô thị thông minh của một thủ đô phát triển ở châu Âu vào áp dụng cho huyện miền núi của mình mà không tính đến trình độ dân trí, hạ tầng mạng internet và tập quán sinh hoạt của đồng bào thiểu số địa phương, dẫn đến lãng phí ngân sách. Sai lầm của địa phương này là gì?",
+    "options": [
+      "Vi phạm quan điểm phát triển, không chịu đổi mới công nghệ.",
+      "Vi phạm quan điểm lịch sử - cụ thể, xem xét các mối liên hệ tách rời điều kiện không gian, thời gian và hoàn cảnh thực tế.",
+      "Vận dụng đúng quan điểm toàn diện nhưng thiếu kinh phí triển khai.",
+      "Rơi vào chủ nghĩa duy vật siêu hình khi phủ nhận vai trò của công nghệ số."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 18,
+    "question": "Khi phân tích nguyên nhân thất bại của một dự án khởi nghiệp (Startup), người quản lý đổ lỗi hoàn toàn cho việc \"thị trường bất ngờ gặp khủng hoảng\", trong khi bỏ qua các yếu tố nội tại như: sự lục đục trong đội ngũ sáng lập, quản lý dòng tiền kém và sản phẩm chưa hoàn thiện. Cách đánh giá của người quản lý này phạm vào sai lầm nào?",
+    "options": [
+      "Quan điểm toàn diện nhưng có thiên vị.",
+      "Quan điểm phiến diện, đồng thời có biểu hiện ngụy biện khi biến mối liên hệ thứ yếu bên ngoài thành nguyên nhân duy nhất để trốn tránh trách nhiệm.",
+      "Chủ nghĩa chiết trung khi kết hợp quá nhiều nguyên nhân một cách dàn trải.",
+      "Quan điểm lịch sử - cụ thể trong bối cảnh khủng hoảng kinh tế toàn cầu."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 19,
+    "question": "Trước làn sóng trí tuệ nhân tạo (AI) phát triển mạnh mẽ, một trường đại học tại Việt Nam quyết định không chỉ thay đổi giáo trình ngành Công nghệ thông tin, mà còn điều chỉnh phương pháp dạy học của ngành Luật, Kinh tế, Ngôn ngữ, đồng thời nâng cấp hạ tầng mạng và tập huấn cho toàn bộ giảng viên. Cách tiếp cận của trường đại học này thể hiện việc vận dụng tư duy gì?",
+    "options": [
+      "Tư duy siêu hình, thấy AI ở đâu là thay đổi ở đó một cách máy móc.",
+      "Thuyết định mệnh, chấp nhận sự thống trị tuyệt đối của công nghệ.",
+      "Quan điểm toàn diện và biện chứng, nhìn nhận AI có mối liên hệ tác động sâu rộng đến mọi ngành nghề và mọi mắt xích trong hệ thống giáo dục.",
+      "Quan điểm lịch sử - cụ thể, chỉ tập trung giải quyết vấn đề trước mắt của sinh viên năm cuối."
+    ],
+    "correctIndex": 2,
+    "rewardMana": 30
+  },
+  {
+    "id": 20,
+    "question": "Để giải quyết nạn kẹt xe tại một đô thị lớn, chính quyền thành phố không chỉ mở rộng đường sá, xây cầu vượt (giải pháp hạ tầng) mà còn phải đồng thời điều chỉnh quy hoạch nhà cao tầng ở trung tâm, phát triển xe buýt điện, giãn mật độ trường học - bệnh viện ra ngoại ô và tuyên truyền nâng cao ý thức giao thông của người dân. Nếu chỉ áp dụng một trong các biện pháp trên thì không thể giải quyết triệt để. Việc thực hiện đồng bộ các giải pháp trên dựa trên cơ sở khoa học nào?",
+    "options": [
+      "Cơ sở về sự tác động một chiều, độc lập của các hiện tượng xã hội.",
+      "Bản chất khách quan của các mối liên hệ phức tạp, đan xen, nhiều chiều cấu thành nên vấn nạn giao thông đô thị, đòi hỏi phải giải quyết bằng quan điểm toàn diện.",
+      "Quy luật phủ định của phủ định trong việc xóa bỏ hoàn toàn hệ thống giao thông cũ.",
+      "Sự phụ thuộc tuyệt đối của hạ tầng giao thông vào ý chí của nhà quản lý."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 21,
+    "question": "Theo quan điểm của triết học Mác - Lênin, phát triển là gì?",
+    "options": [
+      "Sự tăng lên hoặc giảm đi đơn thuần về mặt số lượng của sự vật.",
+      "Sự tuần hoàn, lặp đi lặp lại trạng thái cũ của sự vật mà không có cái mới ra đời.",
+      "Quá trình vận động theo xu hướng đi lên, từ thấp đến cao, từ đơn giản đến phức tạp, từ kém hoàn thiện đến hoàn thiện hơn của sự vật.",
+      "Sự dịch chuyển vị trí của sự vật, hiện tượng trong không gian và thời gian."
+    ],
+    "correctIndex": 2,
+    "rewardMana": 30
+  },
+  {
+    "id": 22,
+    "question": "Phát triển có các tính chất cơ bản nào theo quan điểm của phép duy vật biện chứng?",
+    "options": [
+      "Tính khách quan, tính phổ biến, tính đa dạng phong phú và tính kế thừa.",
+      "Tính ngẫu nhiên, tính chủ quan, tính biệt lập và tính bất biến.",
+      "Tính tuần hoàn, tính thụ động, tính vĩnh cửu và tính đồng nhất.",
+      "Tính phi quy luật, tính tương đối, tính trừu tượng và tính duy nhất."
+    ],
+    "correctIndex": 0,
+    "rewardMana": 30
+  },
+  {
+    "id": 23,
+    "question": "Tác giả của định nghĩa nổi tiếng: \"Phát triển là một cuộc 'đấu tranh' giữa các mặt đối lập\" là ai?",
+    "options": [
+      "C. Mác.",
+      "Ph. Ăng-ghen.",
+      "V.I. Lênin.",
+      "Hê-ghen."
+    ],
+    "correctIndex": 2,
+    "rewardMana": 30
+  },
+  {
+    "id": 24,
+    "question": "Quan điểm triết học nào xem sự phát triển chỉ là sự tăng, giảm thuần túy về lượng, không có sự thay đổi về chất, hoặc phát triển như một vòng tròn khép kín, không có sự ra đời của cái mới?",
+    "options": [
+      "Quan điểm siêu hình.",
+      "Quan điểm biện chứng duy vật.",
+      "Quan điểm duy vật chất phác.",
+      "Quan điểm biện chứng duy tâm."
+    ],
+    "correctIndex": 0,
+    "rewardMana": 30
+  },
+  {
+    "id": 25,
+    "question": "Theo phép duy vật biện chứng, nguồn gốc và động lực của sự phát triển nằm ở đâu?",
+    "options": [
+      "Ở sự tác động và sắp đặt của các lực lượng siêu nhiên, thần thánh.",
+      "Ở ý muốn chủ quan và tư duy sáng tạo của con người.",
+      "Ở sự giải quyết mâu thuẫn nội tại vốn có của bản thân sự vật, hiện tượng.",
+      "Ở sự đẩy và kéo ngẫu nhiên của các lực lượng bên ngoài sự vật."
+    ],
+    "correctIndex": 2,
+    "rewardMana": 30
+  },
+  {
+    "id": 26,
+    "question": "Khi khẳng định sự phát triển mang \"tính kế thừa\", phép duy vật biện chứng muốn chỉ ra điều gì?",
+    "options": [
+      "Cái mới ra đời phủ nhận hoàn toàn, xóa bỏ sạch trơn mọi yếu tố của cái cũ.",
+      "Cái mới ra đời giữ lại nguyên vẹn tất cả các yếu tố của cái cũ mà không thay đổi gì.",
+      "Cái mới ra đời trên cơ sở chọn lọc, giữ lại và cải biến những yếu tố tích cực, còn hợp lý của cái cũ, đồng thời gạt bỏ những yếu tố lỗi thời.",
+      "Cái mới và cái cũ hoàn toàn độc lập, không có bất kỳ liên hệ nào với nhau."
+    ],
+    "correctIndex": 2,
+    "rewardMana": 30
+  },
+  {
+    "id": 27,
+    "question": "Từ nguyên lý về sự phát triển, triết học Mác - Lênin rút ra phương pháp luận cơ bản nào cho hoạt động nhận thức và thực tiễn?",
+    "options": [
+      "Quan điểm toàn diện.",
+      "Quan điểm phát triển.",
+      "Quan điểm lịch sử - cụ thể.",
+      "Quan điểm phiến diện."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 28,
+    "question": "Yêu cầu nào sau đây thể hiện đúng nội dung của quan điểm phát triển?",
+    "options": [
+      "Xem xét sự vật ở trạng thái tĩnh tại, cố định và bất biến.",
+      "Đặt sự vật trong sự vận động, phát hiện xu hướng biến đổi và dự báo tương lai của nó.",
+      "Đánh giá sự vật một cách vội vàng dựa trên những biểu hiện nhất thời trước mắt.",
+      "Tuyệt đối hóa cái cũ, coi cái cũ là chuẩn mực vĩnh viễn cho mọi giai đoạn lịch sử."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 29,
+    "question": "Sai lầm của tư duy \"định kiến, bảo thủ, trì trệ\" trong thực tiễn là do vi phạm quan điểm nào?",
+    "options": [
+      "Quan điểm toàn diện.",
+      "Quan điểm hệ thống.",
+      "Quan điểm phát triển.",
+      "Quan điểm thực tiễn."
+    ],
+    "correctIndex": 2,
+    "rewardMana": 30
+  },
+  {
+    "id": 30,
+    "question": "Phép duy vật biện chứng phân biệt hai khái niệm \"vận động\" và \"phát triển\" như thế nào?",
+    "options": [
+      "Vận động và phát triển là hai khái niệm hoàn toàn đồng nhất về phạm vi và tính chất.",
+      "Vận động là mọi sự biến đổi nói chung; phát triển là sự vận động theo xu hướng đi lên, là một trường hợp đặc biệt của vận động.",
+      "Vận động chỉ có trong thế giới vật chất, còn phát triển chỉ có trong tư duy con người.",
+      "Vận động là xu hướng đi lên, còn phát triển là mọi sự biến đổi nói chung."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 31,
+    "question": "Câu tục ngữ nào sau đây của Việt Nam phản ánh đúng tư duy biện chứng về tính kế thừa trong sự phát triển?",
+    "options": [
+      "Tre già măng mọc.",
+      "Đứng núi này trông núi nọ.",
+      "Sông có khúc, người có lúc.",
+      "Cha nào con nấy."
+    ],
+    "correctIndex": 0,
+    "rewardMana": 30
+  },
+  {
+    "id": 32,
+    "question": "Khi đánh giá về năng lực của một nhân viên mới, người quản lý chỉ dựa vào lỗi sai trong tuần đầu tiên thử việc của anh ta để khẳng định nhân viên này \"vô dụng\" và không thể tiến bộ. Người quản lý này đã vi phạm quan điểm phương pháp luận nào?",
+    "options": [
+      "Quan điểm toàn diện.",
+      "Quan điểm lịch sử - cụ thể.",
+      "Quan điểm phát triển.",
+      "Quan điểm ngụy biện."
+    ],
+    "correctIndex": 2,
+    "rewardMana": 30
+  },
+  {
+    "id": 33,
+    "question": "Trong lịch sử sinh học, sự tiến hóa từ loài vượn người thành người tinh khôn (Homo sapiens) trải qua hàng triệu năm với sự biến đổi về cấu trúc cơ thể, tư duy và công cụ lao động là minh chứng cho tính chất nào của sự phát triển?",
+    "options": [
+      "Tính chủ quan của quá trình tiến hóa xã hội.",
+      "Tính khách quan, phổ biến và đa dạng của sự phát triển trong giới tự nhiên và xã hội.",
+      "Tính tuần hoàn khép kín của các giống loài.",
+      "Tính ngẫu nhiên, không có quy luật của thế giới sinh vật."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 34,
+    "question": "Sự chuyển đổi từ phương thức sản xuất phong kiến sang phương thức sản xuất tư bản chủ nghĩa trong lịch sử xã hội loài người thể hiện xu hướng phát triển nào?",
+    "options": [
+      "Phát triển theo đường thẳng tắp, không gặp bất kỳ trở ngại hay bước lùi nào.",
+      "Phát triển theo đường xoáy ốc, là sự thay thế cái cũ lỗi thời bằng cái mới tiến bộ hơn.",
+      "Sự lặp lại nguyên vẹn mô hình kinh tế cũ nhưng ở quy mô lớn hơn.",
+      "Sự suy thoái hoàn toàn của nền văn minh nhân loại."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 35,
+    "question": "Ý thức được rằng con đường đi lên chủ nghĩa xã hội là một quá trình lâu dài, khó khăn, phải trải qua nhiều bước quanh co, thăng trầm nhưng xu hướng tất thắng cuối cùng vẫn thuộc về cái tiến bộ. Nhận thức này dựa trên việc vận dụng tính chất nào của sự phát triển?",
+    "options": [
+      "Tính quanh co, phức tạp của khuynh hướng phát triển (đường xoáy ốc).",
+      "Tính bất biến tuyệt đối của các chế độ chính trị.",
+      "Tính chất ngẫu nhiên, may rủi của lịch sử xã hội.",
+      "Tính chủ quan của ý chí con người trong việc thiết lập xã hội mới."
+    ],
+    "correctIndex": 0,
+    "rewardMana": 30
+  },
+  {
+    "id": 36,
+    "question": "Một công ty dệt may truyền thống tại Việt Nam đang có doanh thu rất ổn định. Trước làn sóng chuyển đổi số, ban giám đốc quyết định trích một phần lớn lợi nhuận để đầu tư hệ thống quản lý AI và đào tạo lại tay nghề cho công nhân, dù biết trước mắt việc này sẽ làm giảm lợi nhuận ngắn hạn và gây xáo trộn tổ chức. Quyết định của ban giám đốc thể hiện sự vận dụng tư duy gì?",
+    "options": [
+      "Quan điểm phát triển, chấp nhận những khó khăn tạm thời ở hiện tại để chuẩn bị và đón đầu xu hướng phát triển tất yếu trong tương lai.",
+      "Quan điểm phiến diện, chạy theo công nghệ mà bỏ qua lợi ích trước mắt của cổ đông.",
+      "Chủ nghĩa kinh nghiệm, thấy các công ty khác làm nên làm theo mà không tính toán.",
+      "Quan điểm bảo thủ, muốn giữ vững vị thế bằng mọi giá."
+    ],
+    "correctIndex": 0,
+    "rewardMana": 30
+  },
+  {
+    "id": 37,
+    "question": "Một học sinh thi trượt đại học ở nguyện vọng 1 đã rơi vào khủng hoảng sâu sắc, cho rằng cuộc đời mình thế là chấm dứt và không còn cơ hội nào nữa. Dưới góc độ triết học Mác - Lênin, học sinh này đang mắc sai lầm lớn nhất về mặt nhận thức nào?",
+    "options": [
+      "Thiếu quan điểm toàn diện khi không nhìn thấy lỗi sai của bản thân.",
+      "Vi phạm quan điểm phát triển, xem thất bại tạm thời là một trạng thái cố định, bất biến; không thấy được phát triển là một quá trình quanh co và có thể bắt đầu lại từ những ngã rẽ mới.",
+      "Rơi vào thuật ngụy biện khi tìm lý do đổ lỗi cho đề thi khó.",
+      "Quá chú trọng vào quan điểm lịch sử - cụ thể của kỳ thi."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 38,
+    "question": "Một Startup công nghệ khi thiết kế giao diện ứng dụng (App) phiên bản V1.0 đã nhận được nhiều lời chê từ người dùng. Thay vì hủy bỏ dự án, đội ngũ sáng lập đã ghi nhận các góp ý, loại bỏ các tính năng thừa, giữ lại lõi công nghệ tốt và cập nhật phiên bản V2.0 mượt mà hơn. Quá trình nâng cấp sản phẩm này thể hiện tính chất nào của sự phát triển?",
+    "options": [
+      "Tính ngẫu nhiên, không thể kiểm soát của thị trường.",
+      "Tính kế thừa biện chứng, cái mới ra đời không phủ nhận sạch trơn cái cũ mà lọc bỏ cái tiêu cực, giữ lại cái tích cực để phát triển cao hơn.",
+      "Tính siêu hình, giữ nguyên bản chất cũ và chỉ thay đổi tên gọi sản phẩm.",
+      "Tính chu kỳ khép kín của các sản phẩm công nghệ."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 39,
+    "question": "Trong quản lý đô thị hiện đại, khi xây dựng một quy hoạch giao thông cho thành phố, nếu chính quyền chỉ tính toán mật độ xe cộ và dân số của năm hiện tại mà không dự báo tốc độ tăng trưởng phương tiện và đô thị hóa trong 10-20 năm tới, hậu quả là công trình vừa khánh thành đã bị quá tải. Sai lầm trong quy hoạch này là do ban quản lý đã vi phạm:",
+    "options": [
+      "Quan điểm phát triển, không đặt đối tượng ở trạng thái vận động và dự báo xu hướng biến đổi trong tương lai.",
+      "Quan điểm chiết trung, kết hợp quá nhiều ý kiến của các chuyên gia.",
+      "Quan điểm siêu hình, tách rời quy hoạch giao thông với quy hoạch cây xanh.",
+      "Quan điểm lịch sử - cụ thể khi chỉ tập trung vào quá khứ."
+    ],
+    "correctIndex": 0,
+    "rewardMana": 30
+  },
+  {
+    "id": 40,
+    "question": "Khi quốc gia thực hiện chính sách đổi mới kinh tế, việc xóa bỏ cơ chế tập trung quan liêu bao cấp (cái cũ) để chuyển sang nền kinh tế thị trường định hướng xã hội chủ nghĩa (cái mới) đòi hỏi không được nóng vội, chủ quan, đốt cháy giai đoạn, mà phải bước đi từng bước vững chắc phù hợp với thực lực đất nước. Nguyên tắc \"không nóng vội, đốt cháy giai đoạn\" này dựa trên cơ sở triết học nào?",
+    "options": [
+      "Sự phát triển là một quá trình nhảy vọt tức thời, không cần tích lũy.",
+      "Phát triển là một quá trình khách quan, đòi hỏi phải có sự tích lũy dần dần về lượng mới dẫn đến sự thay đổi về chất, mang tính chất quanh co phức tạp chứ không thẳng tắp.",
+      "Ý chí chủ quan của nhà quản lý quyết định hoàn toàn tốc độ phát triển kinh tế.",
+      "Nền kinh tế sẽ tự động phát triển mà không cần đến sự quản lý của nhà nước."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 41,
+    "question": "Quy luật thống nhất và đấu tranh của các mặt đối lập có vị trí như thế nào trong phép duy vật biện chứng?",
+    "options": [
+      "Là quy luật vạch ra xu hướng của sự phát triển.",
+      "Là quy luật vạch ra cách thức, hình thức của sự phát triển.",
+      "Là hạt nhân của phép biện chứng, vạch ra nguồn gốc, động lực bên trong của sự vận động và phát triển.",
+      "Là quy luật chỉ có tác dụng trong đời sống xã hội, không có tác dụng trong tự nhiên."
+    ],
+    "correctIndex": 2,
+    "rewardMana": 30
+  },
+  {
+    "id": 42,
+    "question": "Trong phép duy vật biện chứng, khái niệm \"mặt đối lập\" dùng để chỉ điều gì?",
+    "options": [
+      "Các sự vật tồn tại hoàn toàn biệt lập và không có liên hệ gì với nhau.",
+      "Những mặt, những thuộc tính, những khuynh hướng vận động ngược chiều nhau nhưng lại là điều kiện tồn tại của nhau trong cùng một sự vật, hiện tượng.",
+      "Những sự vật có hình dáng và kích thước trái ngược nhau trong không gian.",
+      "Những quan điểm sai trái, thù địch đi ngược lại với lợi ích cá nhân."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 43,
+    "question": "Khái niệm \"mâu thuẫn biện chứng\" dùng để chỉ điều gì?",
+    "options": [
+      "Sự tranh luận gay gắt giữa hai người có quan điểm khác nhau.",
+      "Sự không nhất quán, logic lộn xộn trong tư duy và lời nói của một cá nhân.",
+      "Sự liên hệ, tác động lẫn nhau, vừa thống nhất vừa đấu tranh của các mặt đối lập bên trong bản thân sự vật, hiện tượng.",
+      "Sự xung đột vũ lực giữa các giai cấp trong xã hội có giai cấp đối kháng."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 44,
+    "question": "Theo quan điểm triết học Mác - Lênin, tính chất nào sau đây KHÔNG phải là tính chất cơ bản của mâu thuẫn biện chứng?",
+    "options": [
+      "Tính khách quan.",
+      "Tính phổ biến.",
+      "Tính đa dạng, phong phú.",
+      "Tính chủ quan, do con người áp đặt."
+    ],
+    "correctIndex": 3,
+    "rewardMana": 30
+  },
+  {
+    "id": 45,
+    "question": "Trong mâu thuẫn biện chứng, sự \"thống nhất\" của các mặt đối lập được hiểu là gì?",
+    "options": [
+      "Sự đồng nhất hoàn toàn, các mặt đối lập nhập làm một và không còn khác biệt.",
+      "Sự liên hệ, ràng buộc, nương tựa vào nhau, làm tiền đề tồn tại cho nhau của các mặt đối lập; không có mặt này thì không có mặt kia.",
+      "Sự triệt tiêu lẫn nhau giữa các mặt đối lập để sự vật đứng im mãi mãi.",
+      "Sự dung hòa, thỏa hiệp vô nguyên tắc giữa các lực lượng xã hội khác nhau."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 46,
+    "question": "Khi bàn về mối quan hệ giữa \"thống nhất\" và \"đấu tranh\" của các mặt đối lập, triết học Mác - Lênin khẳng định như thế nào?",
+    "options": [
+      "Sự thống nhất là tuyệt đối, sự đấu tranh là tương đối.",
+      "Sự thống nhất là tương đối, tạm thời; sự đấu tranh là tuyệt đối, vĩnh viễn.",
+      "Cả thống nhất và đấu tranh đều hoàn toàn tuyệt đối trong mọi điều kiện.",
+      "Cả thống nhất và đấu tranh đều hoàn toàn tương đối và chỉ là ảo giác của con người."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 47,
+    "question": "Loại mâu thuẫn nào tồn tại trong suốt quá trình vận động, phát triển của bản thân sự vật, hiện tượng, quyết định bản chất và xu hướng phát triển của sự vật đó từ đầu đến cuối?",
+    "options": [
+      "Mâu thuẫn thứ yếu.",
+      "Mâu thuẫn bên ngoài.",
+      "Mâu thuẫn cơ bản.",
+      "Mâu thuẫn không cơ bản."
+    ],
+    "correctIndex": 2,
+    "rewardMana": 30
+  },
+  {
+    "id": 48,
+    "question": "Mâu thuẫn hàng đầu là gì?",
+    "options": [
+      "Mâu thuẫn xuất hiện ở giai đoạn cuối cùng trước khi sự vật diệt vong.",
+      "Mâu thuẫn nổi lên hàng đầu ở một giai đoạn ph át triển nhất định của sự vật, chi phối các mâu thuẫn khác trong giai đoạn đó.",
+      "Mâu thuẫn xảy ra giữa các quốc gia có chung đường biên giới.",
+      "Mâu thuẫn dễ giải quyết nhất trong đời sống hàng ngày."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 49,
+    "question": "Dựa trên quan hệ giữa các mặt đối lập với xu hướng phát triển của xã hội, mâu thuẫn được chia thành:",
+    "options": [
+      "Mâu thuẫn bên trong và mâu thuẫn bên ngoài.",
+      "Mâu thuẫn đối kháng và mâu thuẫn không đối kháng.",
+      "Mâu thuẫn cơ bản và mâu thuẫn không cơ bản.",
+      "Mâu thuẫn chủ yếu và mâu thuẫn thứ yếu."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 50,
+    "question": "Phương pháp luận quan trọng nhất được rút ra từ quy luật mâu thuẫn là gì?",
+    "options": [
+      "Phải biết dung hòa mâu thuẫn để giữ sự vật ổn định mãi mãi.",
+      "Phải thừa nhận mâu thuẫn là khách quan, áp dụng phương pháp \"phân đôi cái thống nhất\" để phát hiện mâu thuẫn và tìm cách giải quyết mâu thuẫn thông qua đấu tranh.",
+      "Phải né tránh mâu thuẫn, đợi mâu thuẫn tự biến mất.",
+      "Phải dùng ý chí chủ quan để xóa bỏ lập tức mọi mâu thuẫn khi chúng vừa xuất hiện."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 51,
+    "question": "Cặp hiện tượng sinh học nào sau đây biểu hiện rõ nhất cho sự thống nhất và đấu tranh của các mặt đối lập trong cơ thể sống?",
+    "options": [
+      "Đồng hóa và dị hóa.",
+      "Thở ra và hít vào một cách tuần hoàn.",
+      "Đi bộ và chạy nhanh.",
+      "Sinh sản và trưởng thành."
+    ],
+    "correctIndex": 0,
+    "rewardMana": 30
+  },
+  {
+    "id": 52,
+    "question": "Khi phân tích nền kinh tế thị trường, ta thấy dòng tiền lưu thông luôn gắn liền với hai quá trình: \"Người bán muốn bán giá cao nhất\" và \"Người mua muốn mua giá thấp nhất\". Hai xu hướng này ràng buộc lẫn nhau và tạo nên sự vận động của thị trường. Hiện tượng này minh chứng cho điều gì?",
+    "options": [
+      "Mâu thuẫn logic trong tính toán kinh tế của người dân.",
+      "Tính khách quan và tính thống nhất của mâu thuẫn giữa cung và cầu trong kinh tế.",
+      "Sự sụp đổ tất yếu của kinh tế thị trường do có mâu thuẫn.",
+      "Sự áp đặt chủ quan của nhà nước lên hành vi của người tiêu dùng."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 53,
+    "question": "Câu thành ngữ \"Yêu nhau lắm, cắn nhau đau\" xét dưới góc độ triết học phản ánh điều gì trong quy luật mâu thuẫn?",
+    "options": [
+      "Mâu thuẫn chỉ xảy ra ở những người ghét nhau.",
+      "Sự chuyển hóa và ranh giới mong manh giữa các trạng thái đối lập trong một mối quan hệ có sự thống nhất cao.",
+      "Mâu thuẫn trong tình cảm hoàn toàn không mang tính khách quan.",
+      "Sự triệt tiêu hoàn toàn lẫn nhau của các yếu tố tâm lý."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 54,
+    "question": "Trong lịch sử Việt Nam giai đoạn 1930 - 1945, xã hội tồn tại nhiều mâu thuẫn như: giữa nông dân với địa chủ, giữa công nhân với tư sản, giữa toàn thể dân tộc Việt Nam với thực dân Pháp xâm lược. Trong đó, mâu thuẫn giữa toàn thể dân tộc Việt Nam với thực dân Pháp được gọi là loại mâu thuẫn nào ở giai đoạn này?",
+    "options": [
+      "Mâu thuẫn thứ yếu.",
+      "Mâu thuẫn không đối kháng.",
+      "Mâu thuẫn chủ yếu.",
+      "Mâu thuẫn bên ngoài."
+    ],
+    "correctIndex": 2,
+    "rewardMana": 30
+  },
+  {
+    "id": 55,
+    "question": "Việc Đảng và Nhà nước Việt Nam xác định phát triển kinh tế thị trường gắn liền với định hướng xã hội chủ nghĩa nhằm thực hiện mục tiêu \"Dân giàu, nước mạnh, dân chủ, công bằng, văn minh\" là việc vận dụng quy luật mâu thuẫn như thế nào?",
+    "options": [
+      "Phủ nhận hoàn toàn các quy luật của kinh tế thị trường tư bản chủ nghĩa.",
+      "Nhận thức đúng đắn mâu thuẫn giữa tính chất tự phát của thị trường và tính định hướng xã hội, từ đó thực hiện sự thống nhất và điều tiết biện chứng để phát triển nền kinh tế đất nước.",
+      "Giải quyết mâu thuẫn bằng cách xóa bỏ ngay lập tức các thành phần kinh tế tư nhân.",
+      "Đốt cháy giai đoạn để chuyển thẳng lên kinh tế bao cấp."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 56,
+    "question": "Một công ty công nghệ lớn đang đối mặt với mâu thuẫn nội bộ sâu sắc: Đội ngũ Kỹ sư (R&D) muốn dành thêm 6 tháng để tối ưu hóa sản phẩm đạt mức hoàn hảo, trong khi Đội ngũ Kinh doanh (Marketing) yêu cầu phải tung sản phẩm ra thị trường ngay lập tức vì đối thủ đang chiếm thị phần. Giám đốc điều hành (CEO) quyết định tổ chức một cuộc họp chung, ép hai bên thỏa hiệp bằng cách ra mắt phiên bản thử nghiệm (Beta) có giới hạn tính năng để bán trước, đồng thời tiếp tục hoàn thiện bản chính thức. Cách giải quyết của CEO thể hiện:",
+    "options": [
+      "Việc giải quyết mâu thuẫn triệt để bằng cách xóa bỏ một trong hai phòng ban.",
+      "Việc nhận thức được tính thống nhất (hai phòng ban đều vì sự sinh tồn của công ty) và đấu tranh (khác biệt mục tiêu ngắn hạn), từ đó tìm ra hình thức chuyển hóa thích hợp để thúc đẩy doanh nghiệp phát triển.",
+      "Sự bất lực của nhà quản lý trước mâu thuẫn nội bộ, rơi vào chủ nghĩa chiết trung.",
+      "Việc áp đặt mệnh lệnh chủ quan, phớt lờ các quy luật kinh tế khách quan."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 57,
+    "question": "Trong một dự án khởi nghiệp (Startup), hai nhà đồng sáng lập (Co-founder) nảy sinh xung đột dữ dội về định hướng: Một người muốn gọi vốn từ quỹ ngoại để bùng nổ quy mô (Growth), người kia muốn duy trì mô hình nhỏ, tự chủ tài chính để an toàn (Sustain). Vì không bên nào chịu lắng nghe, họ chọn cách \"né tránh mâu thuẫn\", không thèm tranh luận nữa. Sau 3 tháng, Startup này cạn vốn và tan rã. Dưới góc độ triết học, thất bại của họ là do:",
+    "options": [
+      "Đã giải quyết mâu thuẫn quá sớm khi điều kiện chưa chín muồi.",
+      "Không hiểu rằng đấu tranh của các mặt đối lập là tuyệt đối; việc né tránh, giữ trạng thái \"thống nhất giả tạo\" mà không đối diện để giải quyết mâu thuẫn sẽ làm sự vật bị đình trệ và tự diệt vong.",
+      "Rơi vào xu hướng bạo lực hóa mâu thuẫn không đối kháng.",
+      "Quá chú trọng vào mâu thuẫn bên ngoài mà bỏ qua mâu thuẫn bên trong."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 58,
+    "question": "Khi tiến hành đổi mới và chuyển đổi số trong cơ quan nhà nước, mâu thuẫn lớn nhất xuất hiện giữa một bên là \"yêu cầu tối giản hóa, công khai, minh bạch quy trình bằng công nghệ\" và một bên là \"thói quen làm việc giấy tờ, đặc quyền thông tin và tâm lý ngại thay đổi của một bộ phận cán bộ\". Để giải quyết mâu thuẫn này, giải pháp biện chứng và bền vững nhất là gì?",
+    "options": [
+      "Sa thải ngay lập tức toàn bộ cán bộ cũ để tuyển dụng nhân sự trẻ tuổi thạo công nghệ.",
+      "Tuyên truyền giáo dục kết hợp với ban hành quy chế bắt buộc sử dụng phần mềm, tạo điều kiện và thời gian để cán bộ làm quen, đồng thời xử lý nghiêm các hành vi cố tình cản trở công nghệ để trục lợi, giúp cái mới chiến thắng cái cũ lỗi thời.",
+      "Tạm dừng chuyển đổi số, quay lại làm việc bằng giấy tờ để giữ sự ổn định nội bộ.",
+      "Cho phép tồn tại song song cả hai quy trình riêng biệt vô thời hạn mà không cần can thiệp."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 59,
+    "question": "Một sinh viên đại học vừa đi học vừa đi làm thêm. Bạn luôn rơi vào trạng thái căng thẳng do mâu thuẫn giữa \"thời gian dành cho việc học tập để đạt học bổng\" và \"thời gian đi làm để kiếm thu nhập trang trải cuộc sống\". Bạn quyết định giải quyết mâu thuẫn này bằng cách lập thời gian biểu chi tiết, chọn công việc làm thêm có giờ giấc linh hoạt và liên quan đến ngành học của mình. Cách làm của sinh viên này phản ánh phương pháp luận nào?",
+    "options": [
+      "Phương pháp siêu hình, tách rời hoàn toàn việc học và việc làm thành hai thế giới không liên quan.",
+      "Thuyết định mệnh, chấp nhận sống chung với áp lực mà không cần thay đổi.",
+      "Phương pháp luận mâu thuẫn: Thừa nhận mâu thuẫn là khách quan, phân tích cụ thể vị trí của từng mặt và tìm ra phương thức kết hợp hợp lý (hình thức giải quyết mâu thuẫn) để thúc đẩy bản thân phát triển.",
+      "Thuật ngụy biện nhằm ngụy trang cho việc lười học."
+    ],
+    "correctIndex": 2,
+    "rewardMana": 30
+  },
+  {
+    "id": 60,
+    "question": "Trải qua các giai đoạn phát triển của nền kinh tế, mâu thuẫn giữa \"sự gia tăng khí thải từ các nhà máy công nghiệp sản xuất\" và \"yêu cầu bảo vệ môi trường, bảo vệ sức khỏe người dân\" ngày càng trở nên gay gắt. Một quốc gia tiến bộ sẽ giải quyết mâu thuẫn này như thế nào theo đúng tinh thần của phép biện chứng duy vật?",
+    "options": [
+      "Đóng cửa toàn bộ các nhà máy công nghiệp để đưa môi trường trở lại trạng thái tự nhiên hoang sơ.",
+      "Phớt lờ ô nhiễm môi trường, ưu tiên phát triển kinh tế bằng mọi giá để tăng trưởng GDP.",
+      "Ban hành luật môi trường nghiêm ngặt, buộc các doanh nghiệp phải đầu tư công nghệ lọc thải, chuyển dịch cơ cấu sang năng lượng tái tạo và kinh tế xanh; biến mâu thuẫn thành động lực để nâng cấp toàn bộ nền tảng công nghệ quốc gia.",
+      "Trông chờ vào sự tự phục hồi của tự nhiên mà không cần can thiệp bằng chính sách."
+    ],
+    "correctIndex": 2,
+    "rewardMana": 30
+  },
+  {
+    "id": 61,
+    "question": "Quy luật chuyển hóa từ những thay đổi về lượng thành những thay đổi về chất và ngược lại vạch ra thuộc tính nào của sự vận động và phát triển?",
+    "options": [
+      "Nguồn gốc, động lực của sự phát triển.",
+      "Cách thức, hình thức chung của sự phát triển.",
+      "Xu hướng, khuynh hướng của sự phát triển.",
+      "Cơ cấu tổ chức nội tại của các sự vật."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 62,
+    "question": "Trong phép duy vật biện chứng, phạm trù \"chất\" dùng để chỉ điều gì?",
+    "options": [
+      "Tính quy định khách quan vốn có của sự vật, là sự thống nhất hữu cơ giữa các thuộc tính, làm cho sự vật là nó chứ không phải là cái khác.",
+      "Trọng lượng, kích thước và mật độ phân tử của một khối vật chất.",
+      "Mức độ tốt hay xấu, có giá trị hay không có giá trị của một sản phẩm hàng hóa.",
+      "Ý thức chủ quan của con người khi đánh giá về đặc điểm của thế giới xung quanh."
+    ],
+    "correctIndex": 0,
+    "rewardMana": 30
+  },
+  {
+    "id": 63,
+    "question": "Phạm trù \"lượng\" trong phép duy vật biện chứng dùng để chỉ điều gì?",
+    "options": [
+      "Bản chất bên trong không bao giờ thay đổi của các sự vật, hiện tượng.",
+      "Tính quy định vốn có của sự vật về mặt số lượng, quy mô, trình độ, tốc độ của sự vận động và phát triển của sự vật.",
+      "Sự yêu thích hay ghét bỏ của con người đối với một hiện tượng xã hội.",
+      "Trạng thái đứng im tuyệt đối của vật chất trong không gian."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 64,
+    "question": "Trong quy luật Lượng - Chất, khái niệm \"độ\" được hiểu là gì?",
+    "options": [
+      "Điểm giới hạn mà tại đó sự thay đổi về lượng lập tức làm thay đổi về chất của sự vật.",
+      "Khoảng giới hạn trong đó sự thay đổi về lượng chưa làm thay đổi căn bản về chất của sự vật, sự vật vẫn là nó.",
+      "Sự biến đổi hoàn toàn về bản chất của sự vật dưới tác động của môi trường.",
+      "Thước đo nhiệt độ của các vật thể rắn và lỏng."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 65,
+    "question": "Khái niệm \"điểm nút\" trong quy luật Lượng - Chất dùng để chỉ điều gì?",
+    "options": [
+      "Thời điểm mâu thuẫn giữa các mặt đối lập được đẩy lên cao nhất.",
+      "Trung điểm của khoảng giới hạn tồn tại của chất cũ.",
+      "Giai đoạn mà tại đó chất mới ổn định và bắt đầu tác động trở lại lượng.",
+      "Thời điểm giới hạn mà tại đó sự thay đổi về lượng đã đủ để dẫn đến sự thay đổi về chất của sự vật."
+    ],
+    "correctIndex": 3,
+    "rewardMana": 30
+  },
+  {
+    "id": 66,
+    "question": "Sự \"nhảy vọt\" được định nghĩa như thế nào trong phép duy vật biện chứng?",
+    "options": [
+      "Sự tăng trưởng nhảy vọt về số lượng các yếu tố cấu thành sự vật mà chất không đổi.",
+      "Bước ngoặt căn bản trong sự biến đổi về chất của sự vật, kết thúc một giai đoạn phát triển cũ và mở ra một giai đoạn phát triển mới.",
+      "Sự di chuyển vị trí của sự vật từ không gian thấp lên không gian cao hơn.",
+      "Sự biến mất hoàn toàn của vật chất trong thế giới tự nhiên."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 67,
+    "question": "Mối quan hệ biện chứng giữa sự thay đổi về lượng và sự thay đổi về chất được biểu hiện như thế nào?",
+    "options": [
+      "Lượng thay đổi dẫn đến chất thay đổi, còn chất mới ra đời không có tác động gì trở lại đối với lượng.",
+      "Chất thay đổi trước một cách ngẫu nhiên, sau đó mới kéo theo sự biến đổi từ từ của lượng.",
+      "Sự thay đổi về lượng đạt đến giới hạn điểm nút sẽ dẫn đến sự thay đổi về chất thông qua bước nhảy; chất mới ra đời lại tác động trở lại làm thay đổi quy mô, tốc độ của lượng.",
+      "Lượng và chất biến đổi hoàn toàn độc lập, song hành và không liên quan đến nhau."
+    ],
+    "correctIndex": 2,
+    "rewardMana": 30
+  },
+  {
+    "id": 68,
+    "question": "Căn cứ vào quy mô và phạm vi của bước nhảy, người ta chia bước nhảy thành các loại nào?",
+    "options": [
+      "Bước nhảy toàn bộ và bước nhảy cục bộ.",
+      "Bước nhảy đột biến và bước nhảy dần dần.",
+      "Bước nhảy khách quan và bước nhảy chủ quan.",
+      "Bước nhảy tự nhiên và bước nhảy xã hội."
+    ],
+    "correctIndex": 0,
+    "rewardMana": 30
+  },
+  {
+    "id": 69,
+    "question": "Từ quy luật Lượng - Chất, triết học Mác - Lênin rút ra phương pháp luận cốt lõi nào cho hoạt động thực tiễn?",
+    "options": [
+      "Muốn thay đổi về chất phải tích lũy đủ về lượng; chống lại cả hai xu hướng: nóng vội, đốt cháy giai đoạn (tả khuynh) và bảo thủ, trì trệ, không dám thực hiện bước nhảy (hữu khuynh).",
+      "Chỉ cần tập trung thay đổi chất ngay từ đầu bằng các mệnh lệnh hành chính mà không cần quan tâm đến lượng.",
+      "Đợi lượng tự biến đổi và chất tự thay đổi mà không cần đến hoạt động thực tiễn của con người.",
+      "Tích lũy về lượng mãi mãi trong phạm vi \"độ\" mà không bao giờ được tiến hành bước nhảy."
+    ],
+    "correctIndex": 0,
+    "rewardMana": 30
+  },
+  {
+    "id": 70,
+    "question": "Tư tưởng \"đốt cháy giai đoạn\", muốn thực hiện bước nhảy về chất khi chưa có sự tích lũy đầy đủ về lượng trong thực tiễn là biểu hiện của sai lầm nào?",
+    "options": [
+      "Chủ nghĩa cơ hội hữu khuynh.",
+      "Chủ nghĩa giáo điều tả khuynh, nóng vội chủ quan.",
+      "Tư duy biện chứng duy vật sâu sắc.",
+      "Quan điểm lịch sử - cụ thể tiến bộ."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 71,
+    "question": "Hiện tượng vật lý: \"Nước nguyên chất ở áp suất 1 atm khi bị đun nóng từ $0^\\circ\\text{C}$ đến $99.9^\\circ\\text{C}$ vẫn ở thể lỏng, nhưng chạm mốc $100^\\circ\\text{C}$ sẽ lập tức chuyển sang thể khí (hơi nước)\". Trong ví dụ này, khoảng từ $0^\\circ\\text{C}$ đến dưới $100^\\circ\\text{C}$ được gọi là gì?",
+    "options": [
+      "Điểm nút.",
+      "Bước nhảy.",
+      "Độ.",
+      "Chất mới."
+    ],
+    "correctIndex": 2,
+    "rewardMana": 30
+  },
+  {
+    "id": 72,
+    "question": "Câu tục ngữ Việt Nam: \"Góp gió thành bão, góp cây nên rừng\" phản ánh phương diện nào của quy luật Lượng - Chất?",
+    "options": [
+      "Sự tác động ngược lại của chất đối với lượng.",
+      "Tầm quan trọng của việc tích lũy dần dần về lượng để tạo nên sự biến đổi về chất.",
+      "Tính chất đột biến, tức thời của các hiện tượng tự nhiên.",
+      "Sự phủ định sạch trơn cái cũ để thiết lập cái mới."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 73,
+    "question": "Để đạt được bằng cử nhân Công nghệ thông tin, một sinh viên phải hoàn thành tối thiểu 130 tín chỉ theo quy định của nhà trường. Việc sinh viên tích lũy từng tín chỉ qua mỗi học kỳ chính là quá trình biến đổi về gì trong quy luật Lượng - Chất?",
+    "options": [
+      "Biến đổi căn bản về chất của sinh viên.",
+      "Tích lũy dần dần về lượng trong giới hạn của độ.",
+      "Thực hiện liên tiếp các bước nhảy toàn bộ.",
+      "Phá vỡ điểm nút để đổi mới tư duy."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 74,
+    "question": "Khi một người học ngoại ngữ tích lũy từ vựng và ngữ pháp từ trình độ cơ bản (A1, A2) lên cao cấp (C1, C2), việc họ nói lưu loát hơn, tư duy phản xạ nhanh hơn và có khả năng dịch thuật chuyên sâu chính là minh chứng cho điều gì?",
+    "options": [
+      "Lượng đổi dẫn đến chất đổi, và chất mới (trình độ cao cấp) đã tác động trở lại làm thay đổi năng lượng và tốc độ xử lý thông tin (lượng mới).",
+      "Sự đứng im tuyệt đối của năng lượng tư duy con người.",
+      "Sự tích lũy về lượng chỉ mang tính hình thức, không làm thay đổi bản chất kỹ năng.",
+      "Bước nhảy cục bộ diễn ra một cách ngẫu nhiên mà không cần học tập."
+    ],
+    "correctIndex": 0,
+    "rewardMana": 30
+  },
+  {
+    "id": 75,
+    "question": "Một quốc gia tiến hành công nghiệp hóa, hiện đại hóa đất nước bằng cách dịch chuyển cơ cấu kinh tế từ nông nghiệp truyền thống sang công nghiệp và dịch vụ công nghệ cao. Quá trình dịch chuyển này diễn ra từng bước ở các vùng miền khác nhau trước khi toàn bộ nền kinh tế thay đổi bản chất. Đây là biểu hiện của loại bước nhảy nào?",
+    "options": [
+      "Bước nhảy đột biến toàn bộ.",
+      "Bước nhảy dần dần và mang tính cục bộ.",
+      "Bước nhảy chủ quan do ý chí chính trị áp đặt.",
+      "Bước nhảy đi lùi về mặt lịch sử."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 76,
+    "question": "Một lập trình viên mới vào nghề (Fresher) muốn nhanh chóng trở thành Chuyên gia kiến trúc phần mềm (Software Architect). Thay vì kiên trì học hỏi từ các dự án nhỏ, bạn đăng ký tham gia ngay vào việc thiết kế hệ thống phân tán siêu lớn của doanh nghiệp, dẫn đến việc mã nguồn bị lỗi nghiêm trọng và hệ thống sụp đổ. Dưới góc độ triết học, thất bại của lập trình viên này là do:",
+    "options": [
+      "Vi phạm quy luật mâu thuẫn do không biết đoàn kết nội bộ.",
+      "Phạm sai lầm nóng vội, chủ quan, cố tình thực hiện bước nhảy về chất (từ Fresher lên Architect) khi chưa tích lũy đủ về lượng (kiến thức nền tảng, kinh nghiệm thực chiến).",
+      "Trì trệ, bảo thủ, không chịu tiếp thu công nghệ mới.",
+      "Vận dụng đúng quy luật Lượng - Chất nhưng gặp xui xẻo về hạ tầng mạng."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 77,
+    "question": "Trong chiến lược phát triển một doanh nghiệp khởi nghiệp (Startup), CEO nhận thấy sản phẩm đang được người dùng đón nhận rất tốt (lượng tăng trưởng đều). Tuy nhiên, thay vì mở rộng quy mô nhân sự và hệ thống một cách có lộ trình, CEO này quyết định giữ nguyên bộ máy quản lý lỏng lẻo cũ, không nâng cấp máy chủ, khiến hệ thống bị sập khi lượt truy cập tăng đột biến. Sai lầm của CEO này thuộc về:",
+    "options": [
+      "Sai lầm tả khuynh, nóng vội đốt cháy giai đoạn.",
+      "Sai lầm hữu khuynh, bảo thủ, trì trệ, không kịp thời thực hiện bước nhảy về chất (tái cấu trúc bộ máy, nâng cấp hạ tầng) khi lượng đã đạt đến điểm nút.",
+      "Vận dụng đúng quan điểm lịch sử - cụ thể của thị trường.",
+      "Phủ nhận hoàn toàn sự tồn tại của các quy luật khách quan trong kinh doanh."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 78,
+    "question": "Một nhà máy sản xuất linh kiện điện tử tại Việt Nam sau khi chuyển đổi số thành công, thay thế toàn bộ dây chuyền thủ công bằng robot tự động (thay đổi về chất), kết quả là tốc độ sản xuất tăng gấp 10 lần, tỷ lệ lỗi sản phẩm giảm từ 5% xuống còn 0.01% (thay đổi về lượng). Hiện tượng này phản ánh mặt nào của quy luật Lượng - Chất?",
+    "options": [
+      "Sự thay đổi về lượng luôn diễn ra nhanh hơn sự thay đổi về chất.",
+      "Chất đổi trước một cách độc lập rồi sinh ra lượng mới một cách ngẫu nhiên.",
+      "Sự tác động trở lại của chất mới đối với lượng, làm thay đổi cấu trúc, quy mô và tốc độ phát triển của lượng mới.",
+      "Bước nhảy cục bộ không có khả năng sinh ra lượng mới."
+    ],
+    "correctIndex": 2,
+    "rewardMana": 30
+  },
+  {
+    "id": 79,
+    "question": "Trong chiến dịch xây dựng nông thôn mới, một xã nọ vì muốn nhanh chóng đạt chuẩn \"Làng văn hóa\" để lấy thành tích (thay đổi về chất), đã ép buộc người dân quyên góp tiền vượt quá khả năng kinh tế để xây cổng chào hoành tráng và nhà văn hóa to lớn, trong khi đường xá vẫn lầy lội và kênh mương chưa thông suốt. Hậu quả là người dân bức xúc, nợ nần của xã tăng cao. Việc làm của chính quyền xã đã vi phạm phương pháp luận nào?",
+    "options": [
+      "Quan điểm toàn diện trong việc nhìn nhận các mối quan hệ xã hội.",
+      "Quy luật mâu thuẫn do không giải quyết mâu thuẫn giai cấp.",
+      "Quy luật Lượng - Chất: Chạy theo cái \"chất\" danh hiệu hờ bên ngoài mà không lo tích lũy thực chất về \"lượng\" bên trong (cơ sở hạ tầng, đời sống kinh tế của người dân).",
+      "Xu hướng phát triển đi lên theo đường xoáy ốc của lịch sử."
+    ],
+    "correctIndex": 2,
+    "rewardMana": 30
+  },
+  {
+    "id": 80,
+    "question": "Trải qua 4 làn sóng cách mạng công nghiệp, từ việc tích lũy các phát minh cơ khí (Cách mạng 1.0), điện năng (Cách mạng 2.0), máy tính (Cách mạng 3.0), nhân loại đã tạo nên bước nhảy vọt sang Cách mạng 4.0 với sự bùng nổ của Trí tuệ nhân tạo (AI), Internet vạn vật (IoT) và Dữ liệu lớn (Big Data), làm thay đổi hoàn toàn phương thức sản xuất và sinh hoạt của xã hội. Nhận thức sâu sắc quy luật này, học sinh, sinh viên hiện nay cần có thái độ học tập như thế nào?",
+    "options": [
+      "Chỉ cần học mẹo, học vẹt để qua môn nhanh nhất, lấy tấm bằng làm bước nhảy.",
+      "Kiên trì, bền bỉ tích lũy tri thức, kỹ năng mỗi ngày (tích lũy về lượng) một cách nghiêm túc, không lười biếng, đồng thời chủ động nhạy bén đón nhận các cơ hội kiểm tra, thực tập, làm dự án để nâng cấp năng lực bản thân (thực hiện bước nhảy về chất).",
+      "Trông chờ vào sự phát triển của công nghệ để sau này AI tự làm việc thay mình.",
+      "Phủ nhận mọi kiến thức cũ để tập trung hoàn toàn vào học các thuật toán AI nâng cao."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 81,
+    "question": "Quy luật phủ định của phủ định vạch ra thuộc tính nào của sự vận động và phát triển?",
+    "options": [
+      "Nguồn gốc, động lực bên trong của sự phát triển.",
+      "Cách thức, hình thức chung của sự phát triển.",
+      "Khuynh hướng, xu hướng tiến lên theo hình xoáy ốc của sự phát triển.",
+      "Cơ cấu tổ chức vật chất của các sự vật, hiện tượng."
+    ],
+    "correctIndex": 2,
+    "rewardMana": 30
+  },
+  {
+    "id": 82,
+    "question": "Theo quan điểm của triết học Mác - Lênin, phủ định biện chứng là gì?",
+    "options": [
+      "Sự can thiệp, phá hủy từ bên ngoài làm cho sự vật, hiện tượng bị tiêu diệt hoàn toàn.",
+      "Sự phủ nhận sạch trơn quá khứ, không để lại bất kỳ yếu tố nào của cái cũ.",
+      "Quá trình tự phủ định, tự phát triển của sự vật, hiện tượng; là mắt xích trong sợi dây liên hệ giữa cái cũ và cái mới.",
+      "Sự bác bỏ một quan điểm sai lầm trong quá trình tranh luận."
+    ],
+    "correctIndex": 2,
+    "rewardMana": 30
+  },
+  {
+    "id": 83,
+    "question": "Đâu là hai tính chất cơ bản của phủ định biện chứng theo phép duy vật biện chứng?",
+    "options": [
+      "Tính chủ quan và tính ngẫu nhiên.",
+      "Tính khách quan và tính kế thừa.",
+      "Tính cô lập và tính bất biến.",
+      "Tính lệ thuộc và tính trừu tượng."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 84,
+    "question": "Bản chất của \"tính kế thừa biện chứng\" trong quá trình phủ định được hiểu như thế nào?",
+    "options": [
+      "Giữ lại nguyên vẹn mọi yếu tố, đặc điểm của giai đoạn cũ.",
+      "Loại bỏ, gạt bỏ những yếu tố lỗi thời, lạc hậu; đồng thời chọn lọc, giữ lại, cải biến những yếu tố tích cực, tiến bộ của cái cũ để phát triển cái mới.",
+      "Tiếp thu toàn bộ cả cái tốt lẫn cái xấu của cái cũ mà không cần cải tiến.",
+      "Tạo ra một cái mới hoàn toàn tách biệt, không liên quan gì đến lịch sử trước đó."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 85,
+    "question": "Theo phép duy vật biện chứng, một chu kỳ phát triển của sự vật, hiện tượng trải qua ít nhất mấy lần phủ định biện chứng?",
+    "options": [
+      "Một lần phủ định.",
+      "Hai lần phủ định.",
+      "Ba lần phủ định.",
+      "Bốn lần phủ định."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 86,
+    "question": "Hình ảnh nào sau đây thường được triết học Mác - Lênin dùng để khái quát trực quan về khuynh hướng của sự phát triển qua quy luật phủ định của phủ định?",
+    "options": [
+      "Đường thẳng tắp tịnh tiến lên phía trước.",
+      "Đường tròn khép kín, lặp lại hoàn hảo.",
+      "Đường hình xoáy ốc đi lên.",
+      "Đường hình sin dao động quanh một trục cố định."
+    ],
+    "correctIndex": 2,
+    "rewardMana": 30
+  },
+  {
+    "id": 87,
+    "question": "Phủ định siêu hình khác phủ định biện chứng ở điểm cốt lõi nào?",
+    "options": [
+      "Phủ định siêu hình thừa nhận tính khách quan của sự vận động.",
+      "Phủ định siêu hình coi phủ định là sự xóa bỏ triệt hạ sạch trơn cái cũ, cắt đứt sự phát triển và không có tính kế thừa.",
+      "Phủ định siêu hình thúc đẩy cái mới ra đời nhanh hơn.",
+      "Phủ định siêu hình là động lực bên trong của sự vật."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 88,
+    "question": "Trạng thái của sự vật ở điểm kết thúc một chu kỳ phát triển thông qua phủ định của phủ định có đặc điểm gì?",
+    "options": [
+      "Trở lại giống hệt trạng thái ban đầu mà không có gì thay đổi.",
+      "Là sự lùi lại phía sau, kém hoàn thiện hơn giai đoạn xuất phát.",
+      "Dường như trở lại cái ban đầu nhưng trên cơ sở cao hơn, hoàn thiện hơn về chất.",
+      "Sự vật hoàn toàn tan rã vào hư vô và không để lại dấu vết."
+    ],
+    "correctIndex": 2,
+    "rewardMana": 30
+  },
+  {
+    "id": 89,
+    "question": "Từ quy luật phủ định của phủ định, triết học Mác - Lênin rút ra phương pháp luận quan trọng nào cho hoạt động thực tiễn?",
+    "options": [
+      "Chống lại thái độ \"phủ định sạch trơn\" (khư khư xóa bỏ quá khứ) và thái độ \"bảo thủ, hoài cổ\" (khư khư giữ lại cái cũ lỗi thời); cần nhận thức xu hướng tiến lên mang tính quanh co của lịch sử.",
+      "Tuyệt đối hóa cái mới, loại bỏ ngay lập tức những giá trị văn hóa truyền thống.",
+      "Đợi sự vật tự phát triển theo đường thẳng mà không cần sự tác động của con người.",
+      "Khuyến khích việc lặp lại nguyên vẹn các mô hình quản lý của quá khứ."
+    ],
+    "correctIndex": 0,
+    "rewardMana": 30
+  },
+  {
+    "id": 90,
+    "question": "Hiện tượng nào sau đây mô tả đúng một chu kỳ phát triển biện chứng cơ bản của một sinh vật trong tự nhiên?",
+    "options": [
+      "Hạt thóc $\\rightarrow$ Cây lúa $\\rightarrow$ Những hạt thóc mới.",
+      "Trứng tằm $\\rightarrow$ Con tằm $\\rightarrow$ Con kén.",
+      "Quả trứng $\\rightarrow$ Con gà con $\\rightarrow$ Con gà trống.",
+      "Nước lỏng $\\rightarrow$ Hơi nước $\\rightarrow$ Nước đá."
+    ],
+    "correctIndex": 0,
+    "rewardMana": 30
+  },
+  {
+    "id": 91,
+    "question": "Khi một học thuyết khoa học mới ra đời thay thế học thuyết khoa học cũ bằng cách chứng minh những điểm sai của học thuyết cũ, đồng thời giữ lại và tích hợp các công thức, định luật đúng đắn đã được kiểm chứng trước đó. Đây là biểu hiện của:",
+    "options": [
+      "Phủ định siêu hình trong khoa học.",
+      "Tính kế thừa của phủ định biện chứng.",
+      "Sự đứng im tương đối của tri thức nhân loại.",
+      "Sự áp đặt chủ quan của các nhà khoa học mới."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 92,
+    "question": "Câu thành ngữ Việt Nam: \"Sóng sau xô sóng trước\" khi xét dưới góc độ triết học Mác - Lênin phản ánh nội dung nào?",
+    "options": [
+      "Sự bất biến, lặp lại tuần hoàn của các hiện tượng tự nhiên.",
+      "Sự phủ định sạch trơn cái cũ để thiết lập một không gian mới.",
+      "Xu hướng phát triển tất yếu, cái mới (sóng sau) liên tục ra đời thay thế và phủ định cái cũ (sóng trước).",
+      "Sự hỗn loạn, không có quy luật của thế giới vật chất."
+    ],
+    "correctIndex": 2,
+    "rewardMana": 30
+  },
+  {
+    "id": 93,
+    "question": "Trong lịch sử tiến hóa của các công cụ lưu trữ dữ liệu máy tính: Đĩa mềm (floppy disk) bị phủ định bởi Đĩa CD/DVD, sau đó Đĩa CD/DVD lại bị phủ định bởi USB và Ổ cứng di động (SSD), và hiện nay là Công nghệ lưu trữ đám mây (Cloud). Sự phát triển này minh chứng cho điều gì?",
+    "options": [
+      "Sự phát triển diễn ra theo chu kỳ khép kín, đĩa mềm sẽ quay trở lại thống trị.",
+      "Quá trình phủ định biện chứng liên tục, đưa công nghệ lưu trữ lên trình độ ngày càng cao, bảo mật và tiện lợi hơn.",
+      "Sự thay đổi chỉ mang tính số lượng chứ chất lượng lưu trữ không đổi.",
+      "Sự phát triển diễn ra một cách ngẫu nhiên và không có tính kế thừa."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 94,
+    "question": "Sau Cách mạng tháng Tám năm 1945, chính quyền cách mạng Việt Nam đã bãi bỏ hệ thống luật pháp của thực dân phong kiến (cái cũ), nhưng vẫn giữ lại một số quy định về hành chính, thuế khóa không còn tính bóc lột để duy trì trật tự xã hội tạm thời trước khi xây dựng bộ luật mới. Việc làm này thể hiện:",
+    "options": [
+      "Sự thỏa hiệp vô nguyên tắc với giai cấp bóc lột.",
+      "Việc áp dụng đúng đắn tính kế thừa biện chứng trong việc xây dựng nhà nước mới.",
+      "Sự nóng vội, đốt cháy giai đoạn của chính quyền non trẻ.",
+      "Phủ định siêu hình, xóa bỏ sạch trơn mọi thành tựu quản lý cũ."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 95,
+    "question": "Nhận thức được rằng con đường đổi mới và phát triển đất nước đi lên chủ nghĩa xã hội có những giai đoạn tăng trưởng mạnh mẽ, nhưng cũng có lúc gặp khủng hoảng, suy thoái toàn cầu đòi hỏi phải điều chỉnh chiến lược, biểu hiện tinh thần phương pháp luận nào?",
+    "options": [
+      "Thấy được tính chất thẳng tắp, dễ dàng của lịch sử.",
+      "Thấy được tính chất quanh co, phức tạp, đầy thăng trầm nhưng xu hướng tổng thể là tiến lên của con đường phát triển (đường xoáy ốc).",
+      "Tư duy hoang mang, dao động trước các khó khăn thực tế.",
+      "Biểu hiện của thái độ bảo thủ, trì trệ, không dám đối diện cái mới."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 96,
+    "question": "Một nhà sáng lập thương hiệu thời trang thuần Việt (Startup) muốn số hóa quy trình kinh doanh. Để làm điều này, bạn ra lệnh xóa bỏ hoàn toàn phong cách thiết kế thêu tay truyền thống vốn là bản sắc của hãng, chuyển sang sản xuất hàng loạt bằng máy móc theo mẫu mã phương Tây để bắt kịp xu hướng. Sau một thời gian, thương hiệu mất đi lượng khách hàng trung thành và đứng trước nguy cơ phá sản. Sai lầm của nhà sáng lập này là do:",
+    "options": [
+      "Vận dụng đúng quy luật mâu thuẫn nhưng thiếu vốn đầu tư.",
+      "Phạm sai lầm \"phủ định sạch trơn\" của phủ định siêu hình, cắt đứt tính kế thừa lịch sử, vứt bỏ cốt lõi bản sắc tích cực của cái cũ thay vì cải tiến nó trên nền tảng công nghệ mới.",
+      "Quá trì trệ, bảo thủ, không chịu tiếp thu công nghệ số.",
+      "Thực hiện bước nhảy dần dần quá chậm chạp."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 97,
+    "question": "Trong một doanh nghiệp gia đình, khi người con trai du học về tiếp quản vị trí Giám đốc, anh lập tức hủy bỏ toàn bộ văn hóa giao tiếp \"coi trọng tình nghĩa, gặp mặt trực tiếp\" của thế hệ cha chú để thay bằng hệ thống chấm công KPI tự động cứng nhắc qua phần mềm. Việc này khiến các nhân sự kỳ cựu tự ái và đồng loạt nghỉ việc, gây tê liệt hệ thống. Dưới góc độ triết học Mác - Lênin, người con đã mắc lỗi gì?",
+    "options": [
+      "Thừa nhận mâu thuẫn biện chứng trong quản lý doanh nghiệp.",
+      "Rơi vào phủ định siêu hình, đồng nhất việc đổi mới quản lý với việc tiêu diệt sạch trơn các yếu tố thuộc về giá trị nhân văn, văn hóa nền tảng của tổ chức cũ.",
+      "Vận dụng đúng quan điểm lịch sử - cụ thể của doanh nghiệp hiện đại.",
+      "Nóng vội tích lũy về lượng khi chất chưa thay đổi."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 98,
+    "question": "Khi chuyển sang học đại học theo phương thức tín chỉ và tự học, một tân sinh viên đã vứt bỏ hoàn toàn thói quen ghi chép bài, thời gian biểu nghiêm túc từ thời phổ thông, cho rằng đại học là \"tự do tuyệt đối\", dẫn đến kết quả học kỳ đầu tiên bị cảnh cáo học tập. Để sửa sai theo đúng tinh thần phủ định biện chứng, sinh viên này nên làm gì?",
+    "options": [
+      "Quay lại áp dụng 100% cách học thụ động, nghe chép như thời học sinh cấp 3.",
+      "Bỏ học đại học để tìm kiếm một hướng đi khác trong đời sống kinh doanh.",
+      "Kế thừa các yếu tố tích cực của thời phổ thông (tính kỷ luật, sự tập trung, thói quen ghi chép), kết hợp và cải biến chúng vào phương pháp luận tự nghiên cứu, tư duy phản biện ở bậc đại học.",
+      "Đổ lỗi cho hệ thống đào tạo tín chỉ quá phức tạp đối với bản thân."
+    ],
+    "correctIndex": 2,
+    "rewardMana": 30
+  },
+  {
+    "id": 99,
+    "question": "Một tập đoàn công nghệ điện thoại di động nổi tiếng từng chiếm thị phần lớn nhất thế giới, nhưng vì quá tự mãn với hệ điều hành bàn phím cơ cũ và sự ổn định của dòng sản phẩm hiện tại, họ đã từ chối nghiên cứu công nghệ màn hình cảm ứng toàn diện. Kết quả là họ bị các đối thủ trẻ tuổi phủ định hoàn toàn và đẩy ra khỏi thị trường. Thất bại của tập đoàn này minh chứng cho điều gì?",
+    "options": [
+      "Phủ định biện chứng là một quá trình do ý muốn của đối thủ áp đặt.",
+      "Nếu một sự vật không tự phủ định chính mình để tiến lên cái mới (tự thân phủ định), nó sẽ bị các sự vật khác phủ định một cách khách quan và bị đào thải khỏi tiến trình phát triển.",
+      "Sự phát triển của công nghệ luôn tuân theo một đường thẳng cố định.",
+      "Tính kế thừa biện chứng không tồn tại trong ngành công nghiệp điện tử."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 100,
+    "question": "Trải qua tiến trình phát triển của nông nghiệp Việt Nam: Từ nông nghiệp lạc hậu, sử dụng sức người và trâu bò (Giai đoạn 1) $\\rightarrow$ Nông nghiệp hóa chất, lạm dụng phân bón vô cơ và thuốc trừ sâu để tăng năng suất (Giai đoạn 2) $\\rightarrow$ Nông nghiệp hữu cơ thông minh, ứng dụng công nghệ sinh học, sấy lạnh, IoT nhưng quay lại cốt lõi tôn trọng tự nhiên và bảo vệ đất (Giai đoạn 3). Giai đoạn 3 chính là sự \"phủ định của phủ định\" đối với giai đoạn 1 và 2. Trạng thái của giai đoạn 3 thể hiện đặc điểm nào của quy luật?",
+    "options": [
+      "Lặp lại nguyên vẹn và thô sơ phương thức canh tác của giai đoạn 1.",
+      "Xóa bỏ hoàn toàn mọi thành tựu cơ khí hóa của giai đoạn 2.",
+      "Dường như quay lại giai đoạn 1 (canh tác thuận tự nhiên, hữu cơ) nhưng trên một nền tảng trình độ công nghệ, tri thức khoa học và năng suất cao hơn rất nhiều (hình xoáy ốc).",
+      "Là một sự tụt lùi về mặt kinh tế do không dùng hóa chất tăng trưởng."
+    ],
+    "correctIndex": 2,
+    "rewardMana": 30
+  },
+  {
+    "id": 101,
+    "question": "Theo định nghĩa của triết học Mác - Lênin, \"Cái riêng\" là phạm trù triết học dùng để chỉ điều gì?",
+    "options": [
+      "Một thuộc tính, một mặt lặp lại ở nhiều sự vật, hiện tượng khác nhau.",
+      "Một sự vật, một hiện tượng, một quá trình riêng lẻ nhất định tồn tại trong thế giới khách quan.",
+      "Những đặc điểm, tính chất chỉ có ở một sự vật duy nhất mà không lặp lại ở đâu.",
+      "Ý thức cá nhân độc lập của mỗi con người trong xã hội."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 102,
+    "question": "Trong phép duy vật biện chứng, phạm trù \"Cái chung\" được hiểu là gì?",
+    "options": [
+      "Những nét đặc thù mang tính đơn nhất của một sự vật cụ thể.",
+      "Tổng số tất cả các sự vật, hiện tượng đang tồn tại trong vũ trụ.",
+      "Phạm trù triết học dùng để chỉ những mặt, những thuộc tính, những mối liên hệ lặp lại ở nhiều sự vật, hiện tượng khác nhau.",
+      "Sự quy định về mặt số lượng và quy mô của các hiện tượng vật chất."
+    ],
+    "correctIndex": 2,
+    "rewardMana": 30
+  },
+  {
+    "id": 103,
+    "question": "Phạm trù dùng để chỉ các mặt, các đặc điểm vốn có của một sự vật, hiện tượng nhưng chỉ xuất hiện ở sự vật, hiện tượng đó và không lặp lại ở sự vật, hiện tượng khác là phạm trù nào?",
+    "options": [
+      "Cái riêng.",
+      "Cái chung.",
+      "Cái đơn nhất.",
+      "Cái bản chất."
+    ],
+    "correctIndex": 2,
+    "rewardMana": 30
+  },
+  {
+    "id": 104,
+    "question": "Bản chất mối quan hệ biện chứng giữa cái riêng và cái chung theo triết học Mác - Lênin là gì?",
+    "options": [
+      "Cái riêng và cái chung tồn tại biệt lập, không liên quan gì đến nhau.",
+      "Cái chung tồn tại khách quan bên ngoài và độc lập hoàn toàn với cái riêng.",
+      "Cái riêng và cái chung tồn tại trong sự thống nhất biện chứng; cái chung chỉ tồn tại trong cái riêng, thông qua cái riêng mà biểu hiện ra; cái riêng chỉ tồn tại trong mối liên hệ dẫn đến cái chung.",
+      "Cái riêng chỉ là ảo giác, còn cái chung mới là thực tại duy nhất khách quan."
+    ],
+    "correctIndex": 2,
+    "rewardMana": 30
+  },
+  {
+    "id": 105,
+    "question": "Trường phái triết học nào trong lịch sử cho rằng cái chung không tồn tại thực tế, chỉ có các sự vật đơn lẻ tồn tại thực, còn cái chung chỉ là những cái tên gọi trống rỗng do con người đặt ra?",
+    "options": [
+      "Chủ nghĩa duy thực.",
+      "Chủ nghĩa duy danh.",
+      "Chủ nghĩa duy vật biện chứng.",
+      "Chủ nghĩa duy tâm khách quan."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 106,
+    "question": "Khi bàn về mối quan hệ giữa \"Cái riêng\" và \"Cái đơn nhất\", phép duy vật biện chứng khẳng định điều gì về khả năng chuyển hóa giữa chúng?",
+    "options": [
+      "Cái riêng có thể biến thành cái đơn nhất và ngược lại.",
+      "Cái chung và cái đơn nhất không bao giờ có sự chuyển hóa lẫn nhau.",
+      "Trong quá trình phát triển khách quan, cái đơn nhất có thể chuyển hóa thành cái chung (cái mới ra đời) và cái chung có thể chuyển hóa thành cái đơn nhất (cái cũ mất đi).",
+      "Cái riêng có phạm vi nhỏ hơn cái đơn nhất."
+    ],
+    "correctIndex": 2,
+    "rewardMana": 30
+  },
+  {
+    "id": 107,
+    "question": "Nhận định nào sau đây về phạm vi bao hàm giữa cái riêng và cái chung là ĐÚNG theo quan điểm của triết học Mác - Lênin?",
+    "options": [
+      "Cái chung phong phú hơn cái riêng, cái riêng sâu sắc hơn cái chung.",
+      "Cái riêng phong phú hơn cái chung (vì ngoài cái chung, cái riêng còn chứa cái đơn nhất); cái chung sâu sắc hơn cái riêng (vì nó phản ánh những thuộc tính bản chất, có tính quy luật).",
+      "Cái riêng và cái chung hoàn toàn bằng nhau về cả độ phong phú lẫn độ sâu sắc.",
+      "Cái riêng chỉ chứa toàn các thuộc tính đơn nhất, không chứa thuộc tính chung nào."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 108,
+    "question": "Từ mối quan hệ biện chứng giữa cái riêng và cái chung, phương pháp luận nào sau đây được rút ra cho hoạt động thực tiễn?",
+    "options": [
+      "Muốn tìm cái chung, chỉ cần suy luận chủ quan trong tư duy mà không cần nghiên cứu các cái riêng cụ thể.",
+      "Khi giải quyết các vấn đề riêng lẻ, không cần quan tâm đến các nguyên lý chung, quy luật chung của xã hội.",
+      "Muốn nhận thức được cái chung phải xuất phát từ việc nghiên cứu những cái riêng; đồng thời khi vận dụng cái chung vào thực tiễn phải biết \"cá biệt hóa\" cho phù hợp với đặc thù của từng cái riêng.",
+      "Áp dụng nguyên xi mô hình chung vào mọi hoàn cảnh riêng biệt mà không cần thay đổi."
+    ],
+    "correctIndex": 2,
+    "rewardMana": 30
+  },
+  {
+    "id": 109,
+    "question": "Câu nói nổi tiếng của V.I. Lênin: \"Người nào bắt tay vào những câu hỏi riêng trước khi giải quyết các câu hỏi chung, thì người đó... sẽ vấp phải những câu hỏi chung đó\" muốn nhắc nhở chúng ta điều gì?",
+    "options": [
+      "Phải tuyệt đối xóa bỏ cái riêng để tập trung vào cái chung.",
+      "Không được sa đà vào các sự vụ cụ thể, riêng lẻ nếu chưa nắm vững đường lối, nguyên lý và quy luật chung chi phối hệ thống.",
+      "Cái riêng luôn quyết định hoàn toàn bản chất của cái chung trong mọi giai đoạn.",
+      "Chỉ cần nghiên cứu cái đơn nhất là đủ để hiểu toàn bộ thế giới."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 110,
+    "question": "Ý nghĩa thực tiễn của việc nghiên cứu sự chuyển hóa giữa \"Cái đơn nhất\" và \"Cái chung\" trong quản lý xã hội và sản xuất là gì?",
+    "options": [
+      "Phải giữ nguyên cái đơn nhất, không cho nó biến đổi.",
+      "Phải chủ động phát hiện những sáng kiến, cải tiến mới (cái đơn nhất tích cực) để tạo điều kiện cho nó nhân rộng thành cái chung; đồng thời tìm cách loại bỏ cái chung cũ đã lỗi thời đang biến thành cái đơn nhất tiêu cực.",
+      "Ngăn cản mọi cái mới xuất hiện để bảo vệ sự ổn định.",
+      "Coi mọi hiện tượng đơn nhất đều có hại cho nền kinh tế."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 111,
+    "question": "Cho ví dụ: \"Nguyễn Văn A là một con người cụ thể\". Trong mối quan hệ này, \"Nguyễn Văn A\" và thuộc tính \"có tư duy, biết lao động\" lần lượt đóng vai trò là những phạm trù nào?",
+    "options": [
+      "Cái riêng và Cái đơn nhất.",
+      "Cái riêng và Cái chung.",
+      "Cái chung và Cái riêng.",
+      "Cái đơn nhất và Cái riêng."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 112,
+    "question": "Tập hợp các đặc điểm về vân tay, mống mắt và cấu trúc ADN của riêng một cá nhân X đóng vai trò là phạm trù nào trong các phạm trù sau đây?",
+    "options": [
+      "Cái chung.",
+      "Cái đơn nhất.",
+      "Cái riêng.",
+      "Bản chất."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 113,
+    "question": "Việc các loài động vật có vú như voi, cá voi, chuột và con người đều có chung đặc điểm là \"đẻ con và nuôi con bằng sữa mẹ\" chứng minh cho tính chất nào của các phạm trù triết học?",
+    "options": [
+      "Cái chung tồn tại khách quan và biểu hiện thông qua các cái riêng (các loài cụ thể).",
+      "Cái chung chỉ là sự tưởng tượng chủ quan của các nhà sinh học.",
+      "Cái riêng hoàn toàn đồng nhất và không có đặc điểm đặc thù nào.",
+      "Cái đơn nhất thống trị tuyệt đối trong thế giới tự nhiên."
+    ],
+    "correctIndex": 0,
+    "rewardMana": 30
+  },
+  {
+    "id": 114,
+    "question": "Định hướng phát triển kinh tế của Việt Nam là \"Xây dựng nền kinh tế thị trường (cái chung) định hướng xã hội chủ nghĩa phù hợp với đặc điểm lịch sử, văn hóa và thực lực của Việt Nam (cái riêng)\". Việc áp dụng mô hình này thể hiện tư duy phương pháp luận nào?",
+    "options": [
+      "Rập khuôn máy móc mô hình kinh tế của các quốc gia khác.",
+      "Vận dụng đúng đắn mối quan hệ biện chứng giữa cái riêng và cái chung, không giáo điều rập khuôn cái chung, mà biết cụ thể hóa vào hoàn cảnh riêng của đất nước.",
+      "Phủ nhận hoàn toàn các quy luật chung của kinh tế thị trường toàn cầu.",
+      "Coi đặc điểm riêng của Việt Nam là bất biến, không cần hội nhập."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 115,
+    "question": "Trong lịch sử nông nghiệp, ban đầu kỹ thuật \"sử dụng mô hình nhà màng công nghệ cao\" chỉ xuất hiện ở một vài hộ nông dân nhỏ lẻ tại Đà Lạt (cái đơn nhất). Nhận thấy mô hình này giúp chắn mưa gió, hạn chế sâu bệnh và tăng năng suất vượt trội, chính quyền đã hỗ trợ nhân rộng ra toàn tỉnh và cả nước (cái chung). Hiện tượng này phản ánh quy luật nào của cặp phạm trù?",
+    "options": [
+      "Sự lặp lại tuần hoàn của các hiện tượng kinh tế thô sơ.",
+      "Sự chuyển hóa biện chứng từ cái đơn nhất thành cái chung thông qua hoạt động thực tiễn phù hợp quy luật tiến bộ.",
+      "Sự tiêu diệt hoàn toàn cái riêng bởi cái chung công nghệ.",
+      "Tính khách quan độc lập tuyệt đối của cái đơn nhất đối với môi trường xã hội."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 116,
+    "question": "Một công ty phần mềm lớn khi tuyển dụng nhân sự đã áp dụng nguyên xi quy trình phỏng vấn kiểm tra thuật toán cực kỳ khắt khe của Google (cái chung toàn cầu) vào việc tuyển dụng nhân viên thiết kế đồ họa (UI/UX) tại thị trường Việt Nam (cái riêng). Kết quả là công ty không tuyển được ai suốt 6 tháng, trong khi các dự án thiết kế bị đình trệ. Sai lầm của ban nhân sự công ty này là do:",
+    "options": [
+      "Vi phạm quy luật phủ định của phủ định trong việc đào thải nhân sự cũ.",
+      "Giáo điều, rập khuôn, chỉ thấy \"cái chung\" lý thuyết mà không tính đến đặc thù, tính chất khác biệt của \"cái riêng\" (yêu cầu công việc của designer khác lập trình viên hệ thống, thị trường lao động thực tế tại địa phương).",
+      "Quá bảo thủ, trì trệ, không chịu áp dụng tiêu chuẩn quốc tế.",
+      "Tuyệt đối hóa cái đơn nhất của ứng viên Việt Nam."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 117,
+    "question": "Trong một dự án khởi nghiệp về thương mại điện tử, một nhóm sinh viên quyết định \"không cần nghiên cứu bất kỳ kiến thức nào về quản trị kinh doanh, marketing hay tài chính\" (các quy luật chung), với lý do: \"Mỗi Startup là một cái riêng độc nhất, không ai giống ai, nên cứ tự làm theo cách của mình\". Dự án thất bại sau 2 tháng do cạn dòng tiền. Dưới góc độ triết học Mác - Lênin, nhóm sinh viên này đã mắc sai lầm gì?",
+    "options": [
+      "Quá sa đà vào việc nghiên cứu cái chung lý thuyết.",
+      "Tách rời cái riêng khỏi cái chung, không hiểu rằng cái riêng chỉ tồn tại trong mối liên hệ dẫn đến cái chung; phủ nhận vai trò của các quy luật chung, nguyên lý chung trong kinh doanh dẫn đến hành động mù quáng.",
+      "Vận dụng đúng quan điểm lịch sử - cụ thể nhưng thiếu may mắn.",
+      "Rơi vào sai lầm nóng vội, đốt cháy giai đoạn của quy luật lượng - chất."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 118,
+    "question": "Một giáo viên chủ nhiệm khi giải quyết vụ việc hai học sinh xích mích trong lớp đã lập tức áp dụng hình thức \"đình chỉ học tập 1 tuần\" theo đúng khung nội quy chung của nhà trường, mà không chịu tìm hiểu nguyên nhân sâu xa (một bạn bị bắt nạt học đường kéo dài dẫn đến tự vệ bột phát). Quyết định này khiến học sinh bị phạt rơi vào trầm cảm và phụ huynh bức xúc. Cách quản lý của giáo viên này phạm vào điều gì?",
+    "options": [
+      "Phương pháp luận mâu thuẫn đối kháng giai cấp.",
+      "Biểu hiện của tư duy siêu hình, cứng nhắc, cào bằng; chỉ biết áp dụng cái chung một cách máy móc mà phớt lờ hoàn toàn hoàn cảnh cụ thể, những thuộc tính đơn nhất của cái riêng.",
+      "Sự bao che vô nguyên tắc cho các hành vi bạo lực học đường.",
+      "Vận dụng đúng tính kế thừa biện chứng trong giáo dục."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 119,
+    "question": "Khi triển khai chiến dịch \"Chuyển đổi số và làm việc không giấy tờ\" tại một tổng công ty, ban điều hành nhận thấy văn phòng miền Nam thích ứng rất nhanh nhờ nhân sự trẻ, còn văn phòng miền Bắc thích ứng chậm do nhiều nhân sự lớn tuổi thạo việc cũ. Thay vì ép buộc thời hạn giống nhau, CEO quyết định thiết kế hai lộ trình tập huấn riêng biệt cho từng văn phòng nhưng vẫn đảm bảo đích đến cuối cùng là đồng bộ hệ thống dữ liệu chung. Cách xử lý của CEO thể hiện:",
+    "options": [
+      "Sự thiếu nhất quán, bất lực của nhà quản lý trước nhân viên.",
+      "Việc nhận thức sâu sắc mối quan hệ giữa cái riêng và cái chung: Xuất phát từ cái chung (mục tiêu chuyển đổi số) nhưng phải tôn trọng và giải quyết thỏa đáng những đặc thù riêng biệt (cái riêng, cái đơn nhất của từng chi nhánh) để đạt hiệu quả cao nhất.",
+      "Xu hướng lùi lại phía sau của nền kinh tế số.",
+      "Phủ định sạch trơn vai trò của quy trình quản lý đồng bộ."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 120,
+    "question": "Trải qua các nghiên cứu về dịch tễ học, các nhà khoa học phát hiện ra rằng virus độc lực cao X khi xâm nhập vào cơ thể người nói chung đều gây ra tình trạng bão Cytokine (cái chung). Tuy nhiên, trên mỗi bệnh nhân cụ thể, có người chỉ sốt nhẹ, có người lại suy hô hấp nguy kịch do nền bệnh lý và hệ miễn dịch khác nhau (cái riêng, cái đơn nhất). Từ hiện tượng y học này, phương pháp luận đúng đắn nhất trong phác đồ điều trị của y học hiện đại là gì?",
+    "options": [
+      "Sử dụng đúng một liều lượng thuốc giống hệt nhau cho mọi bệnh nhân mà không cần xét nghiệm riêng.",
+      "Chỉ cần điều trị các triệu chứng bên ngoài, không cần nghiên cứu cơ chế hoạt động chung của virus.",
+      "Phải kết hợp chặt chẽ giữa phác đồ điều trị chung của Bộ Y tế và việc cá thể hóa điều trị (điều trị theo thể trạng, bệnh nền cụ thể của từng bệnh nhân) để đạt hiệu quả tối ưu và an toàn.",
+      "Coi mỗi bệnh nhân là một thực thể hoàn toàn tách biệt, không có bất kỳ điểm chung nào với loài người."
+    ],
+    "correctIndex": 2,
+    "rewardMana": 30
+  },
+  {
+    "id": 121,
+    "question": "Theo quan điểm của triết học Mác - Lênin, phạm trù \"Nguyên nhân\" dùng để chỉ điều gì?",
+    "options": [
+      "Sự biến đổi xuất hiện sau một hiện tượng khác một cách ngẫu nhiên.",
+      "Phạm trù triết học dùng để chỉ sự tương tác lẫn nhau giữa các mặt trong một sự vật hoặc giữa các sự vật với nhau, từ đó gây ra những biến đổi nhất định.",
+      "Ý muốn chủ quan của con người làm thay đổi trạng thái của thế giới.",
+      "Trạng thái đứng im, không biến đổi của các vật thể trong không gian."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 122,
+    "question": "Phạm trù \"Kết quả\" trong phép duy vật biện chứng được định nghĩa là gì?",
+    "options": [
+      "Những biến đổi xuất hiện do sự tác động lẫn nhau giữa các mặt, các yếu tố trong một sự vật hoặc giữa các sự vật với nhau gây ra.",
+      "Hiện tượng xuất hiện trước và quy định hình dáng của các hiện tượng sau.",
+      "Sự phán đoán mang tính lý thuyết của các nhà khoa học về tương lai.",
+      "Mục đích cuối cùng được định sẵn bởi một lực lượng siêu nhiên."
+    ],
+    "correctIndex": 0,
+    "rewardMana": 30
+  },
+  {
+    "id": 123,
+    "question": "Tính chất nào sau đây KHÔNG phải là tính chất của mối quan hệ nhân quả theo phép duy vật biện chứng?",
+    "options": [
+      "Tính khách quan.",
+      "Tính phổ biến.",
+      "Tính tất yếu.",
+      "Tính chủ quan, do con người suy diễn."
+    ],
+    "correctIndex": 3,
+    "rewardMana": 30
+  },
+  {
+    "id": 124,
+    "question": "Điểm khác biệt cốt lõi giữa \"Nguyên nhân\" và \"Nguyên cớ\" là gì?",
+    "options": [
+      "Nguyên nhân mang tính chủ quan, còn nguyên cớ mang tính khách quan.",
+      "Nguyên nhân có mối liên hệ tất yếu, sinh sản ra kết quả; còn nguyên cớ chỉ là hiện tượng khách quan xuất hiện bên ngoài, không sinh ra kết quả, được dùng làm cớ để che đậy nguyên nhân thực sự.",
+      "Nguyên cớ luôn xuất hiện sau kết quả, còn nguyên nhân xuất hiện trước kết quả.",
+      "Nguyên nhân và nguyên cớ là hai khái niệm hoàn toàn đồng nhất về bản chất."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 125,
+    "question": "Trong mối quan hệ nhân quả, \"Điều kiện\" được hiểu như thế nào?",
+    "options": [
+      "Là những yếu tố trực tiếp sinh ra kết quả mà không cần yếu tố khác.",
+      "Là những hiện tượng đi kèm nguyên nhân, mặc dù không trực tiếp sinh ra kết quả nhưng lại là yếu tố cần thiết để nguyên nhân phát huy tác dụng sinh ra kết quả.",
+      "Là ý chí của con người thúc đẩy sự vật vận động nhanh hơn.",
+      "Là điểm kết thúc của một chu kỳ phát triển kinh tế."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 126,
+    "question": "Khi bàn về chiều tác động của mối quan hệ nhân quả, phép duy vật biện chứng khẳng định điều gì?",
+    "options": [
+      "Mối quan hệ nhân quả là một chiều, nguyên nhân sinh ra kết quả và kết quả không có sự tác động ngược lại.",
+      "Nguyên nhân sinh ra kết quả, nhưng sau khi ra đời, kết quả lại có sự tác động trở lại (phản hồi) đối với nguyên nhân đã sinh ra nó, làm biến đổi nguyên nhân.",
+      "Kết quả luôn sinh ra nguyên nhân một cách ngẫu nhiên.",
+      "Cả nguyên nhân và kết quả đều biến mất ngay sau khi chúng gặp nhau."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 127,
+    "question": "Hiện tượng \"Chuỗi nhân quả\" trong thế giới khách quan có nghĩa là gì?",
+    "options": [
+      "Một nguyên nhân chỉ có thể sinh ra duy nhất một kết quả cố định vĩnh viễn.",
+      "Một kết quả là do một nguyên nhân duy nhất sinh ra ở mọi không gian.",
+      "Mối liên hệ nhân quả là vô cùng tận; một hiện tượng là kết quả của nguyên nhân trước, đồng thời lại đóng vai trò là nguyên nhân sinh ra kết quả sau.",
+      "Chuỗi các sự kiện diễn ra theo vòng tròn khép kín hoàn hảo."
+    ],
+    "correctIndex": 2,
+    "rewardMana": 30
+  },
+  {
+    "id": 128,
+    "question": "Từ cặp phạm trù Nguyên nhân - Kết quả, triết học Mác - Lênin rút ra phương pháp luận cơ bản nào?",
+    "options": [
+      "Vì mối quan hệ nhân quả mang tính khách quan nên muốn tìm nguyên nhân của một hiện tượng phải tìm trong bản thân thế giới vật chất, không được tưởng tượng ra; đồng thời phải biết phân loại nguyên nhân để giải quyết đúng trọng tâm.",
+      "Có thể dựa vào ý muốn chủ quan để thay đổi kết quả mà không cần can thiệp vào nguyên nhân.",
+      "Xem xét các hiện tượng nối tiếp nhau về mặt thời gian là đủ để kết luận quan hệ nhân quả.",
+      "Phớt lờ các kết quả phụ để tập trung vào một kết quả chính duy nhất."
+    ],
+    "correctIndex": 0,
+    "rewardMana": 30
+  },
+  {
+    "id": 129,
+    "question": "Sai lầm của việc \"Nhầm lẫn giữa quan hệ nối tiếp về mặt thời gian và quan hệ nhân quả\" (Hậu quả của tư duy siêu hình) là gì?",
+    "options": [
+      "Thừa nhận mọi sự vật đều có nguyên nhân khách quan.",
+      "Coi bất kỳ hiện tượng nào xuất hiện trước cũng là nguyên nhân trực tiếp sinh ra hiện tượng xuất hiện sau.",
+      "Tách rời hoàn toàn yếu tố thời gian ra khỏi sự vận động của vật chất.",
+      "Cho rằng kết quả xuất hiện đồng thời với nguyên nhân."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 130,
+    "question": "Khi một kết quả được sinh ra bởi nhiều nguyên nhân tác động cùng một lúc, để giải quyết kết quả đó một cách có hiệu quả nhất trong thực tiễn, chúng ta phải làm gì?",
+    "options": [
+      "Đối xử với mọi nguyên nhân như nhau, cào bằng vai trò của chúng.",
+      "Phân tích, phân loại rõ các loại nguyên nhân (nguyên nhân chủ yếu, nguyên nhân thứ yếu, nguyên nhân bên trong, nguyên nhân bên ngoài) để có giải pháp tác động phù hợp.",
+      "Chỉ cần loại bỏ nguyên nhân bên ngoài là đủ.",
+      "Đợi các nguyên nhân tự triệt tiêu lẫn nhau."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 131,
+    "question": "Hiện tượng: \"Dòng điện chạy qua dây dẫn làm cho dây dẫn nóng lên\" là ví dụ minh chứng cho:",
+    "options": [
+      "Mối quan hệ giữa bản chất và hiện tượng vật lý.",
+      "Mối quan hệ nhân quả khách quan trong giới tự nhiên.",
+      "Sự ngẫu nhiên không có quy luật của năng lượng.",
+      "Sự áp đặt chủ quan của con người vào thực nghiệm."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 132,
+    "question": "Câu tục ngữ Việt Nam: \"Không có lửa làm sao có khói\" phản ánh tính chất nào của mối quan hệ nhân quả?",
+    "options": [
+      "Tính chủ quan của nhận thức xã hội.",
+      "Tính phổ biến và tính tất yếu của mối quan hệ nhân quả (mọi kết quả đều có nguyên nhân của nó).",
+      "Sự biến đổi tuần hoàn của các hiện tượng thời tiết.",
+      "Tính kế thừa biện chứng trong đời sống hàng ngày."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 133,
+    "question": "Việc một người thường xuyên ăn thức ăn nhanh, uống trà sữa nhiều đường và lười vận động dẫn đến kết quả bị béo phì và mắc bệnh tiểu đường. Hiện tượng này thể hiện mặt nào của mối quan hệ nhân quả?",
+    "options": [
+      "Một nguyên nhân sinh ra một kết quả duy nhất.",
+      "Sự tác động tổng hợp của nhiều nguyên nhân khác nhau dẫn đến một kết quả cụ thể.",
+      "Sự độc lập của lối sống cá nhân đối với sức khỏe sinh học.",
+      "Nguyên cớ của căn bệnh nằm ở yếu tố thời gian."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 134,
+    "question": "Trong lịch sử ngoại giao, năm 1964, Mỹ dựng lên \"Sự kiện Vịnh Bắc Bộ\" để lấy cớ ném bom đánh phá miền Bắc Việt Nam. Dưới góc độ triết học, \"Sự kiện Vịnh Bắc Bộ\" đóng vai trò là phạm trù nào trong hành động của Mỹ?",
+    "options": [
+      "Nguyên nhân chủ yếu.",
+      "Nguyên cớ.",
+      "Điều kiện khách quan.",
+      "Kết quả tất yếu."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 135,
+    "question": "Một học sinh chăm chỉ đọc sách, rèn luyện tư duy phản biện nên kết quả học tập rất xuất sắc. Do học xuất sắc, bạn được nhận học bổng cao, dùng số tiền đó để mua thêm tài liệu tiên tiến và tham gia các khóa học chuyên sâu, từ đó năng lực tư duy lại càng phát triển mạnh mẽ hơn. Hiện tượng này minh chứng cho điều gì?",
+    "options": [
+      "Sự vận động tuần hoàn khép kín của tri thức.",
+      "Sự tác động ngược lại của kết quả đối với nguyên nhân ban đầu, tạo thành một vòng lặp thúc đẩy phát triển.",
+      "Mối quan hệ nhân quả mang tính chất một chiều tĩnh tại.",
+      "Sự ngẫu nhiên, may mắn trong học tập của cá nhân."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 136,
+    "question": "Một doanh nghiệp sản xuất đồ gia dụng nhận thấy doanh số bán hàng sụt giảm nghiêm trọng (kết quả). Giám đốc Marketing lập tức khẳng định nguyên nhân là do \"đội ngũ bán hàng lười biếng\" và ra lệnh cắt giảm lương của họ. Tuy nhiên, sau 3 tháng, doanh số vẫn tiếp tục lao dốc. Nghiên cứu độc lập sau đó cho thấy nguyên nhân thực sự là do đối thủ cạnh tranh đã ra mắt sản phẩm mới có tính năng AI thông minh với giá rẻ hơn, kết hợp với xu hướng tiêu dùng thay đổi. Sai lầm của Giám đốc Marketing là gì?",
+    "options": [
+      "Vi phạm quy luật lượng - chất khi tích lũy lượng quá chậm.",
+      "Chủ quan, phiến diện, nhầm lẫn giữa \"nguyên cớ\" bề ngoài (thái độ nhân viên) với \"nguyên nhân chủ yếu bên trong\" (sự lạc hậu của sản phẩm và áp lực thị trường), dẫn đến giải pháp sai lầm.",
+      "Vận dụng đúng quan điểm lịch sử - cụ thể nhưng thiếu kinh phí.",
+      "Rơi vào phủ định biện chứng sạch trơn quá khứ."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 137,
+    "question": "Trong quản lý dự án công nghệ thông tin, một phần mềm khi vận hành thử nghiệm liên tục bị sập hệ thống (Crash). Đội ngũ kỹ sư chỉ tập trung vá các lỗi mã nguồn xuất hiện trên màn hình (phần ngọn của kết quả) mà không tìm hiểu nguyên nhân gốc rễ là do kiến trúc cơ sở dữ liệu ban đầu bị thiết kế sai luồng dữ liệu. Hậu quả là phần mềm cứ sửa được lỗi này lại đẻ ra lỗi khác. Cách giải quyết của đội ngũ kỹ sư đã vi phạm phương pháp luận nào?",
+    "options": [
+      "Tách rời cái riêng khỏi cái chung của hệ thống.",
+      "Không nhận thức được chuỗi nhân quả và mối quan hệ giữa nguyên nhân gốc rễ với kết quả, chỉ giải quyết hiện tượng bề ngoài thay vì triệt tiêu nguyên nhân bên trong.",
+      "Vận dụng quá mức tư duy phát triển tiến lên đường thẳng.",
+      "Quá chú trọng vào mâu thuẫn đối kháng giữa các lập trình viên."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 138,
+    "question": "Một Startup triển khai mô hình kinh doanh chia sẻ xe máy điện tại một thành phố lớn. Dù sản phẩm rất tốt và giá rẻ (nguyên nhân), dự án vẫn thất bại hoàn toàn do thành phố chưa có hệ thống trạm sạc công cộng, luật giao thông chưa có khung pháp lý cho loại xe này và thời tiết năm đó mưa bão kéo dài liên tục. Thất bại của Startup này minh chứng cho vai trò của phạm trù nào?",
+    "options": [
+      "Nguyên nhân bên trong quyết định hoàn toàn mọi kết quả.",
+      "Vai trò quan trọng của \"Điều kiện\"; nếu thiếu các điều kiện khách quan thích hợp (hạ tầng, pháp lý, môi trường) thì nguyên nhân dù tốt cũng không thể phát huy tác dụng để sinh ra kết quả mong muốn.",
+      "Sự áp đặt mang tính chủ quan của người tiêu dùng đối với công nghệ số.",
+      "Phủ định siêu hình của các đối thủ cạnh tranh truyền thống."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 139,
+    "question": "Để giải quyết triệt để nạn ô nhiễm rác thải nhựa tại các đô thị lớn hiện nay, chính quyền một thành phố đã ban hành lệnh \"Cấm hoàn toàn người dân mua bán túi nilon\" từ ngày mai. Chính sách này lập tức thất bại và bị phản ứng dữ dội vì gây tê liệt hoạt động chợ truyền thống. Dưới góc độ triết học, giải pháp của thành phố thất bại là vì:",
+    "options": [
+      "Thành phố đã bỏ qua quy luật mâu thuẫn giai cấp trong xã hội.",
+      "Nóng vội, chỉ muốn xóa bỏ kết quả (rác thải nhựa) bằng mệnh lệnh hành chính mà không giải quyết đồng bộ hệ thống các nguyên nhân và điều kiện sinh ra nó (thói quen tiêu dùng, thiếu sản phẩm thay thế giá rẻ, công nghệ tái chế chưa phát triển).",
+      "Đã vận dụng đúng quan điểm toàn diện nhưng người dân thiếu ý thức.",
+      "Rơi vào chủ nghĩa bảo thủ, trì trệ của tư duy kinh tế bao cấp."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 140,
+    "question": "Trong chiến dịch chuyển đổi số doanh nghiệp, việc ứng dụng phần mềm ERP (quản trị nguồn lực) giúp tối ưu hóa dòng tiền và giảm chi phí quản lý (kết quả 1). Khi chi phí giảm, doanh nghiệp có thêm ngân sách để tăng lương cho nhân sự và giảm giá thành sản phẩm (kết quả 2). Giá thành rẻ giúp doanh nghiệp chiếm lĩnh thị phần và tăng doanh thu gấp đôi (kết quả 3). Tiến trình phát triển này thể hiện đặc điểm nào của mối quan hệ nhân quả?",
+    "options": [
+      "Sự lặp lại tuần hoàn khép kín của các hiện tượng tài chính.",
+      "Tính chất của \"Chuỗi nhân quả\", trong đó hiện tượng này là kết quả của giai đoạn trước, nhưng lại chuyển hóa thành nguyên nhân để sinh ra kết quả của giai đoạn sau, thúc đẩy doanh nghiệp phát triển không ngừng.",
+      "Sự độc lập hoàn toàn của kết quả cuối cùng đối với quyết định ban đầu của CEO.",
+      "Phủ định sạch trơn vai trò của mô hình quản lý truyền thống."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 141,
+    "question": "Theo quan điểm của triết học Mác - Lênin, phạm trù \"Tất nhiên\" (Tất yếu) dùng để chỉ điều gì?",
+    "options": [
+      "Cái do ý muốn chủ quan của con người quy định và định hướng trước.",
+      "Phạm trù chỉ cái do những nguyên nhân cơ bản, bên trong của kết cấu vật chất quyết định và trong những điều kiện nhất định nó phải xảy ra như thế chứ không thể khác.",
+      "Cái xuất hiện do các tác động bên ngoài một cách hoàn toàn không có quy luật.",
+      "Sự vật, hiện tượng xuất hiện một cách tình cờ trong không gian."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 142,
+    "question": "Trong phép duy vật biện chứng, phạm trù \"Ngẫu nhiên\" được định nghĩa như thế nào?",
+    "options": [
+      "Cái do các mối liên hệ bản chất bên trong của sự vật quyết định.",
+      "Cái nhất thiết phải xảy ra đúng như lộ trình đã vạch sẵn từ trước.",
+      "Phạm trù chỉ cái không do mối liên hệ bản chất, bên trong, mà do những nguyên nhân vòng vo, bên ngoài, sự kết hợp của những hoàn cảnh bên ngoài quyết định; nó có thể xảy ra hoặc không xảy ra, có thể xảy ra thế này hoặc thế khác.",
+      "Ý niệm tuyệt đối hóa các hiện tượng thần bí trong giới tự nhiên."
+    ],
+    "correctIndex": 2,
+    "rewardMana": 30
+  },
+  {
+    "id": 143,
+    "question": "Đâu là một trong những tính chất cơ bản của tất nhiên và ngẫu nhiên khách quan?",
+    "options": [
+      "Cả hai đều mang tính chủ quan của tư duy.",
+      "Cả hai đều tồn tại khách quan trong thế giới vật chất, độc lập với ý thức của con người.",
+      "Tất nhiên thì khách quan, còn ngẫu nhiên thì hoàn toàn chủ quan.",
+      "Cả hai đều mang tính bất biến và không bao giờ chuyển hóa."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 144,
+    "question": "Sai lầm của quan điểm duy vật siêu hình (cơ học) khi xem xét cặp phạm trù này là gì?",
+    "options": [
+      "Thừa nhận cả tất nhiên và ngẫu nhiên đều tồn tại khách quan.",
+      "Phủ nhận sự tồn tại của ngẫu nhiên, coi mọi hiện tượng trên thế giới đều là tất nhiên, dẫn đến thuyết định mệnh.",
+      "Phủ nhận sự tồn tại của tất nhiên, coi thế giới hoàn toàn là ngẫu nhiên.",
+      "Thừa nhận sự chuyển hóa biện chứng giữa tất nhiên và ngẫu nhiên."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 145,
+    "question": "Quan điểm duy tâm khách quan lý giải về \"Tất nhiên\" như thế nào?",
+    "options": [
+      "Là quy luật khách quan vốn có của bản thân thế giới vật chất.",
+      "Là sự sắp đặt mang tính mục đích của Thượng đế hoặc \"Ý niệm tuyệt đối\".",
+      "Là thói quen tâm lý lặp đi lặp lại của con người khi quan sát hiện tượng.",
+      "Là sự hỗn loạn vô tổ chức của các nguyên tử."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 146,
+    "question": "Mối quan hệ biện chứng giữa tất nhiên và ngẫu nhiên được biểu hiện như thế nào theo phép duy vật biện chứng?",
+    "options": [
+      "Tất nhiên và ngẫu nhiên tách rời tuyệt đối, không có điểm chung.",
+      "Tất nhiên và ngẫu nhiên tồn tại trong sự thống nhất biện chứng; tất nhiên bao giờ cũng vạch đường đi cho mình xuyên qua muôn vàn cái ngẫu nhiên; ngẫu nhiên là hình thức biểu hiện của tất nhiên, đồng thời bổ sung cho tất nhiên.",
+      "Tất nhiên luôn chuyển hóa thành ngẫu nhiên nhưng ngẫu nhiên không thể chuyển hóa ngược lại.",
+      "Ngẫu nhiên quyết định bản chất và xu hướng vận động của tất nhiên."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 147,
+    "question": "Trong quá trình phát triển của sự vật và hiện tượng, tất nhiên và ngẫu nhiên có khả năng chuyển hóa lẫn nhau không?",
+    "options": [
+      "Hoàn toàn không, tất nhiên mãi là tất nhiên, ngẫu nhiên mãi là ngẫu nhiên.",
+      "Có thể chuyển hóa lẫn nhau khi thay đổi các điều kiện lịch sử - cụ thể nhất định; cái vốn là ngẫu nhiên trong điều kiện này có thể biến thành tất nhiên trong điều kiện khác và ngược lại.",
+      "Chỉ có tất nhiên chuyển hóa thành ngẫu nhiên trong lĩnh vực xã hội.",
+      "Sự chuyển hóa chỉ diễn ra trong tư duy của con người, không diễn ra ngoài thực tế."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 148,
+    "question": "Từ cặp phạm trù Tất nhiên - Ngẫu nhiên, phương pháp luận nào sau đây được rút ra cho hoạt động thực tiễn?",
+    "options": [
+      "Trong hoạt động thực tiễn phải dựa vào cái tất nhiên, vì cái tất nhiên vạch ra hướng phát triển của sự vật; không được dựa vào cái ngẫu nhiên.",
+      "Phải hoàn toàn dựa vào cái ngẫu nhiên để cầu may và chớp thời cơ giật cục.",
+      "Vì cái ngẫu nhiên không có quy luật nên ta có thể phớt lờ, không cần có phương án dự phòng nào cho nó.",
+      "Đồng nhất vai trò của tất nhiên và ngẫu nhiên trong mọi kế hoạch kinh doanh."
+    ],
+    "correctIndex": 0,
+    "rewardMana": 30
+  },
+  {
+    "id": 149,
+    "question": "Yêu cầu nào sau đây thể hiện việc vận dụng đúng đắn mối quan hệ giữa tất nhiên và ngẫu nhiên trong nhận thức khoa học?",
+    "options": [
+      "Chỉ cần nghiên cứu các hiện tượng ngẫu nhiên rời rạc là đủ hiểu bản chất sự vật.",
+      "Muốn nhận thức được cái tất nhiên thì phải xuất phát từ việc nghiên cứu, phân tích muôn vàn cái ngẫu nhiên bề ngoài để rút ra quy luật.",
+      "Xem xét cái tất nhiên độc lập hoàn toàn, không cần thông qua các biểu hiện ngẫu nhiên.",
+      "Coi tất nhiên và ngẫu nhiên là hai đường thẳng song song không bao giờ gặp nhau."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 150,
+    "question": "Trong thực tiễn quản lý, việc chúng ta lập ra các quỹ dự phòng khủng hoảng, phương án ứng phó thiên tai, sự cố kỹ thuật là dựa trên cơ sở nhận thức triết học nào?",
+    "options": [
+      "Ngẫu nhiên hoàn toàn không có thực nên không cần quan tâm.",
+      "Tất nhiên quyết định tất cả nên không thể thay đổi được gì.",
+      "Tuy tất nhiên đóng vai trò quyết định, nhưng ngẫu nhiên có ảnh hưởng nhất định đến tốc độ, sự thăng trầm của tiến trình phát triển, nên phải có phương án dự phòng để hạn chế ngẫu nhiên tiêu cực và tận dụng ngẫu nhiên tích cực.",
+      "Ý chí chủ quan của nhà quản lý có thể triệt tiêu hoàn toàn mọi cái ngẫu nhiên."
+    ],
+    "correctIndex": 2,
+    "rewardMana": 30
+  },
+  {
+    "id": 151,
+    "question": "Hiện tượng: \"Một quả táo chín rụng từ trên cây xuống đất do lực hút của Trái Đất\" và \"Quả táo đó rơi trúng đầu của một người đi ngang qua\" lần lượt đóng vai trò là những phạm trù nào?",
+    "options": [
+      "Ngẫu nhiên và Tất nhiên.",
+      "Tất nhiên và Ngẫu nhiên.",
+      "Bản chất và Hiện tượng.",
+      "Nguyên nhân và Kết quả một chiều."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 152,
+    "question": "Việc \"Cung vượt quá cầu dẫn đến giá cả hàng hóa giảm xuống thấp hơn giá trị\" trong nền kinh tế thị trường tự do là biểu hiện của phạm trù nào?",
+    "options": [
+      "Ngẫu nhiên.",
+      "Tất nhiên (Tất yếu kinh tế).",
+      "Quy luật phủ định xã hội.",
+      "Hiện tượng chủ quan của tiểu thương."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 153,
+    "question": "Câu thành ngữ Việt Nam: \"Mèo mù vớ cá rán\" phản ánh hiện tượng thuộc phạm trù nào sau đây?",
+    "options": [
+      "Tất nhiên.",
+      "Ngẫu nhiên.",
+      "Bản chất.",
+      "Khả năng thực tế."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 154,
+    "question": "Trong lịch sử sinh học, các đột biến gen xuất hiện lẻ tẻ, tình cờ trên một vài cá thể do tác động của tia phóng xạ môi trường ban đầu là hiện tượng ngẫu nhiên. Tuy nhiên, nếu đột biến đó giúp cá thể thích nghi tốt hơn với khí hậu và được chọn lọc tự nhiên giữ lại, truyền qua nhiều thế hệ, nó sẽ trở thành đặc điểm phổ biến của cả giống loài. Hiện tượng này minh chứng cho điều gì?",
+    "options": [
+      "Sự cô lập giữa các hiện tượng sinh học.",
+      "Sự chuyển hóa biện chứng từ cái ngẫu nhiên thành cái tất nhiên khi điều kiện thay đổi.",
+      "Sự thống trị tuyệt đối của thuyết định mệnh trong tiến hóa.",
+      "Tính chất chủ quan của quá trình chọn lọc tự nhiên."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 155,
+    "question": "Việc một người đi xe máy phóng nhanh vượt ẩu, lạng lách trên đường cao tốc thì việc \"gặp tai nạn giao thông\" là kết cục mang tính chất gì dưới góc độ triết học?",
+    "options": [
+      "Ngẫu nhiên, hoàn toàn do xui xẻo.",
+      "Tất nhiên (Tất yếu biện chứng từ hành vi vi phạm quy luật an toàn).",
+      "Ý niệm tuyệt đối sắp đặt trước.",
+      "Sự trùng hợp không có nguyên nhân."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 156,
+    "question": "Một công ty kinh doanh phần mềm đang trên đà phát triển rất tốt (tất nhiên). Bất ngờ, một trận động đất lớn xảy ra tại quốc gia đặt máy chủ chính của công ty, khiến toàn bộ hệ thống dữ liệu bị mất kết nối suốt 48 giờ, doanh nghiệp bị khách hàng khiếu nại dữ dội và sụt giảm uy tín. Thất bại tạm thời này của doanh nghiệp bị chi phối bởi:",
+    "options": [
+      "Quy luật lượng - chất do tích lũy chưa đủ.",
+      "Sự tác động của cái ngẫu nhiên (thiên tai bất ngờ) ảnh hưởng đến tiến trình phát triển của tất nhiên, do doanh nghiệp không có phương án sao lưu dữ liệu dự phòng (Backup) ở nhiều khu vực địa lý khác nhau.",
+      "Bản chất yếu kém của công nghệ phần mềm.",
+      "Phủ định siêu hình của các đối thủ cạnh tranh."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 157,
+    "question": "Một nhà khoa học trong quá trình nghiên cứu thuốc chữa bệnh dạ dày đã vô tình làm đổ một hợp chất hóa học vào đĩa nuôi cấy vi khuẩn và phát hiện ra hợp chất này tiêu diệt được vi khuẩn một cách mạnh mẽ (sự kiện ngẫu nhiên). Thay vì bỏ qua, ông đã đi sâu vào nghiên cứu cơ chế và tìm ra một loại kháng sinh mới cứu sống hàng triệu người (tất nhiên). Cách xử lý của nhà khoa học thể hiện phương pháp luận nào?",
+    "options": [
+      "Coi ngẫu nhiên là cái vô nghĩa, không cần nghiên cứu.",
+      "Nhận thức được rằng tất nhiên luôn ẩn giấu đằng sau cái ngẫu nhiên; biết nắm bắt cái ngẫu nhiên tích cực để tìm ra quy luật tất nhiên của khoa học.",
+      "Rơi vào tư duy định mệnh, phó mặc cho sự may rủi của thực nghiệm.",
+      "Áp dụng máy móc quan điểm toàn diện cào bằng mọi yếu tố."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 158,
+    "question": "Một Startup công nghệ ra mắt một ứng dụng giao đồ ăn tại thị trường Việt Nam. Gặp đúng thời điểm dịch bệnh bùng phát, người dân bị hạn chế ra đường, ứng dụng này lập tức bùng nổ doanh số và đạt mốc triệu người dùng chỉ sau 1 tháng. Ban giám đốc cho rằng thành công này hoàn toàn là do \"thiên tài quản lý\" của mình và tiếp tục giữ nguyên mô hình vận hành lỏng lẻo. Khi dịch bệnh kết thúc, người dân quay lại ăn tại quán, ứng dụng lâm vào khủng hoảng cạn vốn. Sai lầm của ban giám đốc Startup này là:",
+    "options": [
+      "Quá chú trọng vào mâu thuẫn đối kháng trên thị trường.",
+      "Nhầm lẫn giữa cái ngẫu nhiên thời cuộc (dịch bệnh thúc đẩy nhu cầu tạm thời) với cái tất nhiên lâu dài (chất lượng dịch vụ, năng lực quản lý dòng tiền, nhu cầu thực chất của thị trường), dẫn đến ảo tưởng và thất bại.",
+      "Vận dụng đúng quy luật lượng - chất nhưng thiếu may mắn.",
+      "Phủ định sạch trơn vai trò của công nghệ số."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 159,
+    "question": "Trong đợt tuyển dụng nhân sự cấp cao cho một tập đoàn tài chính, một ứng viên có hồ sơ rất bình thường, kinh nghiệm non trẻ nhưng nhờ có bố là đối tác lớn của tập đoàn nên đã được đặc cách vào vị trí Giám đốc Đầu tư. Sau 6 tháng điều hành, do thiếu năng lực cốt lõi, anh ta đã đưa ra những quyết định sai lầm khiến tập đoàn thua lỗ hàng trăm tỷ đồng và bị hội đồng quản trị sa thải. Hiện tượng này minh chứng cho nguyên lý nào?",
+    "options": [
+      "Cái ngẫu nhiên có thể thay thế hoàn toàn và vĩnh viễn cái tất nhiên.",
+      "Cái ngẫu nhiên (quan hệ ngoại giao) có thể làm thay đổi vị trí tạm thời, nhưng cái tất nhiên (năng lực thực chất, quy luật vận hành của thị trường) cuối cùng vẫn sẽ mở đường cho mình và quyết định kết quả khách quan.",
+      "Sự sụp đổ của tập đoàn là do vận xui của năm tuổi ứng viên.",
+      "Tư duy siêu hình cào bằng giữa năng lực và mối quan hệ."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 160,
+    "question": "Khi xây dựng chiến lược chuyển đổi số cho một ngân hàng thương mại, ban dự án xác định việc \"hệ thống Core Banking sẽ bị hacker tấn công\" trong tương lai là điều ngẫu nhiên về mặt thời điểm và hình thức tấn công, nhưng việc \"phải xây dựng hệ thống bảo mật đa lớp vững chắc\" là điều tất nhiên để bảo vệ tài sản của khách hàng. Cách tư duy của ban dự án thể hiện việc vận dụng phương pháp luận nào?",
+    "options": [
+      "Tuyệt đối hóa cái ngẫu nhiên để không cần đầu tư bảo mật quá sớm.",
+      "Nhận thức đúng đắn mối quan hệ giữa tất nhiên và ngẫu nhiên: Dựa vào cái tất nhiên (yêu cầu an toàn hệ thống) để xây dựng chiến lược hành động cốt lõi, đồng thời dự phòng cho các tình huống ngẫu nhiên (hình thức tấn công của hacker) để không bị động trong thực tiễn.",
+      "Thuyết định mệnh, chấp nhận rủi ro bị tấn công mà không cần phòng thủ.",
+      "Quan điểm phiến diện, chỉ tập trung vào công nghệ bỏ qua yếu tố con người."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 161,
+    "question": "Theo quan điểm của triết học Mác - Lênin, phạm trù \"Nội dung\" dùng để chỉ điều gì?",
+    "options": [
+      "Cách thức tổ chức và sắp xếp các yếu tố cấu thành sự vật.",
+      "Phạm trù triết học dùng để chỉ tổng hợp tất cả những mặt, những yếu tố, những quá trình tạo nên sự vật, hiện tượng.",
+      "Vẻ bề ngoài của sự vật hiển thị trực quan ra không gian.",
+      "Ý niệm chủ quan của con người khi đánh giá một văn bản khoa học."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 162,
+    "question": "Trong phép duy vật biện chứng, phạm trù \"Hình thức\" được định nghĩa như thế nào?",
+    "options": [
+      "Toàn bộ các nguyên tử cấu thành nên thực thể vật chất.",
+      "Mục tiêu cốt lõi và xu hướng vận động đi lên của sự vật.",
+      "Phạm trù triết học dùng để chỉ phương thức tồn tại và phát triển của sự vật, hiện tượng, là hệ thống các mối liên hệ nội tại giữa các yếu tố của nội dung.",
+      "Sự biến đổi về chất thông qua bước nhảy đột biến."
+    ],
+    "correctIndex": 2,
+    "rewardMana": 30
+  },
+  {
+    "id": 163,
+    "question": "Tính chất nào sau đây phản ánh đúng mối quan hệ giữa nội dung và hình thức theo phép duy vật biện chứng?",
+    "options": [
+      "Nội dung và hình thức tách rời tuyệt đối, không liên quan gì đến nhau.",
+      "Hình thức quyết định nội dung, nội dung phụ thuộc vào hình thức.",
+      "Giữa nội dung và hình thức có sự thống nhất biện chứng; nội dung quyết định hình thức và hình thức có tính độc lập tương đối, tác động trở lại nội dung.",
+      "Hình thức luôn bất biến còn nội dung thay đổi liên tục."
+    ],
+    "correctIndex": 2,
+    "rewardMana": 30
+  },
+  {
+    "id": 164,
+    "question": "Khi bàn về xu hướng biến đổi của nội dung và hình thức, triết học Mác - Lênin khẳng định điều gì?",
+    "options": [
+      "Hình thức thay đổi nhanh hơn nội dung.",
+      "Nội dung là yếu tố động, hay thay đổi; còn hình thức là yếu tố tương đối ổn định, biến đổi chậm hơn nội dung.",
+      "Cả hai yếu tố biến đổi với tốc độ và quy mô hoàn toàn bằng nhau trong mọi điều kiện.",
+      "Cả hai đều đứng im tuyệt đối để giữ sự vật ổn định."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 165,
+    "question": "Hiện tượng một nội dung có thể biểu hiện ra ngoài qua nhiều hình thức khác nhau, hoặc một hình thức có thể chứa đựng nhiều nội dung khác nhau thể hiện tính chất nào của cặp phạm trù?",
+    "options": [
+      "Tính chủ quan của hình thức.",
+      "Tính đơn nhất của nội dung.",
+      "Tính đa dạng, phong phú của mối quan hệ giữa nội dung và hình thức.",
+      "Tính bất biến của kết cấu vật chất."
+    ],
+    "correctIndex": 2,
+    "rewardMana": 30
+  },
+  {
+    "id": 166,
+    "question": "Khi hình thức \"phù hợp\" với nội dung, nó sẽ có tác động như thế nào đối với sự phát triển của nội dung?",
+    "options": [
+      "Kìm hãm, làm cho nội dung bị biến dạng và đình trệ.",
+      "Tiêu diệt nội dung cũ để thiết lập nội dung mới một cách ngẫu nhiên.",
+      "Thúc đẩy nội dung phát triển nhanh chóng, thuận lợi.",
+      "Không gây ra bất kỳ ảnh hưởng nào đến nội dung."
+    ],
+    "correctIndex": 2,
+    "rewardMana": 30
+  },
+  {
+    "id": 167,
+    "question": "Khi hình thức đã trở nên lỗi thời, \"không phù hợp\" với nội dung đang biến đổi, nó sẽ gây ra hậu quả gì?",
+    "options": [
+      "Thúc đẩy nội dung phát triển vượt bậc.",
+      "Kìm hãm sự phát triển của nội dung, đòi hỏi phải thay đổi hình thức cũ bằng hình thức mới phù hợp hơn.",
+      "Làm cho nội dung tự động quay về trạng thái ban đầu.",
+      "Đồng hóa nội dung thành hình thức."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 168,
+    "question": "Từ cặp phạm trù Nội dung - Hình thức, phương pháp luận cốt lõi nào được rút ra cho hoạt động thực tiễn?",
+    "options": [
+      "Trong hoạt động thực tiễn, trước hết phải căn cứ vào nội dung, không được tách rời nội dung; đồng thời phải biết lựa chọn, sử dụng và thay đổi hình thức cho phù hợp để phục vụ nội dung.",
+      "Chỉ cần chú trọng hình thức bên ngoài, không cần quan tâm đến nội dung bên trong.",
+      "Tuyệt đối hóa hình thức, coi hình thức quyết định hoàn toàn bản chất công việc.",
+      "Giữ nguyên một hình thức duy nhất cho mọi loại nội dung khác nhau."
+    ],
+    "correctIndex": 0,
+    "rewardMana": 30
+  },
+  {
+    "id": 169,
+    "question": "Sai lầm của \"Chủ nghĩa hình thức\" trong thực tiễn quản lý và đời sống là gì?",
+    "options": [
+      "Quá chú trọng vào việc cải tiến nội dung cốt lõi của công việc.",
+      "Tách rời hình thức khỏi nội dung, chạy theo vẻ bề ngoài, danh hiệu, bằng cấp, thủ tục rườm rà mà phớt lờ chất lượng, hiệu quả thực tế của nội dung.",
+      "Vận dụng đúng đánh tư duy biện chứng duy vật.",
+      "Xem xét nội dung trong trạng thái vận động và phát triển."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 170,
+    "question": "Tư tưởng \"Bảo thủ, trì trệ\", không chịu thay đổi các quy chế, hình thức quản lý cũ khi lực lượng sản xuất và nội dung công việc đã thay đổi hoàn toàn thuộc về sai lầm nào?",
+    "options": [
+      "Tuyệt đối hóa tính động của nội dung.",
+      "Tuyệt đối hóa tính ổn định tương đối của hình thức, biến nó thành cái kìm hãm nội dung.",
+      "Vận dụng đúng quan điểm lịch sử - cụ thể.",
+      "Biểu hiện của tinh thần cách mạng, đổi mới công nghệ."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 171,
+    "question": "Đối với một tác phẩm văn học, \"toàn bộ cốt truyện, tư tưởng, hệ thống nhân vật, số phận và các sự kiện được phản ánh\" và \"thể loại của tác phẩm (thơ, tiểu thuyết, truyện ngắn), ngôn từ, cách chia chương hồi\" lần lượt đóng vai trò là những phạm rù nào?",
+    "options": [
+      "Hình thức và Nội dung.",
+      "Nội dung và Hình thức.",
+      "Bản chất và Hiện tượng.",
+      "Nguyên nhân và Kết quả."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 172,
+    "question": "Việc \"Toàn bộ các bộ phận hợp thành của một chiếc máy tính (CPU, RAM, ổ cứng, bo mạch chủ, nguồn)\" kết hợp với \"Sự sắp xếp, kết nối vật lý, sơ đồ mạch điện giữa các bộ phận đó\" thể hiện mối quan hệ giữa các phạm trù nào?",
+    "options": [
+      "Cái riêng và Cái chung của máy tính.",
+      "Nội dung và Hình thức cấu trúc của máy tính.",
+      "Tất nhiên và Ngẫu nhiên trong lắp ráp.",
+      "Khả năng và Hiện thực của công nghệ."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 173,
+    "question": "Câu thành ngữ Việt Nam: \"Tốt gỗ hơn tốt nước sơn\" xét dưới góc độ triết học nhắc nhở chúng ta điều gì trong việc đánh giá sự vật?",
+    "options": [
+      "Nước sơn quyết định hoàn toàn độ bền của gỗ.",
+      "Phải chú trọng nội dung cốt lõi bên trong (gỗ) hơn là hình thức biểu hiện bề ngoài (nước sơn).",
+      "Hình thức và nội dung luôn đồng nhất về mọi mặt.",
+      "Chỉ nên chọn những sự vật không có hình thức bên ngoài."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 174,
+    "question": "Trong lịch sử kinh tế, khi lực lượng sản xuất phát triển đến trình độ cơ khí hóa, tự động hóa (thay đổi về nội dung), đòi hỏi quan hệ sản xuất, cơ chế quản lý kinh tế tập trung bao cấp cũ phải thay đổi bằng cơ chế kinh tế thị trường (hình thức mới) để mở đường cho sản xuất phát triển. Hiện tượng này minh chứng cho nguyên lý nào?",
+    "options": [
+      "Hình thức quyết định xu hướng biến đổi của nội dung.",
+      "Nội dung sản xuất quyết định việc lựa chọn và thay đổi hình thức quản lý kinh tế.",
+      "Sự độc lập hoàn toàn của kinh tế đối với kỹ thuật.",
+      "Phủ định sạch trơn mọi thành tựu quản lý của quá khứ."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 175,
+    "question": "Việc một người giáo viên có thể truyền tải một kiến thức toán học (nội dung) thông qua nhiều phương pháp khác nhau như: giảng bài truyền thống, đóng vai xử lý tình huống, thảo luận nhóm hoặc dùng phần mềm mô phỏng (các hình thức khác nhau) là minh chứng cho điều gì?",
+    "options": [
+      "Hình thức hoàn toàn không có tác động gì đến việc tiếp thu nội dung.",
+      "Một nội dung có thể được thể hiện bằng nhiều hình thức khác nhau tùy thuộc điều kiện cụ thể nhằm đạt hiệu quả cao nhất.",
+      "Giáo viên đang cố tình làm phức tạp hóa nội dung bài học.",
+      "Nội dung toán học hoàn toàn mang tính chủ quan."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 176,
+    "question": "Một trường đại học quyết định thực hiện \"Chuyển đổi số trong đào tạo\". Tuy nhiên, thay vì thay đổi nội dung chương trình học, cập nhật kiến thức công nghệ mới và đổi mới phương pháp giảng dạy tương tác (nội dung), nhà trường chỉ tập trung mua sắm phần mềm điểm danh bằng khuôn mặt và yêu cầu giảng viên tải toàn bộ slide bài giảng cũ lên hệ thống PDF (hình thức). Kết quả là sinh viên vẫn chán học và chất lượng đầu ra không đổi. Sai lầm của nhà trường là gì?",
+    "options": [
+      "Vi phạm quy luật phủ định của phủ định trong giáo dục.",
+      "Mắc bệnh \"chuyển nghĩa hình thức\", chỉ thay đổi cái vỏ công nghệ bề ngoài mà không đổi mới nội dung, bản chất cốt lõi của quá trình đào tạo.",
+      "Nóng vội tích lũy về lượng khi chất chưa thay đổi.",
+      "Quá chú trọng vào mâu thuẫn đối kháng giữa sinh viên và giảng viên."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 177,
+    "question": "Một doanh nghiệp sản xuất bánh trung thu truyền thống có chất lượng sản phẩm rất ngon và uy tín (nội dung tốt). Tuy nhiên, nhiều năm liền doanh nghiệp vẫn giữ nguyên mẫu mã bao bì bằng giấy carton thô sơ, màu sắc đơn điệu, không bắt mắt (hình thức cũ, lạc hậu). Kết quả là sản phẩm bị các đối thủ mới vượt mặt về doanh số do họ có bao bì sang trọng tích hợp đèn LED và hộp gỗ cao cấp, dù chất lượng bánh bình thường. Thất bại của doanh nghiệp truyền thống là do:",
+    "options": [
+      "Nội dung sản phẩm đã bị suy thoái theo thời gian.",
+      "Không thấy được tính độc lập tương đối và vai trò tác động trở lại của hình thức; việc giữ một hình thức lỗi thời, không phù hợp với xu hướng tiêu dùng hiện đại đã kìm hãm sự tiêu thụ của nội dung sản phẩm.",
+      "Vận dụng sai quan điểm lịch sử - cụ thể của quy trình làm bánh.",
+      "Rơi vào phủ định siêu hình xóa bỏ quá khứ."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 178,
+    "question": "Một Startup công nghệ xây dựng một ứng dụng tài chính cá nhân. Ban đầu, đội ngũ sáng lập tập trung làm rất tốt các tính năng: thuật toán bảo mật cao, tốc độ xử lý nhanh, chính xác (nội dung). Tuy nhiên, giao diện (UI/UX) của ứng dụng lại quá rối rắm, nút bấm nhỏ và màu sắc nhức mắt (hình thức không phù hợp), khiến người dùng gỡ ứng dụng ngay sau 5 phút trải nghiệm. Để cứu vãn dự án theo đúng tinh thần triết học, Startup này cần làm gì?",
+    "options": [
+      "Hủy bỏ dự án hoàn toàn vì nội dung phần mềm không có giá trị.",
+      "Tiếp tục giữ nguyên giao diện và ép người dùng phải làm quen.",
+      "Giữ vững và tối ưu hóa nội dung lõi (thuật toán, bảo mật), đồng thời tiến hành thiết kế lại toàn bộ giao diện hình thức trực quan (UI/UX) sao cho thân thiện, tinh tế để tạo điều kiện thúc đẩy nội dung phát triển.",
+      "Đổ lỗi cho thị trường chưa đủ trình độ công nghệ số để dùng app."
+    ],
+    "correctIndex": 2,
+    "rewardMana": 30
+  },
+  {
+    "id": 179,
+    "question": "Trong cơ quan hành chính nhà nước, trước đây người dân muốn làm giấy khai sinh phải đi qua 4 phòng ban, ký 5 loại giấy tờ khác nhau (hình thức rườm rà). Khi thực hiện cải cách thủ tục hành chính, quy trình được rút gọn thành \"Một cửa điện tử liên thông\", người dân chỉ cần nộp hồ sơ trực tuyến tại nhà. Việc rút gọn quy trình này giúp bản chất việc quản lý dân cư của nhà nước (nội dung) diễn ra nhanh chóng, minh bạch và giảm nhũng nhiễu. Hiện tượng này thể hiện phương pháp luận nào?",
+    "options": [
+      "Sự tiêu diệt hoàn toàn nội dung bởi hình thức công nghệ.",
+      "Việc chủ động thay đổi hình thức quản lý cũ, lỗi thời bằng một hình thức mới tiến bộ để giải phóng và thúc đẩy nội dung công việc phát triển.",
+      "Sự lặp lại tuần hoàn khép kín của các thủ tục giấy tờ.",
+      "Tuyệt đối hóa tính ổn định tương đối của hình thức hành chính."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 180,
+    "question": "Khi xây dựng thương hiệu cho một sản phẩm nông sản xuất khẩu (ví dụ: Cà phê đặc sản Việt Nam), một nhà quản lý giỏi sẽ tư duy như thế nào dựa trên mối quan hệ giữa nội dung và hình thức?",
+    "options": [
+      "Chỉ cần thu mua cà phê ngon, còn việc đóng bao tải thô sơ hay dán nhãn mác viết tay không quan trọng.",
+      "Chỉ cần thuê đơn vị Marketing thiết kế hộp thật đẹp, quảng cáo rầm rộ, còn việc trộn hạt cà phê kém chất lượng vào bên trong cũng không sao.",
+      "Phải thực hiện sự thống nhất biện chứng: Một mặt phải kiểm soát chặt chẽ quy trình trồng, thu hoạch, rang xay để đảm bảo chất lượng hạt tốt nhất (nội dung); mặt khác phải đầu tư thiết kế bao bì chuẩn quốc tế, có câu chuyện thương hiệu, chỉ dẫn địa lý rõ ràng (hình thức phù hợp) để nâng tầm giá trị sản phẩm.",
+      "Coi hình thức bao bì và nội dung hạt cà phê là hai yếu tố hoàn toàn độc lập, không ảnh hưởng gì đến nhau."
+    ],
+    "correctIndex": 2,
+    "rewardMana": 30
+  },
+  {
+    "id": 181,
+    "question": "Theo quan điểm của triết học Mác - Lênin, phạm trù \"Bản chất\" dùng để chỉ điều gì?",
+    "options": [
+      "Vẻ bề ngoài sinh động, dễ thay đổi của các sự vật, hiện tượng.",
+      "Phạm trù triết học dùng để chỉ tổng hợp tất cả những mặt, những mối liên hệ tất nhiên, tương đối ổn định bên trong sự vật, quy định sự vận động và phát triển của sự vật đó.",
+      "Ý muốn chủ quan của con người khi gán ghép đặc tính cho thế giới.",
+      "Trạng thái đứng im, không biến đổi của kết cấu vật chất dưới tác động bên ngoài."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 182,
+    "question": "In phép duy vật biện chứng, phạm trù \"Hiện tượng\" được định nghĩa như thế nào?",
+    "options": [
+      "Những quy luật toán học ẩn giấu sâu trong các phương trình lý thuyết.",
+      "Mục đích tối hậu được vạch sẵn bởi một lực lượng siêu tự nhiên.",
+      "Phạm trù triết học dùng để chỉ sự biểu hiện ra bên ngoài của những mặt, những mối liên hệ bản chất của sự vật, hiện tượng trong những điều kiện nhất định.",
+      "Sự biến đổi căn bản về chất thông qua các bước nhảy cục bộ."
+    ],
+    "correctIndex": 2,
+    "rewardMana": 30
+  },
+  {
+    "id": 183,
+    "question": "Tính chất nào sau đây phản ánh đúng mối quan hệ giữa bản chất và hiện tượng theo phép duy vật biện chứng?",
+    "options": [
+      "Bản chất và hiện tượng tách rời tuyệt đối, không có điểm chung nào.",
+      "Hiện tượng quyết định bản chất; bản chất chạy theo phục vụ hiện tượng.",
+      "Giữa bản chất và hiện tượng có sự thống nhất biện chứng; chúng vừa thống nhất, vừa đối lập nhau.",
+      "Bản chất luôn thay đổi nhanh chóng còn hiện tượng thì bất biến vĩnh cửu."
+    ],
+    "correctIndex": 2,
+    "rewardMana": 30
+  },
+  {
+    "id": 184,
+    "question": "Phép duy vật biện chứng khẳng định sự \"đối lập\" giữa bản chất và hiện tượng biểu hiện ở điểm nào?",
+    "options": [
+      "Bản chất là cái bề ngoài, hiện tượng là cái sâu kín bên trong.",
+      "Bản chất là cái chung, cái tất nhiên; còn hiện tượng là cái riêng, cái phong phú, thường xuyên biến đổi và có thể xuyên tạc bản chất.",
+      "Bản chất luôn mang tính chủ quan, còn hiện tượng mang tính khách quan.",
+      "Bản chất và hiện tượng không bao giờ xuất hiện cùng một thời điểm."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 185,
+    "question": "Hiện tượng \"Xuyên tạc bản chất\" (Giả tượng) được triết học Mác - Lênin giải thích như thế nào?",
+    "options": [
+      "Là hiện tượng do con người tự tượng tưởng ra mà không có thực ngoài đời.",
+      "Là một loại hiện tượng đặc biệt, biểu hiện bản chất một cách đảo ngược, sai lệch so với bản chất thực sự của sự vật trong những điều kiện cụ thể.",
+      "Là bản chất tự biến mất để nhường chỗ cho cái ngẫu nhiên.",
+      "Là sự lặp lại tuần hoàn khép kín của các quy luật vật lý."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 186,
+    "question": "Khi bàn về vị trí quyết định trong mối quan hệ biện chứng, yếu tố nào đóng vai trò quy định yếu tố còn lại?",
+    "options": [
+      "Hiện tượng quy định bản chất, hiện tượng mất đi thì bản chất vẫn giữ nguyên.",
+      "Bản chất quyết định hiện tượng; bản chất thế nào thì hiện tượng sẽ biểu hiện ra thế ấy; bản chất thay đổi thì hiện tượng cũng thay đổi theo.",
+      "Ý thức của con người quyết định cả bản chất lẫn hiện tượng.",
+      "Môi trường không gian bên ngoài quyết định hoàn toàn bản chất sự vật."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 187,
+    "question": "Từ cặp phạm trù Bản chất - Hiện tượng, phương pháp luận cốt lõi nào được rút ra cho hoạt động nhận thức?",
+    "options": [
+      "Chỉ cần quan sát các hiện tượng bề ngoài là đủ hiểu thấu đáo bản chất sự vật.",
+      "Muốn nhận thức được bản chất phải xuất phát từ thế giới hiện tượng, phân tích nhiều hiện tượng để tìm ra cái bản chất; không dừng lại ở hiện tượng bề ngoài.",
+      "Có thể suy luận chủ quan ra bản chất mà không cần kiểm chứng qua hiện tượng.",
+      "Xem xét bản chất và hiện tượng như hai thực thể độc lập song hành."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 188,
+    "question": "Câu nói nổi tiếng của C. Mác: \"Nếu hình thái biểu hiện và bản chất của sự vật hoàn toàn trùng hợp với nhau, thì mọi khoa học sẽ trở nên...\" nhằm khẳng định điều gì?",
+    "options": [
+      "Khoa học sẽ trở nên vĩ đại vô hạn.",
+      "Khoa học sẽ trở nên thừa thãi (không cần thiết), vì vai trò của khoa học là đi xuyên qua hiện tượng để tìm ra bản chất ẩn giấu.",
+      "Khoa học sẽ trở nên duy tâm chủ quan.",
+      "Khoa học sẽ chuyển sang nghiên cứu các hiện tượng thần bí."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 189,
+    "question": "Sai lầm của việc \"Nhìn nhận sự vật một cách hời hợt, xem hiện tượng là bản chất\" (Bệnh chủ quan, nông cạn) trong thực tiễn là do vi phạm phương pháp luận nào?",
+    "options": [
+      "Bản chất luôn đồng nhất tuyệt đối với mọi hiện tượng nhất thời.",
+      "Không biết phân biệt giữa hiện tượng bề ngoài ngẫu nhiên với bản chất khách quan, tất nhiên bên trong của sự vật.",
+      "Vận dụng quá mức quan điểm lịch sử - cụ thể.",
+      "Tuyệt đối hóa xu hướng phát triển tiến lên của đường xoáy ốc."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 190,
+    "question": "Trong thực tiễn quản lý, khi một hiện tượng tiêu cực mới xuất hiện, để xử lý triệt để, nhà quản lý phải làm gì dựa trên cặp phạm trù này?",
+    "options": [
+      "Chỉ cần dập tắt hiện tượng bề ngoài để tạo cảm giác ổn định tạm thời.",
+      "Tìm hiểu kỹ nguyên nhân và cơ chế bên trong sinh ra hiện tượng đó để triệt tiêu tận gốc bản chất của vấn đề.",
+      "Né tránh hiện tượng, đợi bản chất tự thay đổi.",
+      "Áp đặt mệnh lệnh hành chính xóa bỏ cả những hiện tượng tích cực."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 191,
+    "question": "Hiện tượng vật lý: \"Thanh đũa thẳng khi nhúng một nửa vào cốc nước thủy tinh trong suốt nhìn như bị gãy ở mặt nước\" là ví dụ kinh điển minh chứng cho khái niệm nào?",
+    "options": [
+      "Bản chất khách quan của dòng nước.",
+      "Hiện tượng giả tượng (biểu hiện sai lệch, đảo ngược so với bản chất thực sự của thanh đũa thẳng do khúc xạ ánh sáng).",
+      "Sự ngẫu nhiên không có quy luật của thị giác.",
+      "Sự thay đổi về chất thông qua bước nhảy đột biến."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 192,
+    "question": "Việc \"Giá cả của một mặt hàng trên thị trường liên tục biến động, lên xuống hàng ngày quanh trục giá trị của nó do quan hệ cung cầu\" thể hiện mối quan hệ giữa các phạm trù nào?",
+    "options": [
+      "Cái riêng và Cái chung trong kinh doanh.",
+      "Hiện tượng biến động giá cả và Bản chất giá trị của hàng hóa.",
+      "Tất nhiên và Ngẫu nhiên trong tiêu dùng.",
+      "Nội dung và Hình thức của đồng tiền."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 193,
+    "question": "Câu thành ngữ Việt Nam: \"Xanh vỏ đỏ lòng\" xét dưới góc độ triết học phản ánh đặc điểm nào của cặp phạm trù?",
+    "options": [
+      "Hiện tượng bề ngoài (vỏ xanh) luôn đồng nhất hoàn toàn với bản chất bên trong (lòng đỏ).",
+      "Bản chất bên trong và hiện tượng biểu hiện bề ngoài có thể có sự khác biệt, thậm chí đối lập nhau, đòi hỏi không được đánh giá sự vật chỉ qua cái vỏ bề ngoài.",
+      "Sự suy thoái của các giá trị nông sản truyền thống.",
+      "Tính chất chủ quan của tư duy phân tích thực phẩm."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 194,
+    "question": "Trong lịch sử kinh tế, một doanh nghiệp liên tục công bố báo cáo tài chính với doanh thu hàng trăm tỷ đồng, văn phòng hoành tráng, nhân viên đi xe sang (hiện tượng). Tuy nhiên, bản chất bên trong là doanh nghiệp này đang vay nợ chồng chất, dòng tiền ròng âm và dùng tiền của nhà đầu tư sau trả lãi cho nhà đầu tư trước (mô hình Ponzi). Việc doanh nghiệp này bất ngờ phá sản là do:",
+    "options": [
+      "Hiện tượng bề ngoài đã quyết định bản chất tài chính.",
+      "Bản chất yếu kém, rỗng tuếch bên trong cuối cùng đã phá vỡ hệ thống hiện tượng hào nhoáng giả tạo bên ngoài.",
+      "Sự lười biếng của đội ngũ nhân viên cấp dưới.",
+      "Quy luật phủ định của phủ định diễn ra quá chậm."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 195,
+    "question": "Việc các nhà khí tượng thủy văn quan sát các hiện tượng như: áp suất không khí giảm, độ ẩm tăng, gió đổi hướng, mây đen kéo đến để đưa ra dự báo chính xác về một cơn bão sắp đổ bộ là việc vận dụng phương pháp luận nào?",
+    "options": [
+      "Tuyệt đối hóa cái đơn nhất của thời tiết.",
+      "Đi từ việc phân tích, tổng hợp các hiện tượng cảm tính bề ngoài để nhận thức bản chất và quy luật vận động bên trong của khí hậu.",
+      "Sự áp đặt ý chí chủ quan của con người lên thiên nhiên.",
+      "Xem xét sự vật trong trạng thái tĩnh tại, cô lập."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 196,
+    "question": "Một công ty công nghệ tổ chức chiến dịch khảo sát sự hài lòng của khách hàng đối với ứng dụng mới. Kết quả thu về hiển thị 95% người dùng đánh giá 5 sao (hiện tượng). Tuy nhiên, khi đào sâu phân tích dữ liệu log hệ thống, kỹ sư trưởng phát hiện bản chất là người dùng bấm 5 sao chỉ để tắt bảng thông báo bật lên liên tục gây phiền nhiễu, còn tỷ lệ sử dụng tính năng thực tế sau đó giảm 60%. Nếu CEO chỉ nhìn vào con số 95% để tăng vốn sản xuất thì sẽ thất bại. Sai lầm của CEO ở đây là:",
+    "options": [
+      "Vi phạm quy luật mâu thuẫn giai cấp trong doanh nghiệp.",
+      "Bị đánh lừa bởi \"hiện tượng giả tượng\" bề ngoài, cạn cợt, không đi sâu vào bản chất hành vi thực sự của người dùng.",
+      "Quá bảo thủ, trì trệ, không tin vào số liệu công nghệ số.",
+      "Vận dụng đúng tính kế thừa biện chứng nhưng thiếu may mắn."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 197,
+    "question": "Trong quản lý nhân sự, một nhân viên luôn đi làm đúng giờ, ngồi nghiêm túc trước máy tính suốt 8 tiếng và không bao giờ tranh luận với sếp (hiện tượng tốt). Trưởng phòng đánh giá đây là nhân sự xuất sắc nhất. Tuy nhiên, khi kiểm tra hiệu suất đầu ra (KPI), sản phẩm của nhân viên này luôn trễ hạn và không có tính sáng tạo do anh ta dành phần lớn thời gian để lướt mạng xã hội ẩn danh (bản chất). Sai lầm của Trưởng phòng là do:",
+    "options": [
+      "Tuyệt đối hóa tính động của nội dung công việc.",
+      "Đánh giá con người một cách hời hợt, đồng nhất hiện tượng hành vi bề ngoài với bản chất năng lực và thái độ làm việc thực chất.",
+      "Vận dụng sai quan điểm lịch sử - cụ thể của quy trình chấm công.",
+      "Rơi vào phủ định siêu hình xóa bỏ quá khứ của nhân viên."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 198,
+    "question": "Một Startup tài chính phát triển ứng dụng cho vay tiêu dùng trực tuyến. Nhận thấy số lượng hồ sơ đăng ký vay tăng vọt (hiện tượng bùng nổ), ban giám đốc lập tức duyệt chi thêm ngân sách để giải ngân giải phóng dòng tiền. Sau 6 tháng, tỷ lệ nợ xấu tăng lên mức 30%, khiến Startup đứng trước nguy cơ phá sản do bản chất hệ thống chấm điểm tín dụng ban đầu bị lỗi, phê duyệt cả những tài khoản giả mạo. Để cứu vãn doanh nghiệp theo đúng tư duy triết học, ban điều hành cần làm gì?",
+    "options": [
+      "Tiếp tục giải ngân để lấy số lượng hiện tượng bù đắp chất lượng.",
+      "Hủy bỏ ứng dụng hoàn toàn và chuyển sang ngành kinh doanh khác.",
+      "Tạm dừng giải ngân ồ ạt, đi xuyên qua hiện tượng số lượng hồ sơ để rà soát, sửa đổi bản chất thuật toán cốt lõi của hệ thống đánh giá rủi ro (Core AI) cho chính xác.",
+      "Đổ lỗi cho người tiêu dùng thiếu ý thức trả nợ khi dùng công nghệ."
+    ],
+    "correctIndex": 2,
+    "rewardMana": 30
+  },
+  {
+    "id": 199,
+    "question": "Trong chiến dịch cải cách bộ máy hành chính công, một địa phương tiến hành lắp đặt đồng loạt hệ thống máy tính màn hình cảm ứng tại các xã để người dân đánh giá mức độ hài lòng của cán bộ bằng cách bấm nút. Tuy nhiên, do sợ bị gây khó dễ trong các thủ tục sau, người dân đều bấm nút \"Hài lòng\" dù thực tế cán bộ vẫn hạch sách (hiện tượng giả tượng). Để nắm được bản chất thực sự của nền hành chính, chính quyền cấp trên nên làm gì?",
+    "options": [
+      "Tin tưởng tuyệt đối vào kết quả hiển thị trên máy tính vì đó là công nghệ số.",
+      "Bỏ hoàn toàn hệ thống máy tính và quay lại quản lý bằng sổ sách thô sơ.",
+      "Phối hợp kết quả máy tính với việc tổ chức các đoàn thanh tra mật, phỏng vấn sâu người dân sau khi đã hoàn thành thủ tục để nắm được bản chất thực chất của bộ máy.",
+      "Phạt tiền những người dân không bấm nút đánh giá cán bộ."
+    ],
+    "correctIndex": 2,
+    "rewardMana": 30
+  },
+  {
+    "id": 200,
+    "question": "Khi đầu tư vào thị trường chứng khoán, một nhà đầu tư thông minh và có tư duy triết học sắc bén sẽ hành động như thế nào dựa trên mối quan hệ giữa bản chất và hiện tượng?",
+    "options": [
+      "Chỉ cần thấy đám đông trên mạng xã hội rủ nhau mua cổ phiếu nào là lập tức mua theo mà không cần suy nghĩ.",
+      "Chỉ mua cổ phiếu của các công ty có tên tuổi vang dội, bất chấp việc công ty đó đang thua lỗ nặng nề.",
+      "Không bị dao động bởi các tin đồn thất thiệt, sự tăng giảm giá cả ngắn hạn hàng ngày (hiện tượng), mà tập trung phân tích báo cáo tài chính, năng lực ban lãnh đạo và lợi thế cạnh tranh cốt lõi (bản chất nội tại) của doanh nghiệp để đưa ra quyết định đầu tư dài hạn.",
+      "Coi biến động giá cả thị trường và nội lực doanh nghiệp là hai yếu tố hoàn toàn không liên quan đến nhau."
+    ],
+    "correctIndex": 2,
+    "rewardMana": 30
+  },
+  {
+    "id": 201,
+    "question": "Theo quan điểm của triết học Mác - Lênin, phạm trù \"Hiện thực\" dùng để chỉ điều gì?",
+    "options": [
+      "Những ý tưởng, kế hoạch nằm trong suy nghĩ của con người chưa được thực hiện.",
+      "Phạm trù triết học dùng để chỉ cái đang tồn tại khách quan trong thực tế.",
+      "Những sự vật đã bị tiêu diệt và chỉ còn lại trong ký ức lịch sử.",
+      "Những dự báo mang tính chất giả tưởng về tương lai của vũ trụ."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 202,
+    "question": "Trong phép duy vật biện chứng, phạm trù \"Khả năng\" được định nghĩa là gì?",
+    "options": [
+      "Cái đang có thực và đang phát huy tác dụng mạnh mẽ ở hiện tại.",
+      "Phạm trù triết học phản ánh cái chưa xuất hiện, chưa có thực trong thực tế, nhưng sẽ xuất hiện, sẽ có thực khi có các điều kiện thích hợp.",
+      "Sự tưởng tượng thuần túy chủ quan của con người không dựa trên cơ sở nào.",
+      "Trạng thái đứng im, không bao giờ biến đổi của các sự vật, hiện tượng."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 203,
+    "question": "Tính chất nào sau đây phản ánh đúng mối quan hệ biện chứng giữa khả năng và hiện thực?",
+    "options": [
+      "Khả năng và hiện thực tách rời tuyệt đối, không bao giờ có sự giao thoa.",
+      "Khả năng quyết định hiện thực; hiện thực chỉ là cái bóng của khả năng.",
+      "Khả năng và hiện thực tồn tại trong sự thống nhất biện chứng, không tách rời nhau, luôn chuyển hóa lẫn nhau trong quá trình phát triển.",
+      "Hiện thực luôn bất biến còn khả năng thay đổi một cách ngẫu nhiên."
+    ],
+    "correctIndex": 2,
+    "rewardMana": 30
+  },
+  {
+    "id": 204,
+    "question": "Phép duy vật biện chứng phân chia \"Khả năng thực tế\" và \"Khả năng hình thức\" dựa trên căn cứ nào?",
+    "options": [
+      "Dựa trên mức độ yêu thích của con người đối với khả năng đó.",
+      "Dựa trên cơ sở có hay không có những nguyên nhân và điều kiện khách quan nội tại quy định sự xuất hiện của nó trong thực tế.",
+      "Dựa trên thời điểm xuất hiện của khả năng là ban ngày hay ban đêm.",
+      "Hai khái niệm này hoàn toàn đồng nhất, không có tiêu chí phân biệt."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 205,
+    "question": "Trong thế giới khách quan, sự chuyển hóa từ khả năng thành hiện thực đòi hỏi phải có sự kết hợp của các yếu tố nào?",
+    "options": [
+      "Chỉ cần có ý muốn chủ quan của con người là đủ.",
+      "Phải có sự tập hợp đầy đủ của các điều kiện khách quan (và nhân tố chủ quan đối với lĩnh vực xã hội) phù hợp.",
+      "Sự can thiệp mang tính mục đích của một lực lượng siêu nhiên.",
+      "Khả năng sẽ tự động biến thành hiện thực mà không cần bất kỳ yếu tố nào."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 206,
+    "question": "Từ cặp phạm trù Khả năng - Hiện thực, phương pháp luận cốt lõi nào được rút ra cho hoạt động thực tiễn?",
+    "options": [
+      "Trong hoạt động thực tiễn phải dựa vào khả năng hình thức để lập kế hoạch.",
+      "Hoạt động thực tiễn phải dựa vào hiện thực, lấy hiện thực làm cơ sở hành động; đồng thời phải ra sức tìm kiếm, phân tích các khả năng thực tế để chủ động thúc đẩy nó thành hiện thực.",
+      "Chỉ cần ngồi chờ khả năng tự chuyển hóa thành hiện thực theo định mệnh.",
+      "Phủ nhận hoàn toàn vai trò của các khả năng tương lai, chỉ sống với hiện tại."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 207,
+    "question": "Vai trò của \"Nhân tố chủ quan\" (ý thức, hành động của con người) trong việc chuyển hóa khả năng thành hiện thực trong đời sống xã hội là gì?",
+    "options": [
+      "Nhân tố chủ quan không có bất kỳ vai trò hay tác động nào.",
+      "Nhân tố chủ quan có thể tùy ý biến bất kỳ cái không thể nào thành hiện thực.",
+      "Nhân tố chủ quan đóng vai trò cực kỳ quan trọng, có thể phát hiện, chuẩn bị điều kiện để thúc đẩy hoặc kìm hãm sự chuyển hóa của khả năng thành hiện thực theo quy luật khách quan.",
+      "Nhân tố chủ quan quyết định sự ra đời của các quy luật vật lý."
+    ],
+    "correctIndex": 2,
+    "rewardMana": 30
+  },
+  {
+    "id": 208,
+    "question": "Sai lầm của tư duy \"Ảo tưởng, chủ quan duy ý chí\" là do vi phạm điều gì khi vận dụng cặp phạm trù này?",
+    "options": [
+      "Nhầm lẫn giữa hiện thực hiện tại với quá khứ.",
+      "Tuyệt đối hóa khả năng thực tế khách quan.",
+      "Nhầm lẫn giữa khả năng hình thức (hoặc cái không thể) với khả năng thực tế, cố tình lao vào thực hiện khi chưa có đầy đủ nguyên nhân và điều kiện.",
+      "Xem xét sự vật trong trạng thái vận động không ngừng."
+    ],
+    "correctIndex": 2,
+    "rewardMana": 30
+  },
+  {
+    "id": 209,
+    "question": "Sai lầm của tư duy \"Bảo thủ, thụ động, phó mặc cho số phận\" trong đời sống xã hội là gì?",
+    "options": [
+      "Quá tích cực tìm kiếm các giải pháp đổi mới công nghệ.",
+      "Chỉ nhìn thấy hiện thực trước mắt một cách tĩnh tại, không thấy được các khả năng phát triển ẩn giấu bên trong hiện thực để chủ động tạo điều kiện cho cái mới ra đời.",
+      "Vận dụng đúng đắn quan điểm phát triển biện chứng.",
+      "Quá chú trọng vào việc nâng cao nhân tố chủ quan của bản thân."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 210,
+    "question": "Thế nào là \"Khả năng tất nhiên\"?",
+    "options": [
+      "Khả năng được quy định bởi những nguyên nhân ngẫu nhiên bên ngoài.",
+      "Khả năng được quy định bởi những mối liên hệ bản chất, tất nhiên bên trong, nhất định sẽ xảy ra khi có đủ điều kiện.",
+      "Khả năng do tư duy logic của con người tự quy ước với nhau.",
+      "Khả năng không bao giờ có thể xuất hiện trong đời sống."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 211,
+    "question": "Cho ví dụ: \"Một thanh gỗ, một cái đục, một cái búa và tay nghề của người thợ mộc ở hiện tại\" và \"Chiếc bàn gỗ tinh xảo sẽ được làm ra sau 3 ngày nữa\". Hai đối tượng này lần lượt đóng vai trò là những phạm trù nào?",
+    "options": [
+      "Khả năng và Hiện thực.",
+      "Hiện thực và Khả năng.",
+      "Bản chất và Hiện tượng.",
+      "Nguyên nhân và Kết quả một chiều."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 212,
+    "question": "Việc một học sinh đang học lớp 12 có đầy đủ sách vở, trí tuệ bình thường và sự chăm chỉ thì việc \"đỗ đại học\" đối với học sinh đó được gọi là loại khả năng nào?",
+    "options": [
+      "Khả năng hình thức.",
+      "Khả năng thực tế.",
+      "Cái không thể xảy ra.",
+      "Hiện thực khách quan ở hiện tại."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 213,
+    "question": "Câu tục ngữ Việt Nam: \"Nước đến chân mới nhảy\" phản ánh sai lầm nào dưới góc độ mối quan hệ giữa khả năng và hiện thực?",
+    "options": [
+      "Quá chủ động chuẩn bị cho các tình huống tương lai.",
+      "Thụ động, trì trệ, không chịu phân tích và chuẩn bị các điều kiện cần thiết từ khi sự việc còn nằm ở dạng khả năng, đợi đến khi hiện thực tiêu cực ập đến mới cuống cuồng đối phó.",
+      "Vận dụng xuất sắc quan điểm lịch sử - cụ thể của thời gian.",
+      "Ý thức được tính chất quanh co của đường xoáy ốc lịch sử."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 214,
+    "question": "Trong lịch sử quân sự, trận Điện Biên Phủ năm 1954, việc quân đội Việt Nam có khả năng tiêu diệt tập đoàn cứ điểm của Pháp (khả năng) đã biến thành chiến thắng vang dội thực tế (hiện thực) nhờ vào việc chúng ta chủ động thay đổi phương châm từ \"Đánh nhanh, thắng nhanh\" sang \"Đánh chắc, tiến chắc\" và huy động hàng vạn dân công xẻ núi kéo pháo. Yếu tố quyết định sự chuyển hóa này mang tên gọi triết học nào?",
+    "options": [
+      "Điều kiện thời tiết ngẫu nhiên.",
+      "Khả năng hình thức từ phía đối thủ.",
+      "Vai trò của nhân tố chủ quan (sự lãnh đạo tài tình, ý chí và hành động thực tiễn của con người).",
+      "Sự tự động vận động của các vũ khí vật chất."
+    ],
+    "correctIndex": 2,
+    "rewardMana": 30
+  },
+  {
+    "id": 215,
+    "question": "Việc một người mua một tờ vé số độc đắc thì việc người đó \"trờ thành tỷ phú vào chiều nay\" xét dưới góc độ khoa học triết học được xếp vào loại:",
+    "options": [
+      "Khả năng thực tế có độ mốc tất yếu cao.",
+      "Khả năng hình thức (khả năng rất mỏng manh, dựa trên quan hệ ngẫu nhiên bên ngoài, không nên lấy làm cơ sở để hoạch định cuộc đời).",
+      "Hiện thực đang diễn ra vững chắc.",
+      "Cái hoàn toàn không thể xảy ra về mặt toán học."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 216,
+    "question": "Một Startup công nghệ xây dựng dự án \"Kính thực tế ảo giúp con người du hành xuyên thời gian về quá khứ\" (khả năng hình thức/cái không thể dựa trên luật vật lý hiện tại). Nhà sáng lập đã đổ toàn bộ số vốn 10 tỷ đồng vào nghiên cứu và quảng cáo rầm rộ, dẫn đến việc công ty bị phá sản hoàn toàn sau 1 năm do sản phẩm không thể chế tạo được. Sai lầm của nhà sáng lập Startup này là:",
+    "options": [
+      "Trì trệ, bảo thủ, không chịu đổi mới công nghệ số.",
+      "Mắc sai lầm ảo tưởng, chủ quan duy ý chí, đánh đồng \"khả năng hình thức/cái không thể\" với \"khả năng thực tế\" để làm cơ sở cho hành động thực tiễn.",
+      "Vận dụng đúng quy luật mâu thuẫn đối kháng giai cấp.",
+      "Quá chú trọng vào việc tích lũy lượng của sản phẩm."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 217,
+    "question": "Trong quản lý doanh nghiệp, một Giám đốc điều hành (CEO) thấy công ty đang có dòng tiền rất dồi dào và chiếm thị phần lớn (hiện thực tốt). Tuy nhiên, ông phớt lờ cảnh báo về việc các đối thủ đang âm thầm nghiên cứu công nghệ AI để tối ưu hóa quy trình (khả năng đối thủ bứt phá). CEO này quyết định giữ nguyên bộ máy cũ. Sau 2 năm, đối thủ tung ra sản phẩm AI giá rẻ bằng một nửa, khiến công ty của ông lâm vào phá sản. Thất bại của CEO này là do:",
+    "options": [
+      "Quá nóng vội thực hiện các bước nhảy cục bộ.",
+      "Vi phạm phương pháp luận: Chỉ biết dựa vào hiện thực hiện tại một cách tĩnh tại, mù quáng, không chịu phân tích và đón đầu các \"khả năng\" xu hướng trong tương lai để chủ động chuyển hóa nó.",
+      "Rơi vào phủ định biên chứng xóa bỏ sạch trơn quá khứ.",
+      "Sử dụng sai thuật ngụy biện trong báo cáo tài chính."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 218,
+    "question": "Một sinh viên công nghệ thông tin năm thứ hai có học lực bình thường. Bạn ước mơ sau khi ra trường sẽ trở thành một kỹ sư AI xuất sắc tại một tập đoàn đa quốc gia (khả năng tương lai). Để biến khả năng này thành hiện thực, thay vì chỉ mơ mộng, bạn lập tức lên lộ trình tự học toán cao cấp, cày thuật toán trên Kaggle, rèn luyện tiếng Anh mỗi ngày và xin làm thực tập sinh không lương từ năm thứ 3. Hành động của sinh viên này thể hiện:",
+    "options": [
+      "Việc vận dụng đúng đắn phương pháp luận cặp phạm trù: Hiểu được khả năng không tự động biến thành hiện thực, mà phải thông qua hoạt động thực tiễn của nhân tố chủ quan để tạo ra các điều kiện cần và đủ thúc đẩy khả năng đó phát triển.",
+      "Sự nóng vội, đốt cháy giai đoạn của quy luật lượng - chất.",
+      "Sự hoang mang, mất phương hướng trước làn sóng chuyển đổi số.",
+      "Biểu hiện của chủ nghĩa kinh nghiệm giáo điều máy móc."
+    ],
+    "correctIndex": 0,
+    "rewardMana": 30
+  },
+  {
+    "id": 219,
+    "question": "Trong chiến dịch chuyển đổi số quốc gia, một tỉnh miền núi nhận thấy hạ tầng mạng của mình rất kém (hiện thực). Tuy nhiên, tỉnh có tỷ lệ dân số trẻ sử dụng smartphone cao và địa hình nhiều thung lũng phù hợp đặt các trạm phát sóng nhỏ (khả năng thực tế). Chính quyền tỉnh đã chủ động hợp tác với các tập đoàn viễn thông xây dựng hạ tầng 5G phủ sóng toàn tỉnh, đưa kinh tế số của địa phương bứt phá lọt top đầu cả nước. Cách làm của chính quyền tỉnh thể hiện:",
+    "options": [
+      "Sự bất lực trước hiện thực khó khăn của địa phương.",
+      "Sự nhạy bén triết học: Biết xuất phát từ hiện thực, phát hiện đúng và trúng các \"khả năng thực tế\" tiềm ẩn, từ đó dùng nhân tố chủ quan tạo điều kiện thúc đẩy khả năng thành hiện thực một cách ngoạn mục.",
+      "Việc áp đặt mệnh lệnh chủ quan, phớt lờ quy luật kinh tế thị trường.",
+      "Sự lặp lại tuần hoàn khép kín của mô hình kinh tế bao cấp."
+    ],
+    "correctIndex": 1,
+    "rewardMana": 30
+  },
+  {
+    "id": 220,
+    "question": "Trước nguy cơ biến đổi khí hậu toàn cầu có khả năng làm ngập lụt các vùng đồng bằng ven biển sản xuất lúa gạo của Việt Nam trong 30 năm tới, một nhà quản lý vĩ mô giỏi và có tư duy biện chứng sẽ đưa ra quyết định hành động như thế nào?",
+    "options": [
+      "Cho rằng đó là chuyện của 30 năm nữa, hiện tại chưa ngập nên cứ tiếp tục canh tác bình thường, không cần tốn tiền quy hoạch.",
+      "Kêu gọi người dân bỏ hoang ruộng đất ngay từ bây giờ để chuyển sang làm ngành nghề khác cho an toàn.",
+      "Nhận thức rõ khả năng thực tế nguy hiểm này để chủ động dùng nhân tố chủ quan phối hợp các điều kiện: Xây dựng hệ thống đê biển kiên cố, nghiên cứu các giống lúa chịu mặn cao (chuyển đổi số nông nghiệp) và quy hoạch lại bản đồ dân cư nhằm chủ động ngăn chặn khả năng tiêu cực biến thành hiện thực.",
+      "Phó mặc hoàn toàn cho sự tự điều tiết ngẫu nhiên của tự nhiên và môi trường."
+    ],
+    "correctIndex": 2,
     "rewardMana": 30
   }
 ]
