@@ -7,7 +7,7 @@ const MAP_HEIGHT = 3000;
 const PLAYER_RADIUS = 16;
 const MAX_PLAYERS = 12;
 const ROLE_DURATION = 30;
-const TICK_RATE = 20;
+const TICK_RATE = 30; // 30Hz = 33ms/tick (was 20Hz/50ms) - smoother over internet latency
 const NORMAL_SPEED = 190;
 const TIRED_SPEED = 55;
 const MANA_MAX = 100;
@@ -51,6 +51,8 @@ class Player extends Schema {
     this.score = 0;
     this.isHost = false;
     this.color = "#4aa3ff";
+    this.connected = true;
+    this.playerId = "";
   }
 }
 
@@ -65,6 +67,8 @@ type("number")(Player.prototype, "respawnLeft");
 type("number")(Player.prototype, "score");
 type("boolean")(Player.prototype, "isHost");
 type("string")(Player.prototype, "color");
+type("boolean")(Player.prototype, "connected");
+type("string")(Player.prototype, "playerId");
 
 class Obstacle extends Schema {
   constructor(data = {}) {
@@ -121,9 +125,11 @@ class GameRoom extends Room {
     this.setState(new GameState());
     this.state.roomCode = this.roomId;
 
-    this.inputs = new Map();
-    this.currentQuestions = new Map();
-    this.questionCooldownUntil = new Map();
+    this.inputs = new Map();              // playerId → { up, down, left, right }
+    this.currentQuestions = new Map();   // playerId → questionId
+    this.questionCooldownUntil = new Map(); // playerId → timestamp
+    this.playerIdToClient = new Map();   // playerId → client object
+    this.disconnectTimers = new Map();   // playerId → setTimeout handle
     this.roleElapsed = 0;
 
     for (const obstacle of OBSTACLES) {
@@ -131,7 +137,9 @@ class GameRoom extends Room {
     }
 
     this.onMessage("input", (client, input) => {
-      this.inputs.set(client.sessionId, {
+      const pid = client.playerId;
+      if (!pid) return;
+      this.inputs.set(pid, {
         up: !!input.up,
         down: !!input.down,
         left: !!input.left,
@@ -140,13 +148,13 @@ class GameRoom extends Room {
     });
 
     this.onMessage("start_game", (client, data) => {
-      if (client.sessionId !== this.state.hostId || this.state.phase !== "lobby") return;
+      if (client.playerId !== this.state.hostId || this.state.phase !== "lobby") return;
       const duration = (data && typeof data.duration === "number") ? data.duration : 180;
       this.startGame(duration);
     });
 
     this.onMessage("update_settings", (client, data) => {
-      if (client.sessionId !== this.state.hostId || this.state.phase !== "lobby") return;
+      if (client.playerId !== this.state.hostId || this.state.phase !== "lobby") return;
       if (data && typeof data.duration === "number") {
         this.state.gameDuration = data.duration;
         this.state.gameTimer = data.duration;
@@ -154,12 +162,12 @@ class GameRoom extends Room {
     });
 
     this.onMessage("play_again", (client) => {
-      if (client.sessionId !== this.state.hostId || this.state.phase !== "finished") return;
+      if (client.playerId !== this.state.hostId || this.state.phase !== "finished") return;
       this.startGame(this.state.gameDuration);
     });
 
     this.onMessage("return_lobby", (client) => {
-      if (client.sessionId !== this.state.hostId || this.state.phase !== "finished") return;
+      if (client.playerId !== this.state.hostId || this.state.phase !== "finished") return;
       this.returnToLobby();
     });
 
@@ -175,66 +183,127 @@ class GameRoom extends Room {
   }
 
   onJoin(client, options) {
-    if (this.clients.length > MAX_PLAYERS) {
+    // Use the stable playerId from localStorage, fall back to sessionId
+    const playerId = String((options && options.playerId) ? options.playerId : client.sessionId);
+    client.playerId = playerId;
+    this.playerIdToClient.set(playerId, client);
+
+    // Clear any pending disconnect timer (reconnect within 10s)
+    if (this.disconnectTimers.has(playerId)) {
+      clearTimeout(this.disconnectTimers.get(playerId));
+      this.disconnectTimers.delete(playerId);
+    }
+
+    const existingPlayer = this.state.players.get(playerId);
+    if (existingPlayer) {
+      // RECONNECT: restore connection, keep team/score/mana/position/role
+      existingPlayer.connected = true;
+      this.inputs.set(playerId, { up: false, down: false, left: false, right: false });
+      const isHost = this.state.hostId === playerId;
+      client.send("room_info", { roomCode: this.state.roomCode, isHost });
+      this.state.playerCount = this._connectedCount();
+      return;
+    }
+
+    // New player
+    if (this._connectedCount() >= MAX_PLAYERS) {
       client.leave();
       return;
     }
 
-    const isHost = this.state.players.size === 0;
+    const isFirstPlayer = this.state.players.size === 0;
+    const isHost = isFirstPlayer || [...this.state.players.values()].every(p => !p.isHost);
     const player = new Player();
-    player.name = cleanName(options.name || "Player");
+    player.playerId = playerId;
+    player.name = cleanName((options && options.name) ? options.name : "Player");
     player.isHost = isHost;
-    player.color = isHost ? "#ffd166" : "#4aa3ff";
+    player.connected = true;
 
     if (isHost) {
-      this.state.hostId = client.sessionId;
+      // Clear old isHost flags
+      this.state.players.forEach((p) => { p.isHost = false; });
+      this.state.hostId = playerId;
     }
 
-    this.state.players.set(client.sessionId, player);
-    this.state.playerCount = this.state.players.size;
-    this.inputs.set(client.sessionId, { up: false, down: false, left: false, right: false });
+    this.state.players.set(playerId, player);
+    this.state.playerCount = this._connectedCount();
+    this.inputs.set(playerId, { up: false, down: false, left: false, right: false });
 
-    client.send("room_info", {
-      roomCode: this.state.roomCode,
-      isHost,
-    });
+    client.send("room_info", { roomCode: this.state.roomCode, isHost });
+  }
+
+  // Count only currently connected players
+  _connectedCount() {
+    let count = 0;
+    this.state.players.forEach((p) => { if (p.connected) count++; });
+    return count;
   }
 
   onLeave(client) {
-    const wasHost = client.sessionId === this.state.hostId;
-    this.state.players.delete(client.sessionId);
-    this.inputs.delete(client.sessionId);
-    this.currentQuestions.delete(client.sessionId);
-    this.questionCooldownUntil.delete(client.sessionId);
-    this.state.playerCount = this.state.players.size;
+    const playerId = client.playerId;
+    if (!playerId) return;
 
-    if (wasHost) {
-      const next = this.clients[0];
-      this.state.hostId = next ? next.sessionId : "";
-      if (next) {
-        const nextPlayer = this.state.players.get(next.sessionId);
-        if (nextPlayer) nextPlayer.isHost = true;
-        next.send("room_info", { roomCode: this.state.roomCode, isHost: true });
+    const player = this.state.players.get(playerId);
+    if (!player) return;
+
+    player.connected = false;
+    this.playerIdToClient.delete(playerId);
+    const wasHost = this.state.hostId === playerId;
+
+    // Wait 10 seconds before permanently removing - allows reconnect to preserve state
+    const timer = setTimeout(() => {
+      const latestPlayer = this.state.players.get(playerId);
+      if (latestPlayer && !latestPlayer.connected) {
+        this.state.players.delete(playerId);
+        this.inputs.delete(playerId);
+        this.currentQuestions.delete(playerId);
+        this.questionCooldownUntil.delete(playerId);
+        this.disconnectTimers.delete(playerId);
+        this.state.playerCount = this._connectedCount();
+
+        // Transfer host if the host left permanently
+        if (wasHost) {
+          let newHostId = "";
+          this.state.players.forEach((p, pid) => {
+            if (!newHostId && p.connected) newHostId = pid;
+          });
+          if (newHostId) {
+            this.state.players.forEach((p) => { p.isHost = false; });
+            this.state.hostId = newHostId;
+            this.state.players.get(newHostId).isHost = true;
+            const newClient = this.playerIdToClient.get(newHostId);
+            if (newClient) {
+              newClient.send("room_info", { roomCode: this.state.roomCode, isHost: true });
+            }
+          } else {
+            this.state.hostId = "";
+          }
+        }
       }
-    }
+    }, 10000);
+
+    this.disconnectTimers.set(playerId, timer);
+    this.state.playerCount = this._connectedCount();
   }
 
   startGame(duration = 180) {
-    const players = Array.from(this.state.players.entries());
+    // Only assign connected players, alternating teams for balance
+    const connectedPlayers = [];
+    this.state.players.forEach((player, playerId) => {
+      if (player.connected) connectedPlayers.push([playerId, player]);
+    });
 
-    players.forEach(([sessionId, player], index) => {
-      const team = index % 2 === 0 ? "A" : "B";
-      const spawn = SPAWNS[team];
-      player.team = team;
-      player.role = team === "A" ? "Chaser" : "Runner";
-      player.color = team === "A" ? "#4aa3ff" : "#ff6b6b";
+    connectedPlayers.forEach(([playerId, player], index) => {
+      player.team = index % 2 === 0 ? "A" : "B";
+      player.role = player.team === "A" ? "Chaser" : "Runner";
+      const spawn = SPAWNS[player.team];
       player.x = spawn.x + Math.random() * 80 - 40;
       player.y = spawn.y + Math.random() * 80 - 40;
       player.mana = MANA_MAX;
       player.alive = true;
       player.respawnLeft = 0;
       player.score = 0;
-      this.inputs.set(sessionId, { up: false, down: false, left: false, right: false });
+      this.inputs.set(playerId, { up: false, down: false, left: false, right: false });
     });
 
     this.state.phase = "playing";
@@ -278,14 +347,14 @@ class GameRoom extends Room {
     }
 
     if (this.state.phase === "playing" || this.state.phase === "lobby") {
-      this.state.players.forEach((player, sessionId) => {
+      this.state.players.forEach((player, playerId) => {
         if (!player.alive) {
           player.respawnLeft = Math.max(0, player.respawnLeft - dt);
           if (player.respawnLeft <= 0) this.respawn(player);
           return;
         }
-
-        const input = this.inputs.get(sessionId) || {};
+        if (!player.connected) return; // Skip disconnected players (no input)
+        const input = this.inputs.get(playerId) || {};
         this.movePlayer(player, input, dt);
       });
     }
@@ -399,14 +468,15 @@ class GameRoom extends Room {
 
   sendQuestion(client) {
     const now = Date.now();
-    const cooldownUntil = this.questionCooldownUntil.get(client.sessionId) || 0;
+    const pid = client.playerId;
+    const cooldownUntil = this.questionCooldownUntil.get(pid) || 0;
     if (now < cooldownUntil) {
       client.send("question_cooldown", { seconds: Math.ceil((cooldownUntil - now) / 1000) });
       return;
     }
 
     const question = questions[Math.floor(Math.random() * questions.length)];
-    this.currentQuestions.set(client.sessionId, question.id);
+    this.currentQuestions.set(pid, question.id);
     client.send("question", {
       id: question.id,
       question: question.question,
@@ -415,9 +485,10 @@ class GameRoom extends Room {
   }
 
   checkAnswer(client, data) {
-    const questionId = this.currentQuestions.get(client.sessionId);
+    const pid = client.playerId;
+    const questionId = this.currentQuestions.get(pid);
     const question = questions.find((item) => item.id === questionId);
-    const player = this.state.players.get(client.sessionId);
+    const player = this.state.players.get(pid);
     if (!question || !player) return;
 
     const selectedIndex = Number(data.selectedIndex);
@@ -425,10 +496,10 @@ class GameRoom extends Room {
     if (correct) {
       player.mana = Math.min(MANA_MAX, player.mana + question.rewardMana);
     } else {
-      this.questionCooldownUntil.set(client.sessionId, Date.now() + QUESTION_COOLDOWN_SECONDS * 1000);
+      this.questionCooldownUntil.set(pid, Date.now() + QUESTION_COOLDOWN_SECONDS * 1000);
     }
 
-    this.currentQuestions.delete(client.sessionId);
+    this.currentQuestions.delete(pid);
     client.send("question_result", {
       correct,
       rewardMana: correct ? question.rewardMana : 0,
