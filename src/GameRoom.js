@@ -179,6 +179,7 @@ class GameRoom extends Room {
       this.checkAnswer(client, data);
     });
 
+    this.setPatchRate(1000 / TICK_RATE);
     this.setSimulationInterval((deltaTime) => this.update(deltaTime / 1000), 1000 / TICK_RATE);
   }
 
