@@ -163,6 +163,7 @@ class GameRoom extends Room {
 
     this.onMessage("play_again", (client) => {
       if (client.playerId !== this.state.hostId || this.state.phase !== "finished") return;
+      this._removeDisconnectedPlayers();
       this.startGame(this.state.gameDuration);
     });
 
@@ -187,7 +188,6 @@ class GameRoom extends Room {
     // Use the stable playerId from localStorage, fall back to sessionId
     const playerId = String((options && options.playerId) ? options.playerId : client.sessionId);
     client.playerId = playerId;
-    this.playerIdToClient.set(playerId, client);
 
     // Clear any pending disconnect timer (reconnect within 10s)
     if (this.disconnectTimers.has(playerId)) {
@@ -198,11 +198,23 @@ class GameRoom extends Room {
     const existingPlayer = this.state.players.get(playerId);
     if (existingPlayer) {
       // RECONNECT: restore connection, keep team/score/mana/position/role
+      this.playerIdToClient.set(playerId, client);
       existingPlayer.connected = true;
+      if (!this.state.hostId) {
+        this.state.players.forEach((p) => { p.isHost = false; });
+        existingPlayer.isHost = true;
+        this.state.hostId = playerId;
+      }
       this.inputs.set(playerId, { up: false, down: false, left: false, right: false });
       const isHost = this.state.hostId === playerId;
       client.send("room_info", { roomCode: this.state.roomCode, isHost });
       this.state.playerCount = this._connectedCount();
+      return;
+    }
+
+    // New players can only enter while the room is open in lobby.
+    if (this.state.phase !== "lobby") {
+      client.leave();
       return;
     }
 
@@ -211,6 +223,8 @@ class GameRoom extends Room {
       client.leave();
       return;
     }
+
+    this.playerIdToClient.set(playerId, client);
 
     const isFirstPlayer = this.state.players.size === 0;
     const isHost = isFirstPlayer || [...this.state.players.values()].every(p => !p.isHost);
@@ -254,7 +268,7 @@ class GameRoom extends Room {
     // Wait 10 seconds before permanently removing - allows reconnect to preserve state
     const timer = setTimeout(() => {
       const latestPlayer = this.state.players.get(playerId);
-      if (latestPlayer && !latestPlayer.connected) {
+      if (latestPlayer && !latestPlayer.connected && this.state.phase === "lobby") {
         this.state.players.delete(playerId);
         this.inputs.delete(playerId);
         this.currentQuestions.delete(playerId);
@@ -263,23 +277,12 @@ class GameRoom extends Room {
         this.state.playerCount = this._connectedCount();
 
         // Transfer host if the host left permanently
-        if (wasHost) {
-          let newHostId = "";
-          this.state.players.forEach((p, pid) => {
-            if (!newHostId && p.connected) newHostId = pid;
-          });
-          if (newHostId) {
-            this.state.players.forEach((p) => { p.isHost = false; });
-            this.state.hostId = newHostId;
-            this.state.players.get(newHostId).isHost = true;
-            const newClient = this.playerIdToClient.get(newHostId);
-            if (newClient) {
-              newClient.send("room_info", { roomCode: this.state.roomCode, isHost: true });
-            }
-          } else {
-            this.state.hostId = "";
-          }
-        }
+        if (wasHost) this._assignHostToFirstConnected();
+      } else if (latestPlayer && !latestPlayer.connected && wasHost) {
+        this.disconnectTimers.delete(playerId);
+        this._assignHostToFirstConnected(playerId);
+      } else {
+        this.disconnectTimers.delete(playerId);
       }
     }, 10000);
 
@@ -287,14 +290,60 @@ class GameRoom extends Room {
     this.state.playerCount = this._connectedCount();
   }
 
-  startGame(duration = 180) {
-    // Only assign connected players, alternating teams for balance
-    const connectedPlayers = [];
-    this.state.players.forEach((player, playerId) => {
-      if (player.connected) connectedPlayers.push([playerId, player]);
+  _assignHostToFirstConnected(excludePlayerId = "") {
+    let newHostId = "";
+    this.state.players.forEach((p, pid) => {
+      if (!newHostId && p.connected && pid !== excludePlayerId) newHostId = pid;
     });
 
-    connectedPlayers.forEach(([playerId, player], index) => {
+    this.state.players.forEach((p) => { p.isHost = false; });
+    this.state.hostId = newHostId;
+
+    if (newHostId) {
+      const newHost = this.state.players.get(newHostId);
+      if (newHost) newHost.isHost = true;
+      const newClient = this.playerIdToClient.get(newHostId);
+      if (newClient) {
+        newClient.send("room_info", { roomCode: this.state.roomCode, isHost: true });
+      }
+    }
+  }
+
+  _removeDisconnectedPlayers() {
+    const removedPlayerIds = [];
+
+    this.state.players.forEach((player, playerId) => {
+      if (!player.connected) removedPlayerIds.push(playerId);
+    });
+
+    for (const playerId of removedPlayerIds) {
+      if (this.disconnectTimers.has(playerId)) {
+        clearTimeout(this.disconnectTimers.get(playerId));
+        this.disconnectTimers.delete(playerId);
+      }
+      this.state.players.delete(playerId);
+      this.inputs.delete(playerId);
+      this.currentQuestions.delete(playerId);
+      this.questionCooldownUntil.delete(playerId);
+      this.playerIdToClient.delete(playerId);
+    }
+
+    if (!this.state.hostId || !this.state.players.get(this.state.hostId)?.connected) {
+      this._assignHostToFirstConnected();
+    }
+
+    this.state.playerCount = this._connectedCount();
+  }
+
+  startGame(duration = 180) {
+    // Assign all current room members, alternating teams for balance.
+    // Disconnected members stay eligible to rejoin this match.
+    const roomPlayers = [];
+    this.state.players.forEach((player, playerId) => {
+      roomPlayers.push([playerId, player]);
+    });
+
+    roomPlayers.forEach(([playerId, player], index) => {
       player.team = index % 2 === 0 ? "A" : "B";
       player.role = player.team === "A" ? "Chaser" : "Runner";
       const spawn = SPAWNS[player.team];
@@ -317,6 +366,7 @@ class GameRoom extends Room {
   }
 
   returnToLobby() {
+    this._removeDisconnectedPlayers();
     this.state.phase = "lobby";
     this.state.players.forEach((player) => {
       player.role = "";
